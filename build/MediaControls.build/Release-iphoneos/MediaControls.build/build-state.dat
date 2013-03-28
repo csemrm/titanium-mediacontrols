@@ -1,0 +1,388 @@
+TMediaControls
+v5
+r1
+cCheck dependencies
+cProcessPCH /var/folders/tv/l78w0jc53cdf4sqh21r8lv500000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/DeCodewaveTiMediacontrols_Prefix-dcniujvlmuzhytbeidtrnxssfnte/DeCodewaveTiMediacontrols_Prefix.pch.pth DeCodewaveTiMediacontrols_Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/MediaControls.build/Release-iphoneos/MediaControls.build/Objects-normal/armv7/DeCodewaveTiMediacontrolsModule.o /Users/mdescher/Projekte/titanium/MediaControls/Classes/DeCodewaveTiMediacontrolsModule.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/MediaControls.build/Release-iphoneos/MediaControls.build/Objects-normal/armv7/DeCodewaveTiMediacontrolsModuleAssets.o /Users/mdescher/Projekte/titanium/MediaControls/Classes/DeCodewaveTiMediacontrolsModuleAssets.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/MediaControls.build/Release-iphoneos/MediaControls.build/Objects-normal/armv7/DeCodewaveTiMediacontrolsView.o /Users/mdescher/Projekte/titanium/MediaControls/DeCodewaveTiMediacontrolsView.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/MediaControls.build/Release-iphoneos/MediaControls.build/Objects-normal/armv7/DeCodewaveTiMediacontrolsViewProxy.o /Users/mdescher/Projekte/titanium/MediaControls/DeCodewaveTiMediacontrolsViewProxy.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk
+c000000005148A20A0000000000000110
+t1363714570
+s272
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c00000000511BBBB5000000000062AD10
+t1360772021
+s6466832
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c00000000511BBBB500000000000015F7
+t1360772021
+s5623
+
+N/Users/mdescher/Library/Application Support/Titanium/mobilesdk/osx/3.0.2.GA/iphone/include/Bridge.h
+c000000005124F7DB0000000000000268
+t1361377243
+s616
+
+N/Users/mdescher/Library/Application Support/Titanium/mobilesdk/osx/3.0.2.GA/iphone/include/KrollCallback.h
+c000000005124F8050000000000000A60
+t1361377285
+s2656
+
+N/Users/mdescher/Library/Application Support/Titanium/mobilesdk/osx/3.0.2.GA/iphone/include/KrollContext.h
+c000000005124F813000000000000161B
+t1361377299
+s5659
+
+N/Users/mdescher/Library/Application Support/Titanium/mobilesdk/osx/3.0.2.GA/iphone/include/KrollObject.h
+c000000005124F7DB0000000000000D83
+t1361377243
+s3459
+
+N/Users/mdescher/Library/Application Support/Titanium/mobilesdk/osx/3.0.2.GA/iphone/include/LayoutConstraint.h
+c000000005124F8040000000000000B9E
+t1361377284
+s2974
+
+N/Users/mdescher/Library/Application Support/Titanium/mobilesdk/osx/3.0.2.GA/iphone/include/ListenerEntry.h
+c000000005124F8130000000000000269
+t1361377299
+s617
+
+N/Users/mdescher/Library/Application Support/Titanium/mobilesdk/osx/3.0.2.GA/iphone/include/TiAnimation.h
+c000000005124F7D90000000000001201
+t1361377241
+s4609
+
+N/Users/mdescher/Library/Application Support/Titanium/mobilesdk/osx/3.0.2.GA/iphone/include/TiBase.h
+c000000005124F7FA00000000000048B4
+t1361377274
+s18612
+
+N/Users/mdescher/Library/Application Support/Titanium/mobilesdk/osx/3.0.2.GA/iphone/include/TiBindingRunLoop.h
+c000000005124F802000000000000022D
+t1361377282
+s557
+
+N/Users/mdescher/Library/Application Support/Titanium/mobilesdk/osx/3.0.2.GA/iphone/include/TiBlob.h
+c000000005124F8140000000000000B0A
+t1361377300
+s2826
+
+N/Users/mdescher/Library/Application Support/Titanium/mobilesdk/osx/3.0.2.GA/iphone/include/TiBuffer.h
+c000000005124F815000000000000050E
+t1361377301
+s1294
+
+N/Users/mdescher/Library/Application Support/Titanium/mobilesdk/osx/3.0.2.GA/iphone/include/TiColor.h
+c000000005124F7E90000000000000496
+t1361377257
+s1174
+
+N/Users/mdescher/Library/Application Support/Titanium/mobilesdk/osx/3.0.2.GA/iphone/include/TiCore/Ti.h
+c000000005124F7D70000000000000721
+t1361377239
+s1825
+
+N/Users/mdescher/Library/Application Support/Titanium/mobilesdk/osx/3.0.2.GA/iphone/include/TiCore/TiBase.h
+c000000005124F7D700000000000019E1
+t1361377239
+s6625
+
+N/Users/mdescher/Library/Application Support/Titanium/mobilesdk/osx/3.0.2.GA/iphone/include/TiCore/TiContextRef.h
+c000000005124F80200000000000014DD
+t1361377282
+s5341
+
+N/Users/mdescher/Library/Application Support/Titanium/mobilesdk/osx/3.0.2.GA/iphone/include/TiCore/TiContextRefPrivate.h
+c000000005124F7FA0000000000000990
+t1361377274
+s2448
+
+N/Users/mdescher/Library/Application Support/Titanium/mobilesdk/osx/3.0.2.GA/iphone/include/TiCore/TiCore.h
+c000000005124F7DF00000000000006A0
+t1361377247
+s1696
+
+N/Users/mdescher/Library/Application Support/Titanium/mobilesdk/osx/3.0.2.GA/iphone/include/TiCore/TiObjectRef.h
+c000000005124F8140000000000009462
+t1361377300
+s37986
+
+N/Users/mdescher/Library/Application Support/Titanium/mobilesdk/osx/3.0.2.GA/iphone/include/TiCore/TiStringRef.h
+c000000005124F7E100000000000016E7
+t1361377249
+s5863
+
+N/Users/mdescher/Library/Application Support/Titanium/mobilesdk/osx/3.0.2.GA/iphone/include/TiCore/TiStringRefCF.h
+c000000005124F80E0000000000000A40
+t1361377294
+s2624
+
+N/Users/mdescher/Library/Application Support/Titanium/mobilesdk/osx/3.0.2.GA/iphone/include/TiCore/TiValueRef.h
+c000000005124F7E1000000000000323B
+t1361377249
+s12859
+
+N/Users/mdescher/Library/Application Support/Titanium/mobilesdk/osx/3.0.2.GA/iphone/include/TiCore/WebKitAvailability.h
+c000000005124F7F100000000000080D1
+t1361377265
+s32977
+
+N/Users/mdescher/Library/Application Support/Titanium/mobilesdk/osx/3.0.2.GA/iphone/include/TiDimension.h
+c000000005124F8090000000000001E45
+t1361377289
+s7749
+
+N/Users/mdescher/Library/Application Support/Titanium/mobilesdk/osx/3.0.2.GA/iphone/include/TiEvaluator.h
+c000000005124F7DC00000000000004D5
+t1361377244
+s1237
+
+N/Users/mdescher/Library/Application Support/Titanium/mobilesdk/osx/3.0.2.GA/iphone/include/TiFile.h
+c000000005124F7EB0000000000000680
+t1361377259
+s1664
+
+N/Users/mdescher/Library/Application Support/Titanium/mobilesdk/osx/3.0.2.GA/iphone/include/TiGradient.h
+c000000005124F7FC00000000000005FC
+t1361377276
+s1532
+
+N/Users/mdescher/Library/Application Support/Titanium/mobilesdk/osx/3.0.2.GA/iphone/include/TiHost.h
+c000000005124F8080000000000000503
+t1361377288
+s1283
+
+N/Users/mdescher/Library/Application Support/Titanium/mobilesdk/osx/3.0.2.GA/iphone/include/TiModule.h
+c000000005124F8130000000000000736
+t1361377299
+s1846
+
+N/Users/mdescher/Library/Application Support/Titanium/mobilesdk/osx/3.0.2.GA/iphone/include/TiPoint.h
+c000000005124F7EF0000000000000443
+t1361377263
+s1091
+
+N/Users/mdescher/Library/Application Support/Titanium/mobilesdk/osx/3.0.2.GA/iphone/include/TiProxy.h
+c000000005124F7D90000000000002740
+t1361377241
+s10048
+
+N/Users/mdescher/Library/Application Support/Titanium/mobilesdk/osx/3.0.2.GA/iphone/include/TiPublicAPI.h
+c000000005124F7E90000000000000A67
+t1361377257
+s2663
+
+N/Users/mdescher/Library/Application Support/Titanium/mobilesdk/osx/3.0.2.GA/iphone/include/TiRect.h
+c000000005124F7FF000000000000045C
+t1361377279
+s1116
+
+N/Users/mdescher/Library/Application Support/Titanium/mobilesdk/osx/3.0.2.GA/iphone/include/TiStylesheet.h
+c000000005124F7E700000000000002CB
+t1361377255
+s715
+
+N/Users/mdescher/Library/Application Support/Titanium/mobilesdk/osx/3.0.2.GA/iphone/include/TiThreading.h
+c000000005124F81000000000000008EF
+t1361377296
+s2287
+
+N/Users/mdescher/Library/Application Support/Titanium/mobilesdk/osx/3.0.2.GA/iphone/include/TiUIView.h
+c000000005124F7F90000000000001F81
+t1361377273
+s8065
+
+N/Users/mdescher/Library/Application Support/Titanium/mobilesdk/osx/3.0.2.GA/iphone/include/TiUtils.h
+c000000005124F7EC0000000000004975
+t1361377260
+s18805
+
+N/Users/mdescher/Library/Application Support/Titanium/mobilesdk/osx/3.0.2.GA/iphone/include/TiViewProxy.h
+c000000005124F7F10000000000003C00
+t1361377265
+s15360
+
+N/Users/mdescher/Library/Application Support/Titanium/mobilesdk/osx/3.0.2.GA/iphone/include/WebFont.h
+c000000005124F7EE00000000000008BA
+t1361377262
+s2234
+
+N/Users/mdescher/Library/Application Support/Titanium/mobilesdk/osx/3.0.2.GA/iphone/include/defines.h
+c000000005124F81200000000000009CE
+t1361377298
+s2510
+
+N/Users/mdescher/Projekte/titanium/MediaControls/Classes/DeCodewaveTiMediacontrolsModule.h
+c00000000515416AA0000000000000057
+t1364465322
+s87
+
+N/Users/mdescher/Projekte/titanium/MediaControls/Classes/DeCodewaveTiMediacontrolsModule.m
+c000000005154186000000000000009DF
+t1364465760
+s2527
+
+N/Users/mdescher/Projekte/titanium/MediaControls/Classes/DeCodewaveTiMediacontrolsModuleAssets.h
+c000000005154018700000000000000DE
+t1364459911
+s222
+
+N/Users/mdescher/Projekte/titanium/MediaControls/Classes/DeCodewaveTiMediacontrolsModuleAssets.m
+c0000000051540187000000000000026E
+t1364459911
+s622
+
+N/Users/mdescher/Projekte/titanium/MediaControls/DeCodewaveTiMediacontrolsView.h
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/mdescher/Projekte/titanium/MediaControls/DeCodewaveTiMediacontrolsView.m
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/mdescher/Projekte/titanium/MediaControls/DeCodewaveTiMediacontrolsViewProxy.h
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/mdescher/Projekte/titanium/MediaControls/DeCodewaveTiMediacontrolsViewProxy.m
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/mdescher/Projekte/titanium/MediaControls/DeCodewaveTiMediacontrols_Prefix.pch
+c0000000051540187000000000000003E
+t1364459911
+s62
+i<Foundation/Foundation.h>
+
+N/Users/mdescher/Projekte/titanium/MediaControls/build/MediaControls.build/Release-iphoneos/MediaControls.build/Objects-normal/armv7/DeCodewaveTiMediacontrols.LinkFileList
+c00000000515409C7000000000000029F
+t1364462023
+s671
+
+N/Users/mdescher/Projekte/titanium/MediaControls/build/MediaControls.build/Release-iphoneos/MediaControls.build/Objects-normal/armv7/DeCodewaveTiMediacontrolsModule.o
+t1364465764
+s17680
+
+N/Users/mdescher/Projekte/titanium/MediaControls/build/MediaControls.build/Release-iphoneos/MediaControls.build/Objects-normal/armv7/DeCodewaveTiMediacontrolsModuleAssets.o
+t1364462024
+s5452
+
+N/Users/mdescher/Projekte/titanium/MediaControls/build/MediaControls.build/Release-iphoneos/MediaControls.build/Objects-normal/armv7/DeCodewaveTiMediacontrolsView.o
+t1364465764
+s82500
+
+N/Users/mdescher/Projekte/titanium/MediaControls/build/MediaControls.build/Release-iphoneos/MediaControls.build/Objects-normal/armv7/DeCodewaveTiMediacontrolsViewProxy.o
+t1364462024
+s77608
+
+N/Users/mdescher/Projekte/titanium/MediaControls/build/Release-iphoneos/libDeCodewaveTiMediacontrols.a
+t1364465764
+s184272
+
+N/var/folders/tv/l78w0jc53cdf4sqh21r8lv500000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/DeCodewaveTiMediacontrols_Prefix-dcniujvlmuzhytbeidtrnxssfnte/DeCodewaveTiMediacontrols_Prefix.pch.pth
+t1364462023
+s2771988
+
+CCheck dependencies
+r0
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies0a6a647b5604b741^e71b7d7b5604b741^---0#1#0#--18"Check dependencies36"0E9C67BC-912D-4A8E-9D47-8C17F814E29F-
+
+CCompileC build/MediaControls.build/Release-iphoneos/MediaControls.build/Objects-normal/armv7/DeCodewaveTiMediacontrolsModule.o /Users/mdescher/Projekte/titanium/MediaControls/Classes/DeCodewaveTiMediacontrolsModule.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s386158564.245269
+e386158564.349217
+r1
+xCompileC
+xbuild/MediaControls.build/Release-iphoneos/MediaControls.build/Objects-normal/armv7/DeCodewaveTiMediacontrolsModule.o
+x/Users/mdescher/Projekte/titanium/MediaControls/Classes/DeCodewaveTiMediacontrolsModule.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+oIn file included from /Users/mdescher/Projekte/titanium/MediaControls/Classes/DeCodewaveTiMediacontrolsModule.m:7:
+oIn file included from /Users/mdescher/Projekte/titanium/MediaControls/Classes/DeCodewaveTiMediacontrolsModule.h:1:
+oIn file included from /Users/mdescher/Library/Application Support/Titanium/mobilesdk/osx/3.0.2.GA/iphone/include/TiModule.h:7:
+oIn file included from /Users/mdescher/Library/Application Support/Titanium/mobilesdk/osx/3.0.2.GA/iphone/include/TiProxy.h:8:
+oIn file included from /Users/mdescher/Library/Application Support/Titanium/mobilesdk/osx/3.0.2.GA/iphone/include/TiEvaluator.h:8:
+o/Users/mdescher/Library/Application Support/Titanium/mobilesdk/osx/3.0.2.GA/iphone/include/KrollContext.h:158:23: warning: '__bridge' casts have no effect when not using ARC [-Warc-bridge-casts-disallowed-in-nonarc]
+o        KrollContext *ctx = (__bridge KrollContext*)TiObjectGetPrivate(TiValueToObject(globalContext, value, NULL));
+o                             ^~~~~~~~
+o1 warning generated.
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection97"Compile /Users/mdescher/Projekte/titanium/MediaControls/Classes/DeCodewaveTiMediacontrolsModule.m70ef3ee44f04b741^3d6559e44f04b741^-1005"In file included from /Users/mdescher/Projekte/titanium/MediaControls/Classes/DeCodewaveTiMediacontrolsModule.m:7:In file included from /Users/mdescher/Projekte/titanium/MediaControls/Classes/DeCodewaveTiMediacontrolsModule.h:1:In file included from /Users/mdescher/Library/Application Support/Titanium/mobilesdk/osx/3.0.2.GA/iphone/include/TiModule.h:7:In file included from /Users/mdescher/Library/Application Support/Titanium/mobilesdk/osx/3.0.2.GA/iphone/include/TiProxy.h:8:In file included from /Users/mdescher/Library/Application Support/Titanium/mobilesdk/osx/3.0.2.GA/iphone/include/TiEvaluator.h:8:/Users/mdescher/Library/Application Support/Titanium/mobilesdk/osx/3.0.2.GA/iphone/include/KrollContext.h:158:23: warning: '__bridge' casts have no effect when not using ARC [-Warc-bridge-casts-disallowed-in-nonarc]        KrollContext *ctx = (__bridge KrollContext*)TiObjectGetPrivate(TiValueToObject(globalContext, value, NULL));                             ^~~~~~~~1 warning generated.1(36%IDEClangDiagnosticActivityLogMessage2@50"'__bridge' casts have no effect when not using ARC-386158564#18446744073709551615#0#5(2@114"In file included from /Users/mdescher/Projekte/titanium/MediaControls/Classes/DeCodewaveTiMediacontrolsModule.m:7:-386158564#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic23%DVTTextDocumentLocation3@105"file://localhost/Users/mdescher/Projekte/titanium/MediaControls/Classes/DeCodewaveTiMediacontrolsModule.m0000000000000000^6#8#6#8#176#0#30"Apple LLVM compiler 4.2 Notice--2@114"In file included from /Users/mdescher/Projekte/titanium/MediaControls/Classes/DeCodewaveTiMediacontrolsModule.h:1:-386158564#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@105"file://localhost/Users/mdescher/Projekte/titanium/MediaControls/Classes/DeCodewaveTiMediacontrolsModule.h0000000000000000^0#8#0#8#8#0#30"Apple LLVM compiler 4.2 Notice--2@126"In file included from /Users/mdescher/Library/Application Support/Titanium/mobilesdk/osx/3.0.2.GA/iphone/include/TiModule.h:7:-386158564#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@119"file://localhost/Users/mdescher/Library/Application%20Support/Titanium/mobilesdk/osx/3.0.2.GA/iphone/include/TiModule.h0000000000000000^6#8#6#8#246#0#30"Apple LLVM compiler 4.2 Notice--2@125"In file included from /Users/mdescher/Library/Application Support/Titanium/mobilesdk/osx/3.0.2.GA/iphone/include/TiProxy.h:8:-386158564#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@118"file://localhost/Users/mdescher/Library/Application%20Support/Titanium/mobilesdk/osx/3.0.2.GA/iphone/include/TiProxy.h0000000000000000^7#8#7#8#265#0#30"Apple LLVM compiler 4.2 Notice--2@129"In file included from /Users/mdescher/Library/Application Support/Titanium/mobilesdk/osx/3.0.2.GA/iphone/include/TiEvaluator.h:8:-386158564#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@122"file://localhost/Users/mdescher/Library/Application%20Support/Titanium/mobilesdk/osx/3.0.2.GA/iphone/include/TiEvaluator.h0000000000000000^7#8#7#8#280#0#30"Apple LLVM compiler 4.2 Notice--1#27"com.apple.dt.IDE.diagnostic3@123"file://localhost/Users/mdescher/Library/Application%20Support/Titanium/mobilesdk/osx/3.0.2.GA/iphone/include/KrollContext.h0000000000000000^157#22#157#22#4563#0#15"ARC Parse Issue1(3@123"file://localhost/Users/mdescher/Library/Application%20Support/Titanium/mobilesdk/osx/3.0.2.GA/iphone/include/KrollContext.h0000000000000000^157#22#157#30#4563#8#-0#0#0#-19%DVTDocumentLocation4@105"file://localhost/Users/mdescher/Projekte/titanium/MediaControls/Classes/DeCodewaveTiMediacontrolsModule.m0000000000000000^3880"CompileC build/MediaControls.build/Release-iphoneos/MediaControls.build/Objects-normal/armv7/DeCodewaveTiMediacontrolsModule.o Classes/DeCodewaveTiMediacontrolsModule.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/mdescher/Projekte/titanium/MediaControls    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/opt/local/bin:/opt/local/sbin:/Users/mdescher/bin:/opt/android-sdk/platforms/android-1.5/tools:/opt/android-sdk/tools:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wformat -Wno-missing-braces -Wno-parentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wno-unused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DTI_VERSION= -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=4.0 -iquote /Users/mdescher/Projekte/titanium/MediaControls/build/MediaControls.build/Release-iphoneos/MediaControls.build/DeCodewaveTiMediacontrols-generated-files.hmap -I/Users/mdescher/Projekte/titanium/MediaControls/build/MediaControls.build/Release-iphoneos/MediaControls.build/DeCodewaveTiMediacontrols-own-target-headers.hmap -I/Users/mdescher/Projekte/titanium/MediaControls/build/MediaControls.build/Release-iphoneos/MediaControls.build/DeCodewaveTiMediacontrols-all-target-headers.hmap -iquote /Users/mdescher/Projekte/titanium/MediaControls/build/MediaControls.build/Release-iphoneos/MediaControls.build/DeCodewaveTiMediacontrols-project-headers.hmap -I/Users/mdescher/Projekte/titanium/MediaControls/build/Release-iphoneos/include "-I/Users/mdescher/Library/Application Support/Titanium/mobilesdk/osx/3.0.2.GA/iphone/include" "-I/Users/mdescher/Library/Application Support/Titanium/mobilesdk/osx/3.0.2.GA/iphone/include/TiCore" -I/Users/mdescher/Projekte/titanium/MediaControls/build/MediaControls.build/Release-iphoneos/MediaControls.build/DerivedSources/armv7 -I/Users/mdescher/Projekte/titanium/MediaControls/build/MediaControls.build/Release-iphoneos/MediaControls.build/DerivedSources -F/Users/mdescher/Projekte/titanium/MediaControls/build/Release-iphoneos -DTI_POST_1_2 -include /var/folders/tv/l78w0jc53cdf4sqh21r8lv500000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/DeCodewaveTiMediacontrols_Prefix-dcniujvlmuzhytbeidtrnxssfnte/DeCodewaveTiMediacontrols_Prefix.pch -MMD -MT dependencies -MF /Users/mdescher/Projekte/titanium/MediaControls/build/MediaControls.build/Release-iphoneos/MediaControls.build/Objects-normal/armv7/DeCodewaveTiMediacontrolsModule.d --serialize-diagnostics /Users/mdescher/Projekte/titanium/MediaControls/build/MediaControls.build/Release-iphoneos/MediaControls.build/Objects-normal/armv7/DeCodewaveTiMediacontrolsModule.dia -c /Users/mdescher/Projekte/titanium/MediaControls/Classes/DeCodewaveTiMediacontrolsModule.m -o /Users/mdescher/Projekte/titanium/MediaControls/build/MediaControls.build/Release-iphoneos/MediaControls.build/Objects-normal/armv7/DeCodewaveTiMediacontrolsModule.o36"16845CDF-BC3E-4863-B4CD-376D9583F4B1-
+
+CCompileC build/MediaControls.build/Release-iphoneos/MediaControls.build/Objects-normal/armv7/DeCodewaveTiMediacontrolsModuleAssets.o /Users/mdescher/Projekte/titanium/MediaControls/Classes/DeCodewaveTiMediacontrolsModuleAssets.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s386154824.013018
+e386154824.035082
+r1
+xCompileC
+xbuild/MediaControls.build/Release-iphoneos/MediaControls.build/Objects-normal/armv7/DeCodewaveTiMediacontrolsModuleAssets.o
+x/Users/mdescher/Projekte/titanium/MediaControls/Classes/DeCodewaveTiMediacontrolsModuleAssets.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection103"Compile /Users/mdescher/Projekte/titanium/MediaControls/Classes/DeCodewaveTiMediacontrolsModuleAssets.ma06f03484104b741^bc0609484104b741^---0#0#0#-19%DVTDocumentLocation2@111"file://localhost/Users/mdescher/Projekte/titanium/MediaControls/Classes/DeCodewaveTiMediacontrolsModuleAssets.m0000000000000000^3916"CompileC build/MediaControls.build/Release-iphoneos/MediaControls.build/Objects-normal/armv7/DeCodewaveTiMediacontrolsModuleAssets.o Classes/DeCodewaveTiMediacontrolsModuleAssets.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/mdescher/Projekte/titanium/MediaControls    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/opt/local/bin:/opt/local/sbin:/Users/mdescher/bin:/opt/android-sdk/platforms/android-1.5/tools:/opt/android-sdk/tools:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wformat -Wno-missing-braces -Wno-parentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wno-unused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DTI_VERSION= -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=4.0 -iquote /Users/mdescher/Projekte/titanium/MediaControls/build/MediaControls.build/Release-iphoneos/MediaControls.build/DeCodewaveTiMediacontrols-generated-files.hmap -I/Users/mdescher/Projekte/titanium/MediaControls/build/MediaControls.build/Release-iphoneos/MediaControls.build/DeCodewaveTiMediacontrols-own-target-headers.hmap -I/Users/mdescher/Projekte/titanium/MediaControls/build/MediaControls.build/Release-iphoneos/MediaControls.build/DeCodewaveTiMediacontrols-all-target-headers.hmap -iquote /Users/mdescher/Projekte/titanium/MediaControls/build/MediaControls.build/Release-iphoneos/MediaControls.build/DeCodewaveTiMediacontrols-project-headers.hmap -I/Users/mdescher/Projekte/titanium/MediaControls/build/Release-iphoneos/include "-I/Users/mdescher/Library/Application Support/Titanium/mobilesdk/osx/3.0.2.GA/iphone/include" "-I/Users/mdescher/Library/Application Support/Titanium/mobilesdk/osx/3.0.2.GA/iphone/include/TiCore" -I/Users/mdescher/Projekte/titanium/MediaControls/build/MediaControls.build/Release-iphoneos/MediaControls.build/DerivedSources/armv7 -I/Users/mdescher/Projekte/titanium/MediaControls/build/MediaControls.build/Release-iphoneos/MediaControls.build/DerivedSources -F/Users/mdescher/Projekte/titanium/MediaControls/build/Release-iphoneos -DTI_POST_1_2 -include /var/folders/tv/l78w0jc53cdf4sqh21r8lv500000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/DeCodewaveTiMediacontrols_Prefix-dcniujvlmuzhytbeidtrnxssfnte/DeCodewaveTiMediacontrols_Prefix.pch -MMD -MT dependencies -MF /Users/mdescher/Projekte/titanium/MediaControls/build/MediaControls.build/Release-iphoneos/MediaControls.build/Objects-normal/armv7/DeCodewaveTiMediacontrolsModuleAssets.d --serialize-diagnostics /Users/mdescher/Projekte/titanium/MediaControls/build/MediaControls.build/Release-iphoneos/MediaControls.build/Objects-normal/armv7/DeCodewaveTiMediacontrolsModuleAssets.dia -c /Users/mdescher/Projekte/titanium/MediaControls/Classes/DeCodewaveTiMediacontrolsModuleAssets.m -o /Users/mdescher/Projekte/titanium/MediaControls/build/MediaControls.build/Release-iphoneos/MediaControls.build/Objects-normal/armv7/DeCodewaveTiMediacontrolsModuleAssets.o36"7BFF6871-BD61-4E4D-9A48-6BD3A712C67E-
+
+CCompileC build/MediaControls.build/Release-iphoneos/MediaControls.build/Objects-normal/armv7/DeCodewaveTiMediacontrolsView.o /Users/mdescher/Projekte/titanium/MediaControls/DeCodewaveTiMediacontrolsView.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s386160251.501598
+e386160251.515758
+r0
+xCompileC
+xbuild/MediaControls.build/Release-iphoneos/MediaControls.build/Objects-normal/armv7/DeCodewaveTiMediacontrolsView.o
+x/Users/mdescher/Projekte/titanium/MediaControls/DeCodewaveTiMediacontrolsView.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+oclang: error: no such file or directory: '/Users/mdescher/Projekte/titanium/MediaControls/DeCodewaveTiMediacontrolsView.m'
+oclang: error: no input files
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection87"Compile /Users/mdescher/Projekte/titanium/MediaControls/DeCodewaveTiMediacontrolsView.m77a2807b5604b741^3b19847b5604b741^-277"clang: error: no such file or directory: '/Users/mdescher/Projekte/titanium/MediaControls/DeCodewaveTiMediacontrolsView.m'clang: error: no input filesCommand /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang failed with exit code 12(36%IDEClangDiagnosticActivityLogMessage2@50"'__bridge' casts have no effect when not using ARC-386160251#18446744073709551615#0#5(2@104"In file included from /Users/mdescher/Projekte/titanium/MediaControls/DeCodewaveTiMediacontrolsView.m:1:-386160251#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic23%DVTTextDocumentLocation3@95"file://localhost/Users/mdescher/Projekte/titanium/MediaControls/DeCodewaveTiMediacontrolsView.m0000000000000000^0#8#0#8#8#0#30"Apple LLVM compiler 4.2 Notice--2@104"In file included from /Users/mdescher/Projekte/titanium/MediaControls/DeCodewaveTiMediacontrolsView.h:1:-386160251#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@95"file://localhost/Users/mdescher/Projekte/titanium/MediaControls/DeCodewaveTiMediacontrolsView.h0000000000000000^0#8#0#8#8#0#30"Apple LLVM compiler 4.2 Notice--2@126"In file included from /Users/mdescher/Library/Application Support/Titanium/mobilesdk/osx/3.0.2.GA/iphone/include/TiUIView.h:7:-386160251#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@119"file://localhost/Users/mdescher/Library/Application%20Support/Titanium/mobilesdk/osx/3.0.2.GA/iphone/include/TiUIView.h0000000000000000^6#8#6#8#246#0#30"Apple LLVM compiler 4.2 Notice--2@125"In file included from /Users/mdescher/Library/Application Support/Titanium/mobilesdk/osx/3.0.2.GA/iphone/include/TiProxy.h:8:-386160251#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@118"file://localhost/Users/mdescher/Library/Application%20Support/Titanium/mobilesdk/osx/3.0.2.GA/iphone/include/TiProxy.h0000000000000000^7#8#7#8#265#0#30"Apple LLVM compiler 4.2 Notice--2@129"In file included from /Users/mdescher/Library/Application Support/Titanium/mobilesdk/osx/3.0.2.GA/iphone/include/TiEvaluator.h:8:-386160251#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@122"file://localhost/Users/mdescher/Library/Application%20Support/Titanium/mobilesdk/osx/3.0.2.GA/iphone/include/TiEvaluator.h0000000000000000^7#8#7#8#280#0#30"Apple LLVM compiler 4.2 Notice--1#27"com.apple.dt.IDE.diagnostic3@123"file://localhost/Users/mdescher/Library/Application%20Support/Titanium/mobilesdk/osx/3.0.2.GA/iphone/include/KrollContext.h0000000000000000^157#22#157#22#4563#0#15"ARC Parse Issue1(3@123"file://localhost/Users/mdescher/Library/Application%20Support/Titanium/mobilesdk/osx/3.0.2.GA/iphone/include/KrollContext.h0000000000000000^157#22#157#30#4563#8#-21%IDEActivityLogMessage4@124"Command /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang failed with exit code 1-386160251#18446744073709551615#0#-2#--29"Apple LLVM compiler 4.2 Error--0#0#0#-19%DVTDocumentLocation5@95"file://localhost/Users/mdescher/Projekte/titanium/MediaControls/DeCodewaveTiMediacontrolsView.m000000000080d041^3852"CompileC build/MediaControls.build/Release-iphoneos/MediaControls.build/Objects-normal/armv7/DeCodewaveTiMediacontrolsView.o DeCodewaveTiMediacontrolsView.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/mdescher/Projekte/titanium/MediaControls    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/opt/local/bin:/opt/local/sbin:/Users/mdescher/bin:/opt/android-sdk/platforms/android-1.5/tools:/opt/android-sdk/tools:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wformat -Wno-missing-braces -Wno-parentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wno-unused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DTI_VERSION= -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=4.0 -iquote /Users/mdescher/Projekte/titanium/MediaControls/build/MediaControls.build/Release-iphoneos/MediaControls.build/DeCodewaveTiMediacontrols-generated-files.hmap -I/Users/mdescher/Projekte/titanium/MediaControls/build/MediaControls.build/Release-iphoneos/MediaControls.build/DeCodewaveTiMediacontrols-own-target-headers.hmap -I/Users/mdescher/Projekte/titanium/MediaControls/build/MediaControls.build/Release-iphoneos/MediaControls.build/DeCodewaveTiMediacontrols-all-target-headers.hmap -iquote /Users/mdescher/Projekte/titanium/MediaControls/build/MediaControls.build/Release-iphoneos/MediaControls.build/DeCodewaveTiMediacontrols-project-headers.hmap -I/Users/mdescher/Projekte/titanium/MediaControls/build/Release-iphoneos/include "-I/Users/mdescher/Library/Application Support/Titanium/mobilesdk/osx/3.0.2.GA/iphone/include" "-I/Users/mdescher/Library/Application Support/Titanium/mobilesdk/osx/3.0.2.GA/iphone/include/TiCore" -I/Users/mdescher/Projekte/titanium/MediaControls/build/MediaControls.build/Release-iphoneos/MediaControls.build/DerivedSources/armv7 -I/Users/mdescher/Projekte/titanium/MediaControls/build/MediaControls.build/Release-iphoneos/MediaControls.build/DerivedSources -F/Users/mdescher/Projekte/titanium/MediaControls/build/Release-iphoneos -DTI_POST_1_2 -include /var/folders/tv/l78w0jc53cdf4sqh21r8lv500000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/DeCodewaveTiMediacontrols_Prefix-dcniujvlmuzhytbeidtrnxssfnte/DeCodewaveTiMediacontrols_Prefix.pch -MMD -MT dependencies -MF /Users/mdescher/Projekte/titanium/MediaControls/build/MediaControls.build/Release-iphoneos/MediaControls.build/Objects-normal/armv7/DeCodewaveTiMediacontrolsView.d --serialize-diagnostics /Users/mdescher/Projekte/titanium/MediaControls/build/MediaControls.build/Release-iphoneos/MediaControls.build/Objects-normal/armv7/DeCodewaveTiMediacontrolsView.dia -c /Users/mdescher/Projekte/titanium/MediaControls/DeCodewaveTiMediacontrolsView.m -o /Users/mdescher/Projekte/titanium/MediaControls/build/MediaControls.build/Release-iphoneos/MediaControls.build/Objects-normal/armv7/DeCodewaveTiMediacontrolsView.o36"7FEA35E3-DA76-4061-8FE3-7A942253DDA4-
+
+CCompileC build/MediaControls.build/Release-iphoneos/MediaControls.build/Objects-normal/armv7/DeCodewaveTiMediacontrolsViewProxy.o /Users/mdescher/Projekte/titanium/MediaControls/DeCodewaveTiMediacontrolsViewProxy.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s386160251.501617
+e386160251.515752
+r0
+xCompileC
+xbuild/MediaControls.build/Release-iphoneos/MediaControls.build/Objects-normal/armv7/DeCodewaveTiMediacontrolsViewProxy.o
+x/Users/mdescher/Projekte/titanium/MediaControls/DeCodewaveTiMediacontrolsViewProxy.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+oclang: error: no such file or directory: '/Users/mdescher/Projekte/titanium/MediaControls/DeCodewaveTiMediacontrolsViewProxy.m'
+oclang: error: no input files
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection92"Compile /Users/mdescher/Projekte/titanium/MediaControls/DeCodewaveTiMediacontrolsViewProxy.m55a2807b5604b741^3603847b5604b741^-282"clang: error: no such file or directory: '/Users/mdescher/Projekte/titanium/MediaControls/DeCodewaveTiMediacontrolsViewProxy.m'clang: error: no input filesCommand /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang failed with exit code 12(36%IDEClangDiagnosticActivityLogMessage2@50"'__bridge' casts have no effect when not using ARC-386160251#18446744073709551615#0#5(2@109"In file included from /Users/mdescher/Projekte/titanium/MediaControls/DeCodewaveTiMediacontrolsViewProxy.m:1:-386160251#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic23%DVTTextDocumentLocation3@100"file://localhost/Users/mdescher/Projekte/titanium/MediaControls/DeCodewaveTiMediacontrolsViewProxy.m0000000000000000^0#8#0#8#8#0#30"Apple LLVM compiler 4.2 Notice--2@109"In file included from /Users/mdescher/Projekte/titanium/MediaControls/DeCodewaveTiMediacontrolsViewProxy.h:1:-386160251#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@100"file://localhost/Users/mdescher/Projekte/titanium/MediaControls/DeCodewaveTiMediacontrolsViewProxy.h0000000000000000^0#8#0#8#8#0#30"Apple LLVM compiler 4.2 Notice--2@129"In file included from /Users/mdescher/Library/Application Support/Titanium/mobilesdk/osx/3.0.2.GA/iphone/include/TiViewProxy.h:7:-386160251#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@122"file://localhost/Users/mdescher/Library/Application%20Support/Titanium/mobilesdk/osx/3.0.2.GA/iphone/include/TiViewProxy.h0000000000000000^6#8#6#8#246#0#30"Apple LLVM compiler 4.2 Notice--2@125"In file included from /Users/mdescher/Library/Application Support/Titanium/mobilesdk/osx/3.0.2.GA/iphone/include/TiProxy.h:8:-386160251#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@118"file://localhost/Users/mdescher/Library/Application%20Support/Titanium/mobilesdk/osx/3.0.2.GA/iphone/include/TiProxy.h0000000000000000^7#8#7#8#265#0#30"Apple LLVM compiler 4.2 Notice--2@129"In file included from /Users/mdescher/Library/Application Support/Titanium/mobilesdk/osx/3.0.2.GA/iphone/include/TiEvaluator.h:8:-386160251#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@122"file://localhost/Users/mdescher/Library/Application%20Support/Titanium/mobilesdk/osx/3.0.2.GA/iphone/include/TiEvaluator.h0000000000000000^7#8#7#8#280#0#30"Apple LLVM compiler 4.2 Notice--1#27"com.apple.dt.IDE.diagnostic3@123"file://localhost/Users/mdescher/Library/Application%20Support/Titanium/mobilesdk/osx/3.0.2.GA/iphone/include/KrollContext.h0000000000000000^157#22#157#22#4563#0#15"ARC Parse Issue1(3@123"file://localhost/Users/mdescher/Library/Application%20Support/Titanium/mobilesdk/osx/3.0.2.GA/iphone/include/KrollContext.h0000000000000000^157#22#157#30#4563#8#-21%IDEActivityLogMessage4@124"Command /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang failed with exit code 1-386160251#18446744073709551615#0#-2#--29"Apple LLVM compiler 4.2 Error--0#0#0#-19%DVTDocumentLocation5@100"file://localhost/Users/mdescher/Projekte/titanium/MediaControls/DeCodewaveTiMediacontrolsViewProxy.m00000078e1041042^3882"CompileC build/MediaControls.build/Release-iphoneos/MediaControls.build/Objects-normal/armv7/DeCodewaveTiMediacontrolsViewProxy.o DeCodewaveTiMediacontrolsViewProxy.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/mdescher/Projekte/titanium/MediaControls    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/opt/local/bin:/opt/local/sbin:/Users/mdescher/bin:/opt/android-sdk/platforms/android-1.5/tools:/opt/android-sdk/tools:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wformat -Wno-missing-braces -Wno-parentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wno-unused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DTI_VERSION= -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=4.0 -iquote /Users/mdescher/Projekte/titanium/MediaControls/build/MediaControls.build/Release-iphoneos/MediaControls.build/DeCodewaveTiMediacontrols-generated-files.hmap -I/Users/mdescher/Projekte/titanium/MediaControls/build/MediaControls.build/Release-iphoneos/MediaControls.build/DeCodewaveTiMediacontrols-own-target-headers.hmap -I/Users/mdescher/Projekte/titanium/MediaControls/build/MediaControls.build/Release-iphoneos/MediaControls.build/DeCodewaveTiMediacontrols-all-target-headers.hmap -iquote /Users/mdescher/Projekte/titanium/MediaControls/build/MediaControls.build/Release-iphoneos/MediaControls.build/DeCodewaveTiMediacontrols-project-headers.hmap -I/Users/mdescher/Projekte/titanium/MediaControls/build/Release-iphoneos/include "-I/Users/mdescher/Library/Application Support/Titanium/mobilesdk/osx/3.0.2.GA/iphone/include" "-I/Users/mdescher/Library/Application Support/Titanium/mobilesdk/osx/3.0.2.GA/iphone/include/TiCore" -I/Users/mdescher/Projekte/titanium/MediaControls/build/MediaControls.build/Release-iphoneos/MediaControls.build/DerivedSources/armv7 -I/Users/mdescher/Projekte/titanium/MediaControls/build/MediaControls.build/Release-iphoneos/MediaControls.build/DerivedSources -F/Users/mdescher/Projekte/titanium/MediaControls/build/Release-iphoneos -DTI_POST_1_2 -include /var/folders/tv/l78w0jc53cdf4sqh21r8lv500000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/DeCodewaveTiMediacontrols_Prefix-dcniujvlmuzhytbeidtrnxssfnte/DeCodewaveTiMediacontrols_Prefix.pch -MMD -MT dependencies -MF /Users/mdescher/Projekte/titanium/MediaControls/build/MediaControls.build/Release-iphoneos/MediaControls.build/Objects-normal/armv7/DeCodewaveTiMediacontrolsViewProxy.d --serialize-diagnostics /Users/mdescher/Projekte/titanium/MediaControls/build/MediaControls.build/Release-iphoneos/MediaControls.build/Objects-normal/armv7/DeCodewaveTiMediacontrolsViewProxy.dia -c /Users/mdescher/Projekte/titanium/MediaControls/DeCodewaveTiMediacontrolsViewProxy.m -o /Users/mdescher/Projekte/titanium/MediaControls/build/MediaControls.build/Release-iphoneos/MediaControls.build/Objects-normal/armv7/DeCodewaveTiMediacontrolsViewProxy.o36"CC11F2D5-2360-4F35-AB14-D3AA320352AD-
+
+CLibtool /Users/mdescher/Projekte/titanium/MediaControls/build/Release-iphoneos/libDeCodewaveTiMediacontrols.a normal armv7
+s386158564.370762
+e386158564.378063
+r1
+xLibtool
+x/Users/mdescher/Projekte/titanium/MediaControls/build/Release-iphoneos/libDeCodewaveTiMediacontrols.a
+xnormal
+xarmv7
+o/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool: -dynamic not specified the following flags are invalid: -ObjC 
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection74"Libtool build/Release-iphoneos/libDeCodewaveTiMediacontrols.a normal armv7e3fb5ee44f04b741^cdc860e44f04b741^-159"/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool: -dynamic not specified the following flags are invalid: -ObjC -0#0#0#--1194"Libtool build/Release-iphoneos/libDeCodewaveTiMediacontrols.a normal armv7    cd /Users/mdescher/Projekte/titanium/MediaControls    setenv IPHONEOS_DEPLOYMENT_TARGET 4.0    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/opt/local/bin:/opt/local/sbin:/Users/mdescher/bin:/opt/android-sdk/platforms/android-1.5/tools:/opt/android-sdk/tools:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool -static -arch_only armv7 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk -L/Users/mdescher/Projekte/titanium/MediaControls/build/Release-iphoneos -filelist /Users/mdescher/Projekte/titanium/MediaControls/build/MediaControls.build/Release-iphoneos/MediaControls.build/Objects-normal/armv7/DeCodewaveTiMediacontrols.LinkFileList -ObjC -framework Foundation -o /Users/mdescher/Projekte/titanium/MediaControls/build/Release-iphoneos/libDeCodewaveTiMediacontrols.a36"A6EB735B-8551-4F58-8466-74E1D4F83FCC-
+
+CProcessPCH /var/folders/tv/l78w0jc53cdf4sqh21r8lv500000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/DeCodewaveTiMediacontrols_Prefix-dcniujvlmuzhytbeidtrnxssfnte/DeCodewaveTiMediacontrols_Prefix.pch.pth DeCodewaveTiMediacontrols_Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s386154823.873046
+e386154824.006057
+r1
+xProcessPCH
+x/var/folders/tv/l78w0jc53cdf4sqh21r8lv500000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/DeCodewaveTiMediacontrols_Prefix-dcniujvlmuzhytbeidtrnxssfnte/DeCodewaveTiMediacontrols_Prefix.pch.pth
+xDeCodewaveTiMediacontrols_Prefix.pch
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection47"Precompile DeCodewaveTiMediacontrols_Prefix.pch9ca6df474104b741^3b8c01484104b741^---0#0#0#-19%DVTDocumentLocation2@100"file://localhost/Users/mdescher/Projekte/titanium/MediaControls/DeCodewaveTiMediacontrols_Prefix.pch0000000000000000^3845"ProcessPCH /var/folders/tv/l78w0jc53cdf4sqh21r8lv500000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/DeCodewaveTiMediacontrols_Prefix-dcniujvlmuzhytbeidtrnxssfnte/DeCodewaveTiMediacontrols_Prefix.pch.pth DeCodewaveTiMediacontrols_Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/mdescher/Projekte/titanium/MediaControls    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/opt/local/bin:/opt/local/sbin:/Users/mdescher/bin:/opt/android-sdk/platforms/android-1.5/tools:/opt/android-sdk/tools:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch armv7 -fmessage-length=0 -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wformat -Wno-missing-braces -Wno-parentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wno-unused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DTI_VERSION= -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=4.0 -iquote /Users/mdescher/Projekte/titanium/MediaControls/build/MediaControls.build/Release-iphoneos/MediaControls.build/DeCodewaveTiMediacontrols-generated-files.hmap -I/Users/mdescher/Projekte/titanium/MediaControls/build/MediaControls.build/Release-iphoneos/MediaControls.build/DeCodewaveTiMediacontrols-own-target-headers.hmap -I/Users/mdescher/Projekte/titanium/MediaControls/build/MediaControls.build/Release-iphoneos/MediaControls.build/DeCodewaveTiMediacontrols-all-target-headers.hmap -iquote /Users/mdescher/Projekte/titanium/MediaControls/build/MediaControls.build/Release-iphoneos/MediaControls.build/DeCodewaveTiMediacontrols-project-headers.hmap -I/Users/mdescher/Projekte/titanium/MediaControls/build/Release-iphoneos/include "-I/Users/mdescher/Library/Application Support/Titanium/mobilesdk/osx/3.0.2.GA/iphone/include" "-I/Users/mdescher/Library/Application Support/Titanium/mobilesdk/osx/3.0.2.GA/iphone/include/TiCore" -I/Users/mdescher/Projekte/titanium/MediaControls/build/MediaControls.build/Release-iphoneos/MediaControls.build/DerivedSources/armv7 -I/Users/mdescher/Projekte/titanium/MediaControls/build/MediaControls.build/Release-iphoneos/MediaControls.build/DerivedSources -F/Users/mdescher/Projekte/titanium/MediaControls/build/Release-iphoneos -DTI_POST_1_2 --serialize-diagnostics /var/folders/tv/l78w0jc53cdf4sqh21r8lv500000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/DeCodewaveTiMediacontrols_Prefix-dcniujvlmuzhytbeidtrnxssfnte/DeCodewaveTiMediacontrols_Prefix.pch.dia -c /Users/mdescher/Projekte/titanium/MediaControls/DeCodewaveTiMediacontrols_Prefix.pch -o /var/folders/tv/l78w0jc53cdf4sqh21r8lv500000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/DeCodewaveTiMediacontrols_Prefix-dcniujvlmuzhytbeidtrnxssfnte/DeCodewaveTiMediacontrols_Prefix.pch.pth -MMD -MT dependencies -MF /var/folders/tv/l78w0jc53cdf4sqh21r8lv500000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/DeCodewaveTiMediacontrols_Prefix-dcniujvlmuzhytbeidtrnxssfnte/DeCodewaveTiMediacontrols_Prefix.pch.d36"A1365EE2-F067-4DEF-A4EE-511ACF86AF10-
+
