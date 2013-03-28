@@ -26,10 +26,10 @@
 		24DD6CFA1134B3F500162E58 /* DeCodewaveTiMediacontrolsModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 24DD6CF81134B3F500162E58 /* DeCodewaveTiMediacontrolsModule.m */; };
 		24DE9E1111C5FE74003F90F6 /* DeCodewaveTiMediacontrolsModuleAssets.h in Headers */ = {isa = PBXBuildFile; fileRef = 24DE9E0F11C5FE74003F90F6 /* DeCodewaveTiMediacontrolsModuleAssets.h */; };
 		24DE9E1211C5FE74003F90F6 /* DeCodewaveTiMediacontrolsModuleAssets.m in Sources */ = {isa = PBXBuildFile; fileRef = 24DE9E1011C5FE74003F90F6 /* DeCodewaveTiMediacontrolsModuleAssets.m */; };
-		97ABD670D67F66347193D810 /* DeCodewaveTiMediacontrolsView.m in Sources */ = {isa = PBXBuildFile; fileRef = 97ABDD99674EBBA7BD3C4638 /* DeCodewaveTiMediacontrolsView.m */; };
-		97ABD97E2E2AA3769267D7CD /* DeCodewaveTiMediacontrolsViewProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 97ABD8587299923CD733EEF4 /* DeCodewaveTiMediacontrolsViewProxy.m */; };
-		97ABDA96D37C1E8995D95714 /* DeCodewaveTiMediacontrolsViewProxy.h in Headers */ = {isa = PBXBuildFile; fileRef = 97ABDB831FB0D6264F217933 /* DeCodewaveTiMediacontrolsViewProxy.h */; };
-		97ABDCD4E91EC1220A35F471 /* DeCodewaveTiMediacontrolsView.h in Headers */ = {isa = PBXBuildFile; fileRef = 97ABD8D94A64499750B7EA7F /* DeCodewaveTiMediacontrolsView.h */; };
+		97ABD19928BC079239C4991A /* DeCodewaveTiMediacontrolsViewProxy.h in Headers */ = {isa = PBXBuildFile; fileRef = 97ABD5EBA2E508E87C4E7744 /* DeCodewaveTiMediacontrolsViewProxy.h */; };
+		97ABD307B83B479BCE2C111A /* DeCodewaveTiMediacontrolsView.m in Sources */ = {isa = PBXBuildFile; fileRef = 97ABDB11037D169074045355 /* DeCodewaveTiMediacontrolsView.m */; };
+		97ABD51E015EEF0AB81A8E5C /* DeCodewaveTiMediacontrolsViewProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 97ABD8B2D33D1B3A66A18E07 /* DeCodewaveTiMediacontrolsViewProxy.m */; };
+		97ABDE370047EF629D76BC4E /* DeCodewaveTiMediacontrolsView.h in Headers */ = {isa = PBXBuildFile; fileRef = 97ABD588C75975A9BB4FCBAB /* DeCodewaveTiMediacontrolsView.h */; };
 		AA747D9F0F9514B9006C5449 /* DeCodewaveTiMediacontrols_Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = AA747D9E0F9514B9006C5449 /* DeCodewaveTiMediacontrols_Prefix.pch */; };
 		AACBBE4A0F95108600F1A2B1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AACBBE490F95108600F1A2B1 /* Foundation.framework */; };
 /* End PBXBuildFile section */
@@ -50,10 +50,10 @@
 		24DD6D1B1134B66800162E58 /* titanium.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = titanium.xcconfig; sourceTree = "<group>"; };
 		24DE9E0F11C5FE74003F90F6 /* DeCodewaveTiMediacontrolsModuleAssets.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DeCodewaveTiMediacontrolsModuleAssets.h; path = Classes/DeCodewaveTiMediacontrolsModuleAssets.h; sourceTree = "<group>"; };
 		24DE9E1011C5FE74003F90F6 /* DeCodewaveTiMediacontrolsModuleAssets.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DeCodewaveTiMediacontrolsModuleAssets.m; path = Classes/DeCodewaveTiMediacontrolsModuleAssets.m; sourceTree = "<group>"; };
-		97ABD8587299923CD733EEF4 /* DeCodewaveTiMediacontrolsViewProxy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DeCodewaveTiMediacontrolsViewProxy.m; path = Classes/DeCodewaveTiMediacontrolsViewProxy.m; sourceTree = "<group>"; };
-		97ABD8D94A64499750B7EA7F /* DeCodewaveTiMediacontrolsView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DeCodewaveTiMediacontrolsView.h; path = Classes/DeCodewaveTiMediacontrolsView.h; sourceTree = "<group>"; };
-		97ABDB831FB0D6264F217933 /* DeCodewaveTiMediacontrolsViewProxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DeCodewaveTiMediacontrolsViewProxy.h; path = Classes/DeCodewaveTiMediacontrolsViewProxy.h; sourceTree = "<group>"; };
-		97ABDD99674EBBA7BD3C4638 /* DeCodewaveTiMediacontrolsView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DeCodewaveTiMediacontrolsView.m; path = Classes/DeCodewaveTiMediacontrolsView.m; sourceTree = "<group>"; };
+		97ABD588C75975A9BB4FCBAB /* DeCodewaveTiMediacontrolsView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DeCodewaveTiMediacontrolsView.h; path = Classes/DeCodewaveTiMediacontrolsView.h; sourceTree = "<group>"; };
+		97ABD5EBA2E508E87C4E7744 /* DeCodewaveTiMediacontrolsViewProxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DeCodewaveTiMediacontrolsViewProxy.h; path = Classes/DeCodewaveTiMediacontrolsViewProxy.h; sourceTree = "<group>"; };
+		97ABD8B2D33D1B3A66A18E07 /* DeCodewaveTiMediacontrolsViewProxy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DeCodewaveTiMediacontrolsViewProxy.m; path = Classes/DeCodewaveTiMediacontrolsViewProxy.m; sourceTree = "<group>"; };
+		97ABDB11037D169074045355 /* DeCodewaveTiMediacontrolsView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DeCodewaveTiMediacontrolsView.m; path = Classes/DeCodewaveTiMediacontrolsView.m; sourceTree = "<group>"; };
 		AA747D9E0F9514B9006C5449 /* DeCodewaveTiMediacontrols_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DeCodewaveTiMediacontrols_Prefix.pch; sourceTree = SOURCE_ROOT; };
 		AACBBE490F95108600F1A2B1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		D2AAC07E0554694100DB518D /* libDeCodewaveTiMediacontrols.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libDeCodewaveTiMediacontrols.a; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -86,10 +86,6 @@
 				32C88DFF0371C24200C91783 /* Other Sources */,
 				0867D69AFE84028FC02AAC07 /* Frameworks */,
 				034768DFFF38A50411DB9C8B /* Products */,
-				97ABDD99674EBBA7BD3C4638 /* DeCodewaveTiMediacontrolsView.m */,
-				97ABD8587299923CD733EEF4 /* DeCodewaveTiMediacontrolsViewProxy.m */,
-				97ABD8D94A64499750B7EA7F /* DeCodewaveTiMediacontrolsView.h */,
-				97ABDB831FB0D6264F217933 /* DeCodewaveTiMediacontrolsViewProxy.h */,
 			);
 			name = MediaControls;
 			sourceTree = "<group>";
@@ -109,6 +105,10 @@
 				24DE9E1011C5FE74003F90F6 /* DeCodewaveTiMediacontrolsModuleAssets.m */,
 				24DD6CF71134B3F500162E58 /* DeCodewaveTiMediacontrolsModule.h */,
 				24DD6CF81134B3F500162E58 /* DeCodewaveTiMediacontrolsModule.m */,
+				97ABD8B2D33D1B3A66A18E07 /* DeCodewaveTiMediacontrolsViewProxy.m */,
+				97ABD5EBA2E508E87C4E7744 /* DeCodewaveTiMediacontrolsViewProxy.h */,
+				97ABDB11037D169074045355 /* DeCodewaveTiMediacontrolsView.m */,
+				97ABD588C75975A9BB4FCBAB /* DeCodewaveTiMediacontrolsView.h */,
 			);
 			name = Classes;
 			sourceTree = "<group>";
@@ -132,8 +132,8 @@
 				AA747D9F0F9514B9006C5449 /* DeCodewaveTiMediacontrols_Prefix.pch in Headers */,
 				24DD6CF91134B3F500162E58 /* DeCodewaveTiMediacontrolsModule.h in Headers */,
 				24DE9E1111C5FE74003F90F6 /* DeCodewaveTiMediacontrolsModuleAssets.h in Headers */,
-				97ABDCD4E91EC1220A35F471 /* DeCodewaveTiMediacontrolsView.h in Headers */,
-				97ABDA96D37C1E8995D95714 /* DeCodewaveTiMediacontrolsViewProxy.h in Headers */,
+				97ABD19928BC079239C4991A /* DeCodewaveTiMediacontrolsViewProxy.h in Headers */,
+				97ABDE370047EF629D76BC4E /* DeCodewaveTiMediacontrolsView.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -206,8 +206,8 @@
 			files = (
 				24DD6CFA1134B3F500162E58 /* DeCodewaveTiMediacontrolsModule.m in Sources */,
 				24DE9E1211C5FE74003F90F6 /* DeCodewaveTiMediacontrolsModuleAssets.m in Sources */,
-				97ABD670D67F66347193D810 /* DeCodewaveTiMediacontrolsView.m in Sources */,
-				97ABD97E2E2AA3769267D7CD /* DeCodewaveTiMediacontrolsViewProxy.m in Sources */,
+				97ABD51E015EEF0AB81A8E5C /* DeCodewaveTiMediacontrolsViewProxy.m in Sources */,
+				97ABD307B83B479BCE2C111A /* DeCodewaveTiMediacontrolsView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

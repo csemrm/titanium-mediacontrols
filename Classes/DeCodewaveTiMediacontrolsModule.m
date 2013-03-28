@@ -32,7 +32,6 @@
 	// this method is called when the module is first loaded
 	// you *must* call the superclass
 	[super startup];
-    NSLog(@"[INFO] Begin receive remote control events.");
     [[UIApplication sharedApplication] beginReceivingRemoteControlEvents];
     NSLog(@"[INFO] %@ loaded",self);
 }
@@ -42,7 +41,6 @@
 	// this method is called when the module is being unloaded
 	// typically this is during shutdown. make sure you don't do too
 	// much processing here or the app will be quit forceably
-    NSLog(@"[INFO] End receive remote control events.");
     [[UIApplication sharedApplication] endReceivingRemoteControlEvents];
 	// you *must* call the superclass
 	[super shutdown:sender];

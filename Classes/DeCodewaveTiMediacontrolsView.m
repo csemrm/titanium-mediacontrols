@@ -5,7 +5,6 @@
 - (id)init {
     self = [super init];
     if (self) {
-        NSLog(@"[INFO] Becoming first responder.");
         [self becomeFirstResponder];
     }
     return self;
@@ -13,7 +12,6 @@
 
 
 - (void)dealloc {
-    NSLog(@"[INFO] Resigning first responder.");
     [self resignFirstResponder];
     RELEASE_TO_NIL(view);
     [super dealloc];
@@ -49,7 +47,6 @@
                 [[self proxy] fireEvent:@"remoteControlPreviousTrack"];
                 break;
             case UIEventSubtypeRemoteControlNextTrack:
-                NSLog(@"[INFO] Next track remote control event received.");
                 [[self proxy] fireEvent:@"remoteControlNextTrack"];
                 break;
             default:
