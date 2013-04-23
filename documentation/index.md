@@ -2,7 +2,9 @@
 
 ## Description
 
-TODO: Enter your module description here
+Simple module for creating an invisible view which receives remote control events. This is useful for background
+audio playback. Please note that this module does not enable your application to play audio in the background. It
+just enables your application to receive the remote control events.
 
 ## Accessing the MediaControls Module
 
@@ -14,26 +16,27 @@ The MediaControls variable is a reference to the Module object.
 
 ## Reference
 
-TODO: If your module has an API, you should document
-the reference here.
+There is only one API method.
 
-### ___PROJECTNAMEASIDENTIFIER__.function
+### MediaControls.createView{left:0,top:0,width:0,height:0}
 
-TODO: This is an example of a module function.
-
-### ___PROJECTNAMEASIDENTIFIER__.property
-
-TODO: This is an example of a module property.
+Creates an invisible, zero-sized view which receives remote control events. Even though the view is invisible it
+will receive touch events when added to your view. So please always create it with the above dimensions. The view
+supports the following events: remoteControlPlay, remoteControlPause, remoteControlStop, remoteControlTogglePlayPause,
+remoteControlPreviousTrack and remoteControlNextTrack.
 
 ## Usage
 
-TODO: Enter your usage example here
+Simple example for receiving events:
+
+var MediaControls = require("de.codewave.ti.mediacontrols");
+var view = MediaControls.createView{left:0,top:0,width:0,height:0};
+view.addEventListener("remoteControlTogglePlayPause", function() {
+    // handle the play/pause toggle event
+});
 
 ## Author
 
-TODO: Enter your author name, email and other contact
-details you want to share here. 
-
-## License
-
-TODO: Enter your license/legal information here.
+Codewave Software
+info@codewave.de
+http://www.codewave.de
