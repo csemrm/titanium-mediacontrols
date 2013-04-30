@@ -1,3 +1,16 @@
+/**
+ * The provided MP3 file URL works at the moment of writing this. You can of course replace it with any
+ * other URL or include a sample MP3 file in the app itself. After starting the
+ * app, audio playback will start. Double click the iPhone's home button to see the task
+ * bar. Slide right on it to get the audio controls. Use the play/pause button to
+ * send the remote control events. You can also use earphones and other external
+ * hardware which has remote controls. When connecting the XCode organizer you can
+ * also have a look at the console where the app writes a log line for each remote control
+ * event received. This also works when the app is in the background. You have to
+ * enable the background audio capability via the "tiapp.xml" file for this to work. The
+ * app itself is capable of background audio.
+ */
+
 // Background audio
 Titanium.Media.audioSessionMode = Titanium.Media.AUDIO_SESSION_MODE_PLAYBACK;
 
