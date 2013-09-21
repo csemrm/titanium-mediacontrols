@@ -4,6 +4,7 @@
  * Appcelerator Titanium is Copyright (c) 2009-2010 by Appcelerator, Inc.
  * and licensed under the Apache Public License (version 2)
  */
+#import <MediaPlayer/MPNowPlayingInfoCenter.h>
 #import "DeCodewaveTiMediacontrolsModule.h"
 #import "TiBase.h"
 #import "TiHost.h"
@@ -62,6 +63,14 @@
 	// optionally release any resources that can be dynamically
 	// reloaded once memory is available - such as caches
 	[super didReceiveMemoryWarning:notification];
+}
+
+#pragma mark Public API
+
+-(void)setNowPlaying:(id)info
+{
+	ENSURE_SINGLE_ARG(info,NSDictionary);
+    [[MPNowPlayingInfoCenter defaultCenter] setNowPlayingInfo:info];
 }
 
 @end

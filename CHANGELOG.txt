@@ -1,1 +1,3 @@
+Version 2.0		Added API for setting Now Playing information
+
 Version 1.0		Initial Version
