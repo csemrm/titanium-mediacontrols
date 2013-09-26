@@ -1,3 +1,3 @@
-Version 2.0		Added API for setting Now Playing information
+Version 2.0		API for setting/clearing the "now playing" information.
 
-Version 1.0		Initial Version
+Version 1.0		Initial Version.

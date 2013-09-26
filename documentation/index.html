@@ -8,8 +8,11 @@ Simple module for creating an invisible view which receives remote control event
 audio playback. Please note that this module does not enable your application to play audio in the background. It
 just enables your application to receive the remote control events.
 </p>
+<p>
+Also allows setting the "now playing" information, e.g. in the iOS 7 lock screen.
+</p>
 
-<h2>Accessing the MediaControls Module></h2>
+<h2>Accessing the MediaControls Module</h2>
 
 <p>To access this module from JavaScript, you would do the following:</p>
 
@@ -18,8 +21,6 @@ just enables your application to receive the remote control events.
 <p>The MediaControls variable is a reference to the Module object.</p>
 
 <h2>Reference</h2>
-
-<p>There is only one API method.</p>
 
 <h3>MediaControls.createView({left:0,top:0,width:0,height:0})</h3>
 
@@ -36,6 +37,29 @@ supports the following events:
 </ul>
 </p>
 
+<h3>MediaControls.setNowPlaying({...})</h3>
+
+<p>Sets the now playing information. All keys from the MPMediaItem class with their types are allowed. The following ones
+are probably most useful:
+<table>
+<tr><td>title</td><td>Track title (string)</td></tr>
+<tr><td>albumTitle</td><td>Album title (string)</td></tr>
+<tr><td>artist</td><td>Artist name (string)</td></tr>
+<tr><td>albumArtist</td><td>Album artist name (string)</td></tr>
+<tr><td>genre</td><td>Genre (string)</td></tr>
+<tr><td>composer</td><td>Composer name (string)</td></tr>
+<tr><td>playbackDuration</td><td>Playback duration in seconds (numeric)</td></tr>
+<tr><td>albumTrackNumber</td><td>Track number (numeric)</td></tr>
+<tr><td>albumTrackCount</td><td>Total track count (numeric)</td></tr>
+<tr><td>discNumber</td><td>Disc number (numeric)</td></tr>
+<tr><td>discCount</td><td>Total disc count (numeric)</td></tr>
+</table>
+</p>
+
+<h3>MediaControls.clearNowPlaying()</h3>
+
+<p>Clears the now playing information.</p>
+
 <h2>Usage</h2>
 
 <p>Simple example for receiving events:</p>
@@ -44,6 +68,21 @@ supports the following events:
 var view = MediaControls.createView({left:0,top:0,width:0,height:0});
 view.addEventListener("remoteControlTogglePlayPause", function() {
     // handle the play/pause toggle event
+});</pre>
+
+<p>Simple example for setting "now playing" info:</p>
+
+<pre>var MediaControls = require("de.codewave.ti.mediacontrols");
+MediaControls.setNowPlaying({
+	"title" : "Hells Bells",
+	"album" ; "Best of Rock",
+	"artist" : "AC/DC",
+	"albumArtist" : "Various Artists",
+	"playbackDuration" : 235,
+	"albumTrackNumber" : 2,
+	"albumTrackCount" : 14,
+	"discNumber" : 1,
+	"discCount" : 2
 });</pre>
 
 <p>For a working sample app please see the included "app.js" file. Read the comment

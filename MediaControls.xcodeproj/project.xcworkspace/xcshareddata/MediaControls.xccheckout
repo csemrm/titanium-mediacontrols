@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>1CBBA17A-294A-4C9F-A9AA-6BE301305FB8</string>
+	<key>IDESourceControlProjectName</key>
+	<string>MediaControls</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>1EE89CA6-193E-4028-B49E-C3571180EDAB</key>
+		<string>svn://svn.codewave.de/titanium/MediaControls/trunk</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>MediaControls.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>1EE89CA6-193E-4028-B49E-C3571180EDAB</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectRepositoryRootDictionary</key>
+	<dict>
+		<key>1EE89CA6-193E-4028-B49E-C3571180EDAB</key>
+		<string>svn://svn.codewave.de</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>svn://svn.codewave.de/titanium/MediaControls/trunk/MediaControls.xcodeproj</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>1EE89CA6-193E-4028-B49E-C3571180EDAB</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.subversion</string>
+			<key>IDESourceControlRepositoryTagsRelativeLocationKey</key>
+			<string>titanium/MediaControls/tags</string>
+			<key>IDESourceControlRepositoryTrunkRelativeLocationKey</key>
+			<string>titanium/MediaControls/trunk</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>1EE89CA6-193E-4028-B49E-C3571180EDAB</string>
+			<key>IDESourceControlWCCName</key>
+			<string>MediaControls</string>
+		</dict>
+	</array>
+</dict>
+</plist>

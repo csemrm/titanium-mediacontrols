@@ -34,6 +34,12 @@ var mediaControlsView = mediaControls.createView({left:0,top:0,width:0,height:0}
 mediaControlsView.addEventListener("remoteControlPlay", function() {
 	Titanium.API.info("Remote control 'play'.");
 	audioPlayer.play();
+	mediaControls.setNowPlaying({
+		"title" : "Test Title",
+		"albumTitle" : "Test Album",
+		"artist" : "Test Artist",
+		"albumArtist" : "Test Album Artist"
+	});
 }); 
 mediaControlsView.addEventListener("remoteControlPause", function() {
 	Titanium.API.info("Remote control 'pause'.");
@@ -42,6 +48,7 @@ mediaControlsView.addEventListener("remoteControlPause", function() {
 mediaControlsView.addEventListener("remoteControlStop", function() {
 	Titanium.API.info("Remote control 'stop'.");
 	audioPlayer.stop();
+	mediaControls.clearNowPlaying();
 }); 
 mediaControlsView.addEventListener("remoteControlTogglePlayPause", function() {
 	Titanium.API.info("Remote control 'toggle play/pause'.");

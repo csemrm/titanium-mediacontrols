@@ -73,4 +73,9 @@
     [[MPNowPlayingInfoCenter defaultCenter] setNowPlayingInfo:info];
 }
 
+-(void)clearNowPlaying:(id)ignore
+{
+    [[MPNowPlayingInfoCenter defaultCenter] setNowPlayingInfo:nil];
+}
+
 @end
