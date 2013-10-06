@@ -2,10 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" readonly="true" id="b17391e8-4693-49d2-8148-be9610f52025" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Classes/DeCodewaveTiMediacontrolsNowPlayingInfoProxy.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Classes/DeCodewaveTiMediacontrolsNowPlayingInfoProxy.m" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Classes/DeCodewaveTiMediacontrolsModule.h" afterPath="$PROJECT_DIR$/Classes/DeCodewaveTiMediacontrolsModule.h" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Classes/DeCodewaveTiMediacontrolsModule.m" afterPath="$PROJECT_DIR$/Classes/DeCodewaveTiMediacontrolsModule.m" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LICENSE" afterPath="$PROJECT_DIR$/LICENSE" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MediaControls.xcodeproj/xcuserdata/mdescher.xcuserdatad/xcschemes/MediaControls.xcscheme" afterPath="$PROJECT_DIR$/MediaControls.xcodeproj/xcuserdata/mdescher.xcuserdatad/xcschemes/MediaControls.xcscheme" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/documentation/index.md" afterPath="$PROJECT_DIR$/documentation/index.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/documentation/app.js" afterPath="$PROJECT_DIR$/documentation/app.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/documentation/index.html" afterPath="$PROJECT_DIR$/documentation/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/manifest" afterPath="$PROJECT_DIR$/manifest" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MediaControls.xcodeproj/project.pbxproj" afterPath="$PROJECT_DIR$/MediaControls.xcodeproj/project.pbxproj" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
@@ -15,7 +17,7 @@
     <file path="/DeCodewaveTiMediacontrolsView.h" changelist="b17391e8-4693-49d2-8148-be9610f52025" time="1364461416593" ignored="false" />
     <file path="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIView.h" changelist="b17391e8-4693-49d2-8148-be9610f52025" time="1364461053341" ignored="false" />
     <file path="/DeCodewaveTiMediacontrolsView.m" changelist="b17391e8-4693-49d2-8148-be9610f52025" time="1364465748841" ignored="false" />
-    <file path="/DeCodewaveTiMediacontrolsModule.m" changelist="b17391e8-4693-49d2-8148-be9610f52025" time="1366746423725" ignored="false" />
+    <file path="/DeCodewaveTiMediacontrolsModule.m" changelist="b17391e8-4693-49d2-8148-be9610f52025" time="1381075367926" ignored="false" />
     <file path="/DeCodewaveTiMediacontrolsViewProxy.h" changelist="b17391e8-4693-49d2-8148-be9610f52025" time="1364461963170" ignored="false" />
     <file path="$PROJECT_DIR$/../MyTunesRSS/build/iphone/Info.plist" changelist="b17391e8-4693-49d2-8148-be9610f52025" time="1364466061751" ignored="false" />
     <file path="$PROJECT_DIR$/../MyTunesRSS/build/iphone/module.xcconfig" changelist="b17391e8-4693-49d2-8148-be9610f52025" time="1364466061751" ignored="false" />
@@ -183,7 +185,6 @@
     <file path="$PROJECT_DIR$/../MyTunesRSS/build/iphone/Classes/TiViewProxy.h" changelist="b17391e8-4693-49d2-8148-be9610f52025" time="1364466061752" ignored="false" />
     <file path="$PROJECT_DIR$/../MyTunesRSS/build/iphone/Classes/TiViewController.m" changelist="b17391e8-4693-49d2-8148-be9610f52025" time="1364466061752" ignored="false" />
     <file path="$PROJECT_DIR$/../MyTunesRSS/build/iphone/Classes/TiViewController.h" changelist="b17391e8-4693-49d2-8148-be9610f52025" time="1364466061752" ignored="false" />
-    <file path="$PROJECT_DIR$/../MyTunesRSS/build/iphone/Classes/TiUtils.m" changelist="b17391e8-4693-49d2-8148-be9610f52025" time="1364466061752" ignored="false" />
     <file path="$PROJECT_DIR$/../MyTunesRSS/build/iphone/Classes/TiUtils.h" changelist="b17391e8-4693-49d2-8148-be9610f52025" time="1364466061752" ignored="false" />
     <file path="$PROJECT_DIR$/../MyTunesRSS/build/iphone/Classes/TiUIWindowProxy.m" changelist="b17391e8-4693-49d2-8148-be9610f52025" time="1364466061752" ignored="false" />
     <file path="$PROJECT_DIR$/../MyTunesRSS/build/iphone/Classes/TiUIWindowProxy.h" changelist="b17391e8-4693-49d2-8148-be9610f52025" time="1364466061752" ignored="false" />
@@ -284,7 +285,6 @@
     <file path="$PROJECT_DIR$/../MyTunesRSS/build/iphone/Classes/TiTab.h" changelist="b17391e8-4693-49d2-8148-be9610f52025" time="1364466061752" ignored="false" />
     <file path="$PROJECT_DIR$/../MyTunesRSS/build/iphone/Classes/TiRect.m" changelist="b17391e8-4693-49d2-8148-be9610f52025" time="1364466061752" ignored="false" />
     <file path="$PROJECT_DIR$/../MyTunesRSS/build/iphone/Classes/TiRect.h" changelist="b17391e8-4693-49d2-8148-be9610f52025" time="1364466061752" ignored="false" />
-    <file path="$PROJECT_DIR$/../MyTunesRSS/build/iphone/Classes/TiProxy.m" changelist="b17391e8-4693-49d2-8148-be9610f52025" time="1364466061752" ignored="false" />
     <file path="$PROJECT_DIR$/../MyTunesRSS/build/iphone/Classes/TiProxy.h" changelist="b17391e8-4693-49d2-8148-be9610f52025" time="1364466061752" ignored="false" />
     <file path="$PROJECT_DIR$/../MyTunesRSS/build/iphone/Classes/TiPoint.m" changelist="b17391e8-4693-49d2-8148-be9610f52025" time="1364466061752" ignored="false" />
     <file path="$PROJECT_DIR$/../MyTunesRSS/build/iphone/Classes/TiPoint.h" changelist="b17391e8-4693-49d2-8148-be9610f52025" time="1364466061752" ignored="false" />
@@ -355,7 +355,6 @@
     <file path="$PROJECT_DIR$/../MyTunesRSS/build/iphone/Classes/LayoutConstraint.m" changelist="b17391e8-4693-49d2-8148-be9610f52025" time="1364466061752" ignored="false" />
     <file path="$PROJECT_DIR$/../MyTunesRSS/build/iphone/Classes/LayoutConstraint.h" changelist="b17391e8-4693-49d2-8148-be9610f52025" time="1364466061752" ignored="false" />
     <file path="$PROJECT_DIR$/../MyTunesRSS/build/iphone/Classes/ImageLoader.m" changelist="b17391e8-4693-49d2-8148-be9610f52025" time="1364466061752" ignored="false" />
-    <file path="$PROJECT_DIR$/../MyTunesRSS/build/iphone/Classes/ImageLoader.h" changelist="b17391e8-4693-49d2-8148-be9610f52025" time="1364466061752" ignored="false" />
     <file path="$PROJECT_DIR$/../MyTunesRSS/build/iphone/Classes/GestureModule.m" changelist="b17391e8-4693-49d2-8148-be9610f52025" time="1364466061752" ignored="false" />
     <file path="$PROJECT_DIR$/../MyTunesRSS/build/iphone/Classes/GestureModule.h" changelist="b17391e8-4693-49d2-8148-be9610f52025" time="1364466061752" ignored="false" />
     <file path="$PROJECT_DIR$/../MyTunesRSS/build/iphone/Classes/GeolocationModule.h" changelist="b17391e8-4693-49d2-8148-be9610f52025" time="1364466061752" ignored="false" />
@@ -625,8 +624,16 @@
     <file path="$PROJECT_DIR$/build/MediaControls.build/Release-iphonesimulator/MediaControls.build/build-state.dat" changelist="b17391e8-4693-49d2-8148-be9610f52025" time="1364468037578" ignored="false" />
     <file path="$PROJECT_DIR$/build/MediaControls.build/Release-iphonesimulator/MediaControls.build/Objects-normal/i386/DeCodewaveTiMediacontrolsModuleAssets.d" changelist="b17391e8-4693-49d2-8148-be9610f52025" time="1364468037578" ignored="false" />
     <file path="$PROJECT_DIR$/build/MediaControls.build/Release-iphonesimulator/MediaControls.build/Objects-normal/i386/DeCodewaveTiMediacontrols.LinkFileList" changelist="b17391e8-4693-49d2-8148-be9610f52025" time="1364468037578" ignored="false" />
-    <file path="/manifest" changelist="b17391e8-4693-49d2-8148-be9610f52025" time="1366747280382" ignored="false" />
+    <file path="/manifest" changelist="b17391e8-4693-49d2-8148-be9610f52025" time="1381058596211" ignored="false" />
     <file path="/index.md" changelist="b17391e8-4693-49d2-8148-be9610f52025" time="1366747262911" ignored="false" />
+    <file path="/DeCodewaveTiMediacontrolsNowPlayingInfo.h" changelist="b17391e8-4693-49d2-8148-be9610f52025" time="1381052046197" ignored="false" />
+    <file path="/DeCodewaveTiMediacontrolsViewProxy.m" changelist="b17391e8-4693-49d2-8148-be9610f52025" time="1381051265108" ignored="false" />
+    <file path="/DeCodewaveTiMediacontrolsNowPlayingInfo.m" changelist="b17391e8-4693-49d2-8148-be9610f52025" time="1381064158846" ignored="false" />
+    <file path="/DeCodewaveTiMediacontrolsNowPlayingInfoProxy.m" changelist="b17391e8-4693-49d2-8148-be9610f52025" time="1381077011173" ignored="false" />
+    <file path="/app.js" changelist="b17391e8-4693-49d2-8148-be9610f52025" time="1381079446139" ignored="false" />
+    <file path="/index.html" changelist="b17391e8-4693-49d2-8148-be9610f52025" time="1381079973053" ignored="false" />
+    <file path="/DeCodewaveTiMediacontrolsNowPlayingInfoProxy.h" changelist="b17391e8-4693-49d2-8148-be9610f52025" time="1381071738115" ignored="false" />
+    <file path="/fragment.m" changelist="b17391e8-4693-49d2-8148-be9610f52025" time="1381076255085" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -644,82 +651,62 @@
     <option name="hideWarnings" value="true" />
     <option name="HIDE_WARNINGS" value="true" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="iphoneos_UNIVERSAL" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="iphonesimulator_7.0_1" />
   <component name="FavoritesManager">
     <favorites_list name="MediaControls" />
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="DeCodewaveTiMediacontrolsView.m" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Classes/DeCodewaveTiMediacontrolsView.m">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="50" column="0" selection-start="679" selection-end="1474" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DeCodewaveTiMediacontrolsViewProxy.m" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Classes/DeCodewaveTiMediacontrolsViewProxy.m">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.md" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/documentation/index.md">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="0" selection-start="40" selection-end="335" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LICENSE.txt" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/LICENSE.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LICENSE" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/LICENSE">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="manifest" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/manifest">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="8" selection-start="452" selection-end="452" vertical-scroll-proportion="0.09486166">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="titanium.xcconfig" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/titanium.xcconfig">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="DeCodewaveTiMediacontrolsModule.m" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Classes/DeCodewaveTiMediacontrolsModule.m">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="8" selection-start="176" selection-end="176" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="e#168#211#0" expanded="true" />
-              </folding>
+            <state line="71" column="31" selection-start="1789" selection-end="1820" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DeCodewaveTiMediacontrolsModule.h" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Classes/DeCodewaveTiMediacontrolsModule.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="4" column="32" selection-start="109" selection-end="109" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DeCodewaveTiMediacontrolsNowPlayingInfoProxy.h" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Classes/DeCodewaveTiMediacontrolsNowPlayingInfoProxy.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="7" column="0" selection-start="125" selection-end="125" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/documentation/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="69" column="0" selection-start="2614" selection-end="2614" vertical-scroll-proportion="0.6232339">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="app.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/documentation/app.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="42" column="23" selection-start="1928" selection-end="1928" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DeCodewaveTiMediacontrolsNowPlayingInfoProxy.m" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Classes/DeCodewaveTiMediacontrolsNowPlayingInfoProxy.m">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="4" column="0" selection-start="160" selection-end="160" vertical-scroll-proportion="0.0">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -734,16 +721,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/DeCodewaveTiMediacontrolsView.h" />
         <option value="$PROJECT_DIR$/DeCodewaveTiMediacontrolsViewProxy.h" />
         <option value="$PROJECT_DIR$/DeCodewaveTiMediacontrolsViewProxy.m" />
-        <option value="$PROJECT_DIR$/Classes/DeCodewaveTiMediacontrolsModule.h" />
         <option value="$PROJECT_DIR$/DeCodewaveTiMediacontrolsView.m" />
         <option value="$PROJECT_DIR$/Classes/DeCodewaveTiMediacontrolsView.m" />
-        <option value="$PROJECT_DIR$/Classes/DeCodewaveTiMediacontrolsModule.m" />
         <option value="$PROJECT_DIR$/LICENSE" />
         <option value="$PROJECT_DIR$/documentation/index.md" />
+        <option value="$PROJECT_DIR$/Classes/DeCodewaveTiMediacontrolsViewProxy.m" />
+        <option value="$PROJECT_DIR$/Classes/DeCodewaveTiMediacontrolsNowPlayingInfo.h" />
+        <option value="$PROJECT_DIR$/Classes/DeCodewaveTiMediacontrolsNowPlayingInfo.m" />
         <option value="$PROJECT_DIR$/manifest" />
+        <option value="$PROJECT_DIR$/Classes/DeCodewaveTiMediacontrolsNowPlayingInfoProxy.h" />
+        <option value="$PROJECT_DIR$/Classes/DeCodewaveTiMediacontrolsModule.m" />
+        <option value="$PROJECT_DIR$/Classes/DeCodewaveTiMediacontrolsModule.h" />
+        <option value="$PROJECT_DIR$/Classes/DeCodewaveTiMediacontrolsNowPlayingInfoProxy.m" />
+        <option value="$PROJECT_DIR$/documentation/app.js" />
+        <option value="$PROJECT_DIR$/documentation/index.html" />
       </list>
     </option>
   </component>
@@ -751,7 +744,7 @@
     <option name="x" value="70" />
     <option name="y" value="22" />
     <option name="width" value="2490" />
-    <option name="height" value="1400" />
+    <option name="height" value="1418" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -779,40 +772,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="DirectoryView.Xcode">
-        <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MediaControls" />
-              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeDirectoryView$1$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MediaControls" />
-              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeDirectoryView$1$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MediaControls" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MediaControls" />
-              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeDirectoryView$1$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MediaControls" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="documentation" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -873,6 +832,54 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="DirectoryView.Xcode">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MediaControls" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeDirectoryView$1$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MediaControls" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeDirectoryView$1$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MediaControls" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MediaControls" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeDirectoryView$1$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MediaControls" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="documentation" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MediaControls" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeDirectoryView$1$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MediaControls" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Classes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -894,8 +901,8 @@
       <method />
     </configuration>
     <list size="2">
-      <item index="0" class="java.lang.String" itemvalue="Application.MediaControls" />
-      <item index="1" class="java.lang.String" itemvalue="Application.Build &amp; Test" />
+      <item index="0" class="java.lang.String" itemvalue="Application.Build &amp; Test" />
+      <item index="1" class="java.lang.String" itemvalue="Application.MediaControls" />
     </list>
     <recent_temporary>
       <list size="1">
@@ -963,15 +970,14 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="70" y="22" width="2490" height="1400" extended-state="0" />
-    <editor active="false" />
+    <frame x="70" y="22" width="2490" height="1418" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32874617" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24969599" sideWeight="0.6712538" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24969599" sideWeight="0.6003017" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24929063" sideWeight="0.6003017" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39969835" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -980,6 +986,7 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32874617" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -1046,120 +1053,104 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="1" />
+      <option name="time" value="4" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIResponder.h">
+    <entry file="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/include/objc/NSObject.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="8" selection-start="362" selection-end="362" vertical-scroll-proportion="0.1875">
+        <state line="38" column="6" selection-start="874" selection-end="874" vertical-scroll-proportion="0.33281973">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Classes/DeCodewaveTiMediacontrolsViewProxy.h">
+    <entry file="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSValue.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+        <state line="35" column="0" selection-start="809" selection-end="809" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSString.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="75" column="0" selection-start="4053" selection-end="4131" vertical-scroll-proportion="0.35642022">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Classes/DeCodewaveTiMediacontrolsModuleAssets.m">
+    <entry file="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/MediaPlayer.framework/Headers/MPMediaItem.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+        <state line="86" column="26" selection-start="5497" selection-end="5497" vertical-scroll-proportion="0.60708785">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Library/Application Support/Titanium/mobilesdk/osx/3.0.2.GA/iphone/include/TiUIView.h">
+    <entry file="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/include/objc/objc.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="45" column="11" selection-start="1404" selection-end="1404" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="45" column="22" selection-start="1488" selection-end="1488" vertical-scroll-proportion="0.33333334" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Classes/DeCodewaveTiMediacontrolsView.h">
+    <entry file="file://$PROJECT_DIR$/../MyTunesRSS/build/iphone/Classes/TiProxy.m">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="49" selection-start="72" selection-end="72" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="1071" column="0" selection-start="29386" selection-end="29386" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/DeCodewaveTiMediacontrols_Prefix.pch">
+    <entry file="file://$PROJECT_DIR$/../MyTunesRSS/build/iphone/Classes/TiUtils.m">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="618" column="55" selection-start="15931" selection-end="15931" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../MyTunesRSS/build/iphone/Classes/ImageLoader.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="34" selection-start="557" selection-end="557" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Library/Application Support/Titanium/mobilesdk/osx/3.1.3.MYTUNESRSS/iphone/include/TiUtils.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="195" column="12" selection-start="5486" selection-end="5486" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Library/Application Support/Titanium/mobilesdk/osx/3.1.3.MYTUNESRSS/iphone/include/TiUIImageViewProxy.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Classes/DeCodewaveTiMediacontrolsModule.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Classes/DeCodewaveTiMediacontrolsModuleAssets.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="2" selection-start="6" selection-end="6" vertical-scroll-proportion="0.01173709">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/titanium.xcconfig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/LICENSE.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+        <state line="4" column="32" selection-start="109" selection-end="109" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Classes/DeCodewaveTiMediacontrolsModule.m">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="8" selection-start="176" selection-end="176" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="e#168#211#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Classes/DeCodewaveTiMediacontrolsViewProxy.m">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+        <state line="71" column="31" selection-start="1789" selection-end="1820" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Classes/DeCodewaveTiMediacontrolsView.m">
+    <entry file="file://$PROJECT_DIR$/Classes/DeCodewaveTiMediacontrolsNowPlayingInfoProxy.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="50" column="0" selection-start="679" selection-end="1474" vertical-scroll-proportion="0.0">
+        <state line="7" column="0" selection-start="125" selection-end="125" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/LICENSE">
+    <entry file="file://$PROJECT_DIR$/Classes/DeCodewaveTiMediacontrolsNowPlayingInfoProxy.m">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+        <state line="4" column="0" selection-start="160" selection-end="160" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/documentation/index.md">
+    <entry file="file://$PROJECT_DIR$/documentation/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="0" selection-start="40" selection-end="335" vertical-scroll-proportion="0.0">
+        <state line="42" column="23" selection-start="1928" selection-end="1928" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/manifest">
+    <entry file="file://$PROJECT_DIR$/documentation/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="8" selection-start="452" selection-end="452" vertical-scroll-proportion="0.09486166">
+        <state line="69" column="0" selection-start="2614" selection-end="2614" vertical-scroll-proportion="0.6232339">
           <folding />
         </state>
       </provider>

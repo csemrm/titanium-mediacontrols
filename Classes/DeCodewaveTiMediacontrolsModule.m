@@ -5,11 +5,13 @@
  * and licensed under the Apache Public License (version 2)
  */
 #import <MediaPlayer/MPNowPlayingInfoCenter.h>
+
 #import "DeCodewaveTiMediacontrolsModule.h"
 #import "TiBase.h"
 #import "TiHost.h"
 #import "TiUtils.h"
 #import "DeCodewaveTiMediacontrolsView.h"
+#import "DeCodewaveTiMediacontrolsNowPlayingInfoProxy.h"
 
 @implementation DeCodewaveTiMediacontrolsModule
 
@@ -67,14 +69,8 @@
 
 #pragma mark Public API
 
--(void)setNowPlaying:(id)info
-{
-	ENSURE_SINGLE_ARG(info,NSDictionary);
-    [[MPNowPlayingInfoCenter defaultCenter] setNowPlayingInfo:info];
-}
-
--(void)clearNowPlaying:(id)ignore
-{
+-(void)clearNowPlaying:(id)args {
+    NSLog(@"Clearing \"now playing\" information.")
     [[MPNowPlayingInfoCenter defaultCenter] setNowPlayingInfo:nil];
 }
 

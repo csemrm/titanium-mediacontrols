@@ -2,7 +2,7 @@
 # this is your module manifest and used by Titanium
 # during compilation, packaging, distribution, etc.
 #
-version: 2.1
+version: 3.0
 apiversion: 2
 description: Simple module for creating an invisible view which receives remote control events. This is useful for background audio playback. Please note that this module does not enable your application to play audio in the background. It just enables your application to receive the remote control events. Also allows you to set the "now playing" information on the lock screen.
 

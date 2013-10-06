@@ -37,10 +37,12 @@ supports the following events:
 </ul>
 </p>
 
-<h3>MediaControls.setNowPlaying({...})</h3>
+<h3>MediaControls.createNowPlayingInfo({...})</h3>
 
-<p>Sets the now playing information. All keys from the MPMediaItem class with their types are allowed. The following ones
-are probably most useful:
+<p>
+Creates a now playing information object. The following properties are supported.
+</p>
+<p>
 <table>
 <tr><td>title</td><td>Track title (string)</td></tr>
 <tr><td>albumTitle</td><td>Album title (string)</td></tr>
@@ -53,7 +55,17 @@ are probably most useful:
 <tr><td>albumTrackCount</td><td>Total track count (numeric)</td></tr>
 <tr><td>discNumber</td><td>Disc number (numeric)</td></tr>
 <tr><td>discCount</td><td>Total disc count (numeric)</td></tr>
+<tr><td>artwork</td><td>Album artwork (URI, TiFile, TiBlob)</td></tr>
 </table>
+</p>
+<p>
+If you are using URIs please note that currently only images already in the Titanium image loader cache can
+be used, i.e. the remote image should have been requested before. Using local files or blobs
+is always safe.
+</p>
+<p>
+After setting all necessary properties you simply call setNowPlaying() on the previously
+created "NowPlayingInfo" instance to actually set the now playing information on the device.
 </p>
 
 <h3>MediaControls.clearNowPlaying()</h3>
@@ -73,7 +85,7 @@ view.addEventListener("remoteControlTogglePlayPause", function() {
 <p>Simple example for setting "now playing" info:</p>
 
 <pre>var MediaControls = require("de.codewave.ti.mediacontrols");
-MediaControls.setNowPlaying({
+var info = MediaControls.createNowPlayingInfo({
 	"title" : "Hells Bells",
 	"album" ; "Best of Rock",
 	"artist" : "AC/DC",
@@ -83,7 +95,8 @@ MediaControls.setNowPlaying({
 	"albumTrackCount" : 14,
 	"discNumber" : 1,
 	"discCount" : 2
-});</pre>
+});
+info.setNowPlaying();</pre>
 
 <p>For a working sample app please see the included "app.js" file. Read the comment
 in the file for short documentation of how to use it.</p>
