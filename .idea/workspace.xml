@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" readonly="true" id="b17391e8-4693-49d2-8148-be9610f52025" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CHANGELOG.txt" afterPath="$PROJECT_DIR$/CHANGELOG.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="MediaControls.iws" />
@@ -604,7 +603,7 @@
     <file path="$PROJECT_DIR$/../MyTunesRSS/build/iphone/Classes/ASI/ASICacheDelegate.h" changelist="b17391e8-4693-49d2-8148-be9610f52025" time="1364466061753" ignored="false" />
     <file path="$PROJECT_DIR$/../MyTunesRSS/build/iphone/main.m" changelist="b17391e8-4693-49d2-8148-be9610f52025" time="1364466061751" ignored="false" />
     <file path="/a.dummy" changelist="b17391e8-4693-49d2-8148-be9610f52025" time="1364463067136" ignored="false" />
-    <file path="/Dummy.txt" changelist="b17391e8-4693-49d2-8148-be9610f52025" time="1381080021768" ignored="false" />
+    <file path="/Dummy.txt" changelist="b17391e8-4693-49d2-8148-be9610f52025" time="1381080093280" ignored="false" />
     <file path="$PROJECT_DIR$/build/MediaControls.build/Release-iphoneos/MediaControls.build/MediaControls.dep" changelist="b17391e8-4693-49d2-8148-be9610f52025" time="1364468037578" ignored="false" />
     <file path="$PROJECT_DIR$/build/MediaControls.build/Release-iphoneos/MediaControls.build/build-state.dat" changelist="b17391e8-4693-49d2-8148-be9610f52025" time="1364468037578" ignored="false" />
     <file path="$PROJECT_DIR$/build/MediaControls.build/Release-iphonesimulator/MediaControls.build/Objects-normal/i386/DeCodewaveTiMediacontrolsView.d" changelist="b17391e8-4693-49d2-8148-be9610f52025" time="1364468037578" ignored="false" />
@@ -650,71 +649,7 @@
     <favorites_list name="MediaControls" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="DeCodewaveTiMediacontrolsModule.m" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Classes/DeCodewaveTiMediacontrolsModule.m">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="71" column="31" selection-start="1789" selection-end="1820" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DeCodewaveTiMediacontrolsModule.h" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Classes/DeCodewaveTiMediacontrolsModule.h">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="32" selection-start="109" selection-end="109" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DeCodewaveTiMediacontrolsNowPlayingInfoProxy.h" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Classes/DeCodewaveTiMediacontrolsNowPlayingInfoProxy.h">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="0" selection-start="125" selection-end="125" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CHANGELOG.txt" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/CHANGELOG.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="81" selection-start="183" selection-end="183" vertical-scroll-proportion="0.011574074">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/documentation/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="69" column="0" selection-start="2614" selection-end="2614" vertical-scroll-proportion="-33.083332">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="app.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/documentation/app.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="42" column="23" selection-start="1928" selection-end="1928" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DeCodewaveTiMediacontrolsNowPlayingInfoProxy.m" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Classes/DeCodewaveTiMediacontrolsNowPlayingInfoProxy.m">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="0" selection-start="160" selection-end="160" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FindManager">
     <FindUsagesManager>
@@ -973,18 +908,22 @@
       <created>1381080024132</created>
       <updated>1381080024132</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Better now playing info support. Artwork can be set now as well.">
+      <created>1381080097102</created>
+      <updated>1381080097102</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="70" y="22" width="2490" height="1418" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32874617" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24969599" sideWeight="0.6003017" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24929063" sideWeight="0.6003017" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24929063" sideWeight="0.6003017" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39969835" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -1137,21 +1076,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Classes/DeCodewaveTiMediacontrolsNowPlayingInfoProxy.m">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="0" selection-start="160" selection-end="160" vertical-scroll-proportion="0.0">
+        <state line="4" column="0" selection-start="160" selection-end="160" vertical-scroll-proportion="0.046296295">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/documentation/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="42" column="23" selection-start="1928" selection-end="1928" vertical-scroll-proportion="0.0">
+        <state line="42" column="23" selection-start="1928" selection-end="1928" vertical-scroll-proportion="0.4861111">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/documentation/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="69" column="0" selection-start="2614" selection-end="2614" vertical-scroll-proportion="-33.083332">
+        <state line="69" column="0" selection-start="2614" selection-end="2614" vertical-scroll-proportion="0.6242138">
           <folding />
         </state>
       </provider>
