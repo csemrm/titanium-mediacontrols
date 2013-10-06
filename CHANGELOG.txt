@@ -1,3 +1,6 @@
+Version 3.0		API for setting the "now playing" information has been refactored. Only a certain set of
+                properties can be used. Setting artwork is supported now as well.
+
 Version 2.0		API for setting/clearing the "now playing" information.
 
 Version 1.0		Initial Version.

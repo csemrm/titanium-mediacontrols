@@ -2,14 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" readonly="true" id="b17391e8-4693-49d2-8148-be9610f52025" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Classes/DeCodewaveTiMediacontrolsNowPlayingInfoProxy.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Classes/DeCodewaveTiMediacontrolsNowPlayingInfoProxy.m" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Classes/DeCodewaveTiMediacontrolsModule.h" afterPath="$PROJECT_DIR$/Classes/DeCodewaveTiMediacontrolsModule.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Classes/DeCodewaveTiMediacontrolsModule.m" afterPath="$PROJECT_DIR$/Classes/DeCodewaveTiMediacontrolsModule.m" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/documentation/app.js" afterPath="$PROJECT_DIR$/documentation/app.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/documentation/index.html" afterPath="$PROJECT_DIR$/documentation/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/manifest" afterPath="$PROJECT_DIR$/manifest" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MediaControls.xcodeproj/project.pbxproj" afterPath="$PROJECT_DIR$/MediaControls.xcodeproj/project.pbxproj" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CHANGELOG.txt" afterPath="$PROJECT_DIR$/CHANGELOG.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="MediaControls.iws" />
@@ -611,7 +604,7 @@
     <file path="$PROJECT_DIR$/../MyTunesRSS/build/iphone/Classes/ASI/ASICacheDelegate.h" changelist="b17391e8-4693-49d2-8148-be9610f52025" time="1364466061753" ignored="false" />
     <file path="$PROJECT_DIR$/../MyTunesRSS/build/iphone/main.m" changelist="b17391e8-4693-49d2-8148-be9610f52025" time="1364466061751" ignored="false" />
     <file path="/a.dummy" changelist="b17391e8-4693-49d2-8148-be9610f52025" time="1364463067136" ignored="false" />
-    <file path="/Dummy.txt" changelist="b17391e8-4693-49d2-8148-be9610f52025" time="1364468014175" ignored="false" />
+    <file path="/Dummy.txt" changelist="b17391e8-4693-49d2-8148-be9610f52025" time="1381080021768" ignored="false" />
     <file path="$PROJECT_DIR$/build/MediaControls.build/Release-iphoneos/MediaControls.build/MediaControls.dep" changelist="b17391e8-4693-49d2-8148-be9610f52025" time="1364468037578" ignored="false" />
     <file path="$PROJECT_DIR$/build/MediaControls.build/Release-iphoneos/MediaControls.build/build-state.dat" changelist="b17391e8-4693-49d2-8148-be9610f52025" time="1364468037578" ignored="false" />
     <file path="$PROJECT_DIR$/build/MediaControls.build/Release-iphonesimulator/MediaControls.build/Objects-normal/i386/DeCodewaveTiMediacontrolsView.d" changelist="b17391e8-4693-49d2-8148-be9610f52025" time="1364468037578" ignored="false" />
@@ -634,6 +627,7 @@
     <file path="/index.html" changelist="b17391e8-4693-49d2-8148-be9610f52025" time="1381079973053" ignored="false" />
     <file path="/DeCodewaveTiMediacontrolsNowPlayingInfoProxy.h" changelist="b17391e8-4693-49d2-8148-be9610f52025" time="1381071738115" ignored="false" />
     <file path="/fragment.m" changelist="b17391e8-4693-49d2-8148-be9610f52025" time="1381076255085" ignored="false" />
+    <file path="/CHANGELOG.txt" changelist="b17391e8-4693-49d2-8148-be9610f52025" time="1381080080353" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -684,10 +678,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="CHANGELOG.txt" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/CHANGELOG.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="1" column="81" selection-start="183" selection-end="183" vertical-scroll-proportion="0.011574074">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/documentation/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="69" column="0" selection-start="2614" selection-end="2614" vertical-scroll-proportion="0.6232339">
+            <state line="69" column="0" selection-start="2614" selection-end="2614" vertical-scroll-proportion="-33.083332">
               <folding />
             </state>
           </provider>
@@ -721,7 +724,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/DeCodewaveTiMediacontrolsViewProxy.h" />
         <option value="$PROJECT_DIR$/DeCodewaveTiMediacontrolsViewProxy.m" />
         <option value="$PROJECT_DIR$/DeCodewaveTiMediacontrolsView.m" />
         <option value="$PROJECT_DIR$/Classes/DeCodewaveTiMediacontrolsView.m" />
@@ -737,6 +739,7 @@
         <option value="$PROJECT_DIR$/Classes/DeCodewaveTiMediacontrolsNowPlayingInfoProxy.m" />
         <option value="$PROJECT_DIR$/documentation/app.js" />
         <option value="$PROJECT_DIR$/documentation/index.html" />
+        <option value="$PROJECT_DIR$/CHANGELOG.txt" />
       </list>
     </option>
   </component>
@@ -966,13 +969,18 @@
       <created>1364468016102</created>
       <updated>1364468016102</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Better now playing info support. Artwork can be set now as well.">
+      <created>1381080024132</created>
+      <updated>1381080024132</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="70" y="22" width="2490" height="1418" extended-state="6" />
     <editor active="true" />
     <layout>
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32874617" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24969599" sideWeight="0.6003017" order="1" side_tool="false" content_ui="tabs" />
@@ -986,7 +994,6 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32874617" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -1034,7 +1041,7 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="removed logging" />
+    <option name="LAST_COMMIT_MESSAGE" value="Better now playing info support. Artwork can be set now as well." />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -1050,6 +1057,7 @@
     <option name="FILE_HISTORY_SPLITTER_PROPORTION" value="0.6" />
     <MESSAGE value="svn ignores" />
     <MESSAGE value="removed logging" />
+    <MESSAGE value="Better now playing info support. Artwork can be set now as well." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1057,13 +1065,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/include/objc/NSObject.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="38" column="6" selection-start="874" selection-end="874" vertical-scroll-proportion="0.33281973">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSValue.h">
       <provider selected="true" editor-type-id="text-editor">
         <state line="35" column="0" selection-start="809" selection-end="809" vertical-scroll-proportion="0.0" />
@@ -1150,7 +1151,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/documentation/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="69" column="0" selection-start="2614" selection-end="2614" vertical-scroll-proportion="0.6232339">
+        <state line="69" column="0" selection-start="2614" selection-end="2614" vertical-scroll-proportion="-33.083332">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CHANGELOG.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="81" selection-start="183" selection-end="183" vertical-scroll-proportion="0.011574074">
           <folding />
         </state>
       </provider>
