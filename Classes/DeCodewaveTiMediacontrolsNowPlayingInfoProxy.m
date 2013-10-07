@@ -18,6 +18,8 @@
     NSNumber *albumTrackNumber = [TiUtils numberFromObject:[self valueForUndefinedKey:MPMediaItemPropertyAlbumTrackNumber]];
     NSNumber *albumTrackCount = [TiUtils numberFromObject:[self valueForUndefinedKey:MPMediaItemPropertyAlbumTrackCount]];
     NSNumber *playbackDuration = [TiUtils numberFromObject:[self valueForUndefinedKey:MPMediaItemPropertyPlaybackDuration]];
+    NSNumber *elapsedPlaybackTime = [TiUtils numberFromObject:[self valueForUndefinedKey:MPNowPlayingInfoPropertyElapsedPlaybackTime]];
+    NSNumber *playbackRate = [TiUtils numberFromObject:[self valueForUndefinedKey:MPNowPlayingInfoPropertyPlaybackRate]];
     id artworkPropValue = [self valueForUndefinedKey:MPMediaItemPropertyArtwork];
     UIImage *artwork = [TiUtils toImage:artworkPropValue proxy:self];
     NSMutableDictionary *nowPlayingInfo = [[[NSMutableDictionary alloc] init] autorelease];
@@ -65,6 +67,14 @@
         NSLog(@"Now playing \"playbackDuration\" = \"%@\".", playbackDuration);
         [nowPlayingInfo setObject:playbackDuration forKey:MPMediaItemPropertyPlaybackDuration];
     }
+    if (elapsedPlaybackTime != nil) {
+        NSLog(@"Now playing \"elapsedPlaybackTime\" = \"%@\".", elapsedPlaybackTime);
+        [nowPlayingInfo setObject:elapsedPlaybackTime forKey:MPNowPlayingInfoPropertyElapsedPlaybackTime];
+    }
+    if (playbackRate != nil) {
+        NSLog(@"Now playing \"playbackRate\" = \"%@\".", playbackRate);
+        [nowPlayingInfo setObject:playbackRate forKey:MPNowPlayingInfoPropertyPlaybackRate];
+    }
     if (artwork != nil) {
         NSLog(@"Now playing \"artwork\" image created from \"%@\".", artworkPropValue);
         MPMediaItemArtwork *mediaItemArtwork = [[[MPMediaItemArtwork alloc] initWithImage:artwork] autorelease];
@@ -75,4 +85,23 @@
     [[MPNowPlayingInfoCenter defaultCenter] setNowPlayingInfo:nowPlayingInfo];
 }
 
+-(NSMutableDicationary *)getMutableDictionary:(void) {
+    NSDictionary *immutableNowPlayingInfo = [MPNowPlayingInfoCenter defaultCenter] getNowPlayingInfo();
+    return immutableNowPlayingInfo != nil ? [immutableNowPlayingInfo mutableCopy] : [[[NSMutableDictionary alloc] init] autorelease];
+}
+
+-(void)updatePlaybackProgress:(id)args {
+    NSMutableDicationary *nowPlayingInfo = getMutableDictionary();
+    if (elapsedPlaybackTime != nil) {
+        NSLog(@"Now playing \"elapsedPlaybackTime\" = \"%@\".", elapsedPlaybackTime);
+        [nowPlayingInfo setObject:elapsedPlaybackTime forKey:MPNowPlayingInfoPropertyElapsedPlaybackTime];
+    }
+    if (playbackRate != nil) {
+        NSLog(@"Now playing \"playbackRate\" = \"%@\".", playbackRate);
+        [nowPlayingInfo setObject:playbackRate forKey:MPNowPlayingInfoPropertyPlaybackRate];
+    }
+    [[MPNowPlayingInfoCenter defaultCenter] setNowPlayingInfo:nowPlayingInfo];
+}
+
 @end
+
