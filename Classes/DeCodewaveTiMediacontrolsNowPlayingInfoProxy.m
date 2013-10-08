@@ -192,7 +192,19 @@
         [[self getDict] setObject:[[[MPMediaItemArtwork alloc] initWithImage:image] autorelease] forKey:MPMediaItemPropertyArtwork];
         [[MPNowPlayingInfoCenter defaultCenter] setNowPlayingInfo:[self getDict]];
     } else {
-        NSLog(@"Now playing \"artwork\" image could not be created from \"%@\".", artwork);
+        dispatch_queue_t loader = dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0);
+        NSLog(@"Trying to load now playing \"artwork\" image from \"%@\" asynchronously.", artwork);
+        dispatch_async(loader, ^{
+            NSURL *imageUrl = [TiUtils toURL:artwork proxy:self];
+            UIImage *image = [UIImage imageWithData:[NSData dataWithContentsOfURL:imageUrl]];
+            if (image != nil) {
+                NSLog(@"Now playing \"artwork\" image created from \"%@\".", artwork);
+                [[self getDict] setObject:[[[MPMediaItemArtwork alloc] initWithImage:image] autorelease] forKey:MPMediaItemPropertyArtwork];
+                [[MPNowPlayingInfoCenter defaultCenter] setNowPlayingInfo:[self getDict]];
+            } else {
+                NSLog(@"Now playing \"artwork\" image could not be created from \"%@\".", artwork);
+            }
+        });
     }
 }
 
@@ -212,19 +224,13 @@
     if ([object isKindOfClass:[TiBlob class]]) {
         return [(TiBlob *)object image];
     }
-
     if ([object isKindOfClass:[TiFile class]]) {
         TiFile *file = (TiFile*)object;
         UIImage *image = [UIImage imageWithContentsOfFile:[file path]];
         return image;
     }
-
-    NSURL * urlAttempt = [TiUtils toURL:object proxy:self];
-    UIImage * image = [[ImageLoader sharedLoader] loadImmediateImage:urlAttempt];
-    if (image == nil) {
-        image = [[ImageLoader sharedLoader] loadRemote:urlAttempt];
-    }
-    return image;
+    NSURL *urlAttempt = [TiUtils toURL:object proxy:self];
+    return [[ImageLoader sharedLoader] loadImmediateImage:urlAttempt];
 }
 
 @end
