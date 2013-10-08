@@ -37,40 +37,51 @@ supports the following events:
 </ul>
 </p>
 
-<h3>MediaControls.createNowPlayingInfo({...})</h3>
+<h3>MediaControls.createNowPlayingInfo()</h3>
 
 <p>
-Creates a now playing information object. The following properties are supported.
+Creates a now playing information object. The following methods on the object set the now playing information
+on the device. The object keeps the state of all information set. Each set-call sets all previously set
+values again since the native iOS method only supports setting all information in a single call. You can
+clear the string values or the artwork by setting it to an empty string. You can clear all fields at once
+with the clear-method. Creating a new object or destroying the current object does not change anything in
+the already set information on the device. You have to call the clear-method to remove all now playing information
+from the device.
+</p>
+<p>
+The "elapsedPlaybackTime" and "playbackRate" are somewhat special as iOS automatically advances the elapsed playback
+time using the playback rate. So if the playback rate it set to "1" (which means normal playback speed) it advances
+the playback position each second. If you set it to "2" for example the position is advanced by 2 seconds every second.
+Since you never know if playback gets delayed, e.g. by buffering pauses if you are streaming, it is probably a good
+idea to set the "elapsedPlaybackTime" every now and then but not every second. If you are implementing an audio player
+you could for example set the "playbackRate" to "0" on pause and to "1" on play/resume.
+</p>
+<p>
+Since the object keeps the state for all other values that have been set before you should set all the static values
+like "title", "albumTitle", "artwork", etc. first and then only update the "elapsedPlaybackTime" and "playbackRate"
+as necessary. Although iOS advances the playback position it does not update the "elapsedPlaybackTime" in this object
+of course. So make sure you always set the "elapsedPlaybackTime" to the current value whenever you have to update
+the "playbackRate". Otherwise the previously set value will be set again.
 </p>
 <p>
 <table>
-<tr><td>title</td><td>Track title (string)</td></tr>
-<tr><td>albumTitle</td><td>Album title (string)</td></tr>
-<tr><td>artist</td><td>Artist name (string)</td></tr>
-<tr><td>albumArtist</td><td>Album artist name (string)</td></tr>
-<tr><td>genre</td><td>Genre (string)</td></tr>
-<tr><td>composer</td><td>Composer name (string)</td></tr>
-<tr><td>playbackDuration</td><td>Playback duration in seconds (numeric)</td></tr>
-<tr><td>albumTrackNumber</td><td>Track number (numeric)</td></tr>
-<tr><td>albumTrackCount</td><td>Total track count (numeric)</td></tr>
-<tr><td>discNumber</td><td>Disc number (numeric)</td></tr>
-<tr><td>discCount</td><td>Total disc count (numeric)</td></tr>
-<tr><td>artwork</td><td>Album artwork (URI, TiFile, TiBlob)</td></tr>
+<tr><td>setTitle</td><td>Track title (set to empty string to clear).</td></tr>
+<tr><td>setAlbumTitle</td><td>Album title (set to empty string to clear).</td></tr>
+<tr><td>setArtist</td><td>Artist name (set to empty string to clear).</td></tr>
+<tr><td>setAlbumArtist</td><td>Album artist name (set to empty string to clear).</td></tr>
+<tr><td>setGenre</td><td>Genre (set to empty string to clear).</td></tr>
+<tr><td>setComposer</td><td>Composer name (set to empty string to clear).</td></tr>
+<tr><td>setPlaybackDuration</td><td>Playback duration in seconds.</td></tr>
+<tr><td>setAlbumTrackNumber</td><td>Track number.</td></tr>
+<tr><td>setAlbumTrackCount</td><td>Total track count.</td></tr>
+<tr><td>setDiscNumber</td><td>Disc number.</td></tr>
+<tr><td>setDiscCount</td><td>Total disc count.</td></tr>
+<tr><td>setArtwork</td><td>Album artwork URI, TiFile or TiBlob  (set to empty string to clear).</td></tr>
+<tr><td>setElapsedPlaybackTime</td><td>The elapsed playback time in seconds.</td></tr>
+<tr><td>setPlaybackRate</td><td>The playback rate (0 = stopped, 1 = normal, 2 = double speed, etc).</td></tr>
+<tr><td>clear</td><td>Clears all now playing information.</td></tr>
 </table>
 </p>
-<p>
-If you are using URIs please note that currently only images already in the Titanium image loader cache can
-be used, i.e. the remote image should have been requested before. Using local files or blobs
-is always safe.
-</p>
-<p>
-After setting all necessary properties you simply call setNowPlaying() on the previously
-created "NowPlayingInfo" instance to actually set the now playing information on the device.
-</p>
-
-<h3>MediaControls.clearNowPlaying()</h3>
-
-<p>Clears the now playing information.</p>
 
 <h2>Usage</h2>
 
@@ -85,18 +96,16 @@ view.addEventListener("remoteControlTogglePlayPause", function() {
 <p>Simple example for setting "now playing" info:</p>
 
 <pre>var MediaControls = require("de.codewave.ti.mediacontrols");
-var info = MediaControls.createNowPlayingInfo({
-	"title" : "Hells Bells",
-	"album" ; "Best of Rock",
-	"artist" : "AC/DC",
-	"albumArtist" : "Various Artists",
-	"playbackDuration" : 235,
-	"albumTrackNumber" : 2,
-	"albumTrackCount" : 14,
-	"discNumber" : 1,
-	"discCount" : 2
-});
-info.setNowPlaying();</pre>
+var info = MediaControls.createNowPlayingInfo();
+info.setTitle("Hells Bells");
+info.setAlbum("Best of Rock");
+info.setArtist("AC/DC");
+info.setAlbumArtist("Various Artists");
+info.setPlaybackDuration(235);
+info.setAlbumTrackNumber(2);
+info.setAlbumTrackCount(14);
+info.setDiscNumber(1);
+info.setDiscCount(2);
 
 <p>For a working sample app please see the included "app.js" file. Read the comment
 in the file for short documentation of how to use it.</p>

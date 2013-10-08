@@ -29,19 +29,19 @@ audioPlayer.addEventListener("change", function(e) {
 // Codewave Media Controls and dummy view
 var mediaControls = require("de.codewave.ti.mediacontrols");
 var mediaControlsView = mediaControls.createView({left:0,top:0,width:0,height:0});
+// Codewave Now Playing Info Proxy
+var nowPlayingInfo = mediaControls.createNowPlayingInfo();
 
 // Event listeners
 mediaControlsView.addEventListener("remoteControlPlay", function() {
 	Titanium.API.info("Remote control 'play'.");
 	audioPlayer.play();
-	var info = mediaControls.createNowPlayingInfo({
-		"title" : "Test Title",
-		"albumTitle" : "Test Album",
-		"artist" : "Test Artist",
-		"albumArtist" : "Test Album Artist"
-	});
-    info.setNowPlaying();
-}); 
+    nowPlayingInfo.setTitle("Test Title");
+    nowPlayingInfo.setAlbumTitle("Test Album");
+    nowPlayingInfo.setArtist("Test Artist");
+    nowPlayingInfo.setAlbumArtist("Test Album Artist");
+    nowPlayingInfo.setArtwork("http://www.codewave.de/images/mytunesrss_3d.png")
+});
 mediaControlsView.addEventListener("remoteControlPause", function() {
 	Titanium.API.info("Remote control 'pause'.");
 	audioPlayer.pause();
@@ -49,7 +49,7 @@ mediaControlsView.addEventListener("remoteControlPause", function() {
 mediaControlsView.addEventListener("remoteControlStop", function() {
 	Titanium.API.info("Remote control 'stop'.");
 	audioPlayer.stop();
-	mediaControls.clearNowPlaying();
+    nowPlayingInfo.clear();
 }); 
 mediaControlsView.addEventListener("remoteControlTogglePlayPause", function() {
 	Titanium.API.info("Remote control 'toggle play/pause'.");

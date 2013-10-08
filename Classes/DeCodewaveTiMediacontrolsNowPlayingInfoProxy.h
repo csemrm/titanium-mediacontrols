@@ -16,7 +16,7 @@
 -(void)setElapsedPlaybackTime:(id)elapsedPlaybackTime;
 -(void)setPlaybackRate:(id)playbackRate;
 -(void)setArtwork:(id)artwork;
--(void)clear;
+-(void)clear:(id)ignore;
 
 @end
 
