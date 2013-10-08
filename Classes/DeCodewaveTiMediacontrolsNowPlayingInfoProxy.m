@@ -1,106 +1,230 @@
 #import <MediaPlayer/MPNowPlayingInfoCenter.h>
 #import <MediaPlayer/MPMediaItem.h>
+#import <ImageLoader.h>
+#import <TiApp.h>
 #import "DeCodewaveTiMediacontrolsNowPlayingInfoProxy.h"
 #import "TiUtils.h"
 
-@implementation DeCodewaveTiMediacontrolsNowPlayingInfoProxy
-
--(void)setNowPlaying:(id)args {
-    NSLog(@"Setting \"now playing\" information");
-    NSString *title = [TiUtils stringValue:[self valueForUndefinedKey:MPMediaItemPropertyTitle]];
-    NSString *albumTitle = [TiUtils stringValue:[self valueForUndefinedKey:MPMediaItemPropertyAlbumTitle]];
-    NSString *artist = [TiUtils stringValue:[self valueForUndefinedKey:MPMediaItemPropertyArtist]];
-    NSString *albumArtist = [TiUtils stringValue:[self valueForUndefinedKey:MPMediaItemPropertyAlbumArtist]];
-    NSString *genre = [TiUtils stringValue:[self valueForUndefinedKey:MPMediaItemPropertyGenre]];
-    NSString *composer = [TiUtils stringValue:[self valueForUndefinedKey:MPMediaItemPropertyComposer]];
-    NSNumber *discNumber = [TiUtils numberFromObject:[self valueForUndefinedKey:MPMediaItemPropertyDiscNumber]];
-    NSNumber *discCount = [TiUtils numberFromObject:[self valueForUndefinedKey:MPMediaItemPropertyDiscCount]];
-    NSNumber *albumTrackNumber = [TiUtils numberFromObject:[self valueForUndefinedKey:MPMediaItemPropertyAlbumTrackNumber]];
-    NSNumber *albumTrackCount = [TiUtils numberFromObject:[self valueForUndefinedKey:MPMediaItemPropertyAlbumTrackCount]];
-    NSNumber *playbackDuration = [TiUtils numberFromObject:[self valueForUndefinedKey:MPMediaItemPropertyPlaybackDuration]];
-    NSNumber *elapsedPlaybackTime = [TiUtils numberFromObject:[self valueForUndefinedKey:MPNowPlayingInfoPropertyElapsedPlaybackTime]];
-    NSNumber *playbackRate = [TiUtils numberFromObject:[self valueForUndefinedKey:MPNowPlayingInfoPropertyPlaybackRate]];
-    id artworkPropValue = [self valueForUndefinedKey:MPMediaItemPropertyArtwork];
-    UIImage *artwork = [TiUtils toImage:artworkPropValue proxy:self];
-    NSMutableDictionary *nowPlayingInfo = [[[NSMutableDictionary alloc] init] autorelease];
-    if (title != nil) {
-        NSLog(@"Now playing \"title\" = \"%@\".", title);
-        [nowPlayingInfo setObject:title forKey:MPMediaItemPropertyTitle];
-    }
-    if (albumTitle != nil) {
-        NSLog(@"Now playing \"albumTitle\" = \"%@\".", albumTitle);
-        [nowPlayingInfo setObject:albumTitle forKey:MPMediaItemPropertyAlbumTitle];
-    }
-    if (artist != nil) {
-        NSLog(@"Now playing \"artist\" = \"%@\".", artist);
-        [nowPlayingInfo setObject:artist forKey:MPMediaItemPropertyArtist];
-    }
-    if (albumArtist != nil) {
-        NSLog(@"Now playing \"albumArtist\" = \"%@\".", albumArtist);
-        [nowPlayingInfo setObject:albumArtist forKey:MPMediaItemPropertyAlbumArtist];
-    }
-    if (genre != nil) {
-        NSLog(@"Now playing \"genre\" = \"%@\".", genre);
-        [nowPlayingInfo setObject:genre forKey:MPMediaItemPropertyGenre];
-    }
-    if (composer != nil) {
-        NSLog(@"Now playing \"composer\" = \"%@\".", composer);
-        [nowPlayingInfo setObject:composer forKey:MPMediaItemPropertyComposer];
-    }
-    if (discNumber != nil) {
-        NSLog(@"Now playing \"discNumber\" = \"%@\".", discNumber);
-        [nowPlayingInfo setObject:discNumber forKey:MPMediaItemPropertyDiscNumber];
-    }
-    if (discCount != nil) {
-        NSLog(@"Now playing \"discCount\" = \"%@\".", discCount);
-        [nowPlayingInfo setObject:discCount forKey:MPMediaItemPropertyDiscCount];
-    }
-    if (albumTrackNumber != nil) {
-        NSLog(@"Now playing \"albumTrackNumber\" = \"%@\".", albumTrackNumber);
-        [nowPlayingInfo setObject:albumTrackNumber forKey:MPMediaItemPropertyAlbumTrackNumber];
-    }
-    if (albumTrackCount != nil) {
-        NSLog(@"Now playing \"albumTrackCount\" = \"%@\".", albumTrackCount);
-        [nowPlayingInfo setObject:albumTrackCount forKey:MPMediaItemPropertyAlbumTrackCount];
-    }
-    if (playbackDuration != nil) {
-        NSLog(@"Now playing \"playbackDuration\" = \"%@\".", playbackDuration);
-        [nowPlayingInfo setObject:playbackDuration forKey:MPMediaItemPropertyPlaybackDuration];
-    }
-    if (elapsedPlaybackTime != nil) {
-        NSLog(@"Now playing \"elapsedPlaybackTime\" = \"%@\".", elapsedPlaybackTime);
-        [nowPlayingInfo setObject:elapsedPlaybackTime forKey:MPNowPlayingInfoPropertyElapsedPlaybackTime];
-    }
-    if (playbackRate != nil) {
-        NSLog(@"Now playing \"playbackRate\" = \"%@\".", playbackRate);
-        [nowPlayingInfo setObject:playbackRate forKey:MPNowPlayingInfoPropertyPlaybackRate];
-    }
-    if (artwork != nil) {
-        NSLog(@"Now playing \"artwork\" image created from \"%@\".", artworkPropValue);
-        MPMediaItemArtwork *mediaItemArtwork = [[[MPMediaItemArtwork alloc] initWithImage:artwork] autorelease];
-        [nowPlayingInfo setObject:mediaItemArtwork forKey:MPMediaItemPropertyArtwork];
-    } else if (artworkPropValue != nil) {
-        NSLog(@"Now playing \"artwork\" image could not be created from \"%@\".", artworkPropValue);
-    }
-    [[MPNowPlayingInfoCenter defaultCenter] setNowPlayingInfo:nowPlayingInfo];
+@implementation DeCodewaveTiMediacontrolsNowPlayingInfoProxy {
+    @private NSMutableDictionary *myDictionary;
 }
 
--(NSMutableDicationary *)getMutableDictionary:(void) {
-    NSDictionary *immutableNowPlayingInfo = [MPNowPlayingInfoCenter defaultCenter] getNowPlayingInfo();
-    return immutableNowPlayingInfo != nil ? [immutableNowPlayingInfo mutableCopy] : [[[NSMutableDictionary alloc] init] autorelease];
+-(NSMutableDictionary *)getDict {
+    if (myDictionary == nil) {
+        myDictionary = [[NSMutableDictionary alloc] init];
+    }
+    return myDictionary;
 }
 
--(void)updatePlaybackProgress:(id)args {
-    NSMutableDicationary *nowPlayingInfo = getMutableDictionary();
-    if (elapsedPlaybackTime != nil) {
-        NSLog(@"Now playing \"elapsedPlaybackTime\" = \"%@\".", elapsedPlaybackTime);
-        [nowPlayingInfo setObject:elapsedPlaybackTime forKey:MPNowPlayingInfoPropertyElapsedPlaybackTime];
+-(void)setTitle:(id)title {
+    ENSURE_SINGLE_ARG(title, NSString);
+    NSLog(@"Now playing \"title\" = \"%@\".", title);
+    [[self getDict] setObject:title forKey:MPMediaItemPropertyTitle];
+    [[MPNowPlayingInfoCenter defaultCenter] setNowPlayingInfo:[self getDict]];
+}
+
+-(void)clearTitle:(id)args {
+    NSLog(@"Clearing now playing \"title\".");
+    [[self getDict] removeObjectForKey:MPMediaItemPropertyTitle];
+    [[MPNowPlayingInfoCenter defaultCenter] setNowPlayingInfo:[self getDict]];
+}
+
+-(void)setAlbumTitle:(id)albumTitle {
+    ENSURE_SINGLE_ARG(albumTitle, NSString);
+    NSLog(@"Now playing \"albumTitle\" = \"%@\".", albumTitle);
+    [[self getDict] setObject:albumTitle forKey:MPMediaItemPropertyAlbumTitle];
+    [[MPNowPlayingInfoCenter defaultCenter] setNowPlayingInfo:[self getDict]];
+}
+
+-(void)clearAlbumTitle:(id)args {
+    NSLog(@"Clearing now playing \"albumTitle\".");
+    [[self getDict] removeObjectForKey:MPMediaItemPropertyAlbumTitle];
+    [[MPNowPlayingInfoCenter defaultCenter] setNowPlayingInfo:[self getDict]];
+}
+
+-(void)setArtist:(id)artist{
+    ENSURE_SINGLE_ARG(artist, NSString);
+    NSLog(@"Now playing \"artist\" = \"%@\".", artist);
+    [[self getDict] setObject:artist forKey:MPMediaItemPropertyArtist];
+    [[MPNowPlayingInfoCenter defaultCenter] setNowPlayingInfo:[self getDict]];
+}
+
+-(void)clearArtist:(id)args {
+    NSLog(@"Clearing now playing \"artist\".");
+    [[self getDict] removeObjectForKey:MPMediaItemPropertyArtist];
+    [[MPNowPlayingInfoCenter defaultCenter] setNowPlayingInfo:[self getDict]];
+}
+
+-(void)setAlbumArtist:(id)albumArtist{
+    ENSURE_SINGLE_ARG(albumArtist, NSString);
+    NSLog(@"Now playing \"albumArtist\" = \"%@\".", albumArtist);
+    [[self getDict] setObject:albumArtist forKey:MPMediaItemPropertyAlbumArtist];
+    [[MPNowPlayingInfoCenter defaultCenter] setNowPlayingInfo:[self getDict]];
+}
+
+-(void)clearAlbumArtist:(id)args {
+    NSLog(@"Clearing now playing \"albumArtist\".");
+    [[self getDict] removeObjectForKey:MPMediaItemPropertyAlbumArtist];
+    [[MPNowPlayingInfoCenter defaultCenter] setNowPlayingInfo:[self getDict]];
+}
+
+-(void)setGenre:(id)genre{
+    ENSURE_SINGLE_ARG(genre, NSString);
+    NSLog(@"Now playing \"genre\" = \"%@\".", genre);
+    [[self getDict] setObject:genre forKey:MPMediaItemPropertyGenre];
+    [[MPNowPlayingInfoCenter defaultCenter] setNowPlayingInfo:[self getDict]];
+}
+
+-(void)clearGenre:(id)args {
+    NSLog(@"Clearing now playing \"genre\".");
+    [[self getDict] removeObjectForKey:MPMediaItemPropertyGenre];
+    [[MPNowPlayingInfoCenter defaultCenter] setNowPlayingInfo:[self getDict]];
+}
+
+-(void)setComposer:(id)composer{
+    ENSURE_SINGLE_ARG(composer, NSString);
+    NSLog(@"Now playing \"composer\" = \"%@\".", composer);
+    [[self getDict] setObject:composer forKey:MPMediaItemPropertyComposer];
+    [[MPNowPlayingInfoCenter defaultCenter] setNowPlayingInfo:[self getDict]];
+}
+
+-(void)clearComposer:(id)args {
+    NSLog(@"Clearing now playing \"composer\".");
+    [[self getDict] removeObjectForKey:MPMediaItemPropertyComposer];
+    [[MPNowPlayingInfoCenter defaultCenter] setNowPlayingInfo:[self getDict]];
+}
+
+-(void)setDiscNumber:(id)discNumber{
+    ENSURE_SINGLE_ARG(discNumber, NSNumber);
+    NSLog(@"Now playing \"discNumber\" = \"%@\".", discNumber);
+    [[self getDict] setObject:discNumber forKey:MPMediaItemPropertyDiscNumber];
+    [[MPNowPlayingInfoCenter defaultCenter] setNowPlayingInfo:[self getDict]];
+}
+
+-(void)clearDiscNumber:(id)args {
+    NSLog(@"Clearing now playing \"discNumber\".");
+    [[self getDict] removeObjectForKey:MPMediaItemPropertyDiscNumber];
+    [[MPNowPlayingInfoCenter defaultCenter] setNowPlayingInfo:[self getDict]];
+}
+
+-(void)setDiscCount:(id)discCount{
+    ENSURE_SINGLE_ARG(discCount, NSNumber);
+    NSLog(@"Now playing \"discCount\" = \"%@\".", discCount);
+    [[self getDict] setObject:discCount forKey:MPMediaItemPropertyDiscCount];
+    [[MPNowPlayingInfoCenter defaultCenter] setNowPlayingInfo:[self getDict]];
+}
+
+-(void)clearDiscCount:(id)args {
+    NSLog(@"Clearing now playing \"discCount\".");
+    [[self getDict] removeObjectForKey:MPMediaItemPropertyDiscCount];
+    [[MPNowPlayingInfoCenter defaultCenter] setNowPlayingInfo:[self getDict]];
+}
+
+-(void)setAlbumTrackNumber:(id)albumTrackNumber{
+    ENSURE_SINGLE_ARG(albumTrackNumber, NSNumber);
+    NSLog(@"Now playing \"albumTrackNumber\" = \"%@\".", albumTrackNumber);
+    [[self getDict] setObject:albumTrackNumber forKey:MPMediaItemPropertyAlbumTrackNumber];
+    [[MPNowPlayingInfoCenter defaultCenter] setNowPlayingInfo:[self getDict]];
+}
+
+-(void)clearAlbumTrackNumber:(id)args {
+    NSLog(@"Clearing now playing \"albumTrackNumber\".");
+    [[self getDict] removeObjectForKey:MPMediaItemPropertyAlbumTrackNumber];
+    [[MPNowPlayingInfoCenter defaultCenter] setNowPlayingInfo:[self getDict]];
+}
+
+-(void)setAlbumTrackCount:(id)albumTrackCount{
+    ENSURE_SINGLE_ARG(albumTrackCount, NSNumber);
+    NSLog(@"Now playing \"albumTrackCount\" = \"%@\".", albumTrackCount);
+    [[self getDict] setObject:albumTrackCount forKey:MPMediaItemPropertyAlbumTrackCount];
+    [[MPNowPlayingInfoCenter defaultCenter] setNowPlayingInfo:[self getDict]];
+}
+
+-(void)clearAlbumTrackCount:(id)args {
+    NSLog(@"Clearing now playing \"albumTrackCount\".");
+    [[self getDict] removeObjectForKey:MPMediaItemPropertyAlbumTrackCount];
+    [[MPNowPlayingInfoCenter defaultCenter] setNowPlayingInfo:[self getDict]];
+}
+
+-(void)setPlaybackDuration:(id)playbackDuration{
+    ENSURE_SINGLE_ARG(playbackDuration, NSNumber);
+    NSLog(@"Now playing \"playbackDuration\" = \"%@\".", playbackDuration);
+    [[self getDict] setObject:playbackDuration forKey:MPMediaItemPropertyPlaybackDuration];
+    [[MPNowPlayingInfoCenter defaultCenter] setNowPlayingInfo:[self getDict]];
+}
+
+-(void)clearPlaybackDuration:(id)args {
+    NSLog(@"Clearing now playing \"playbackDuration\".");
+    [[self getDict] removeObjectForKey:MPMediaItemPropertyPlaybackDuration];
+    [[MPNowPlayingInfoCenter defaultCenter] setNowPlayingInfo:[self getDict]];
+}
+
+-(void)setElapsedPlaybackTime:(id)elapsedPlaybackTime{
+    ENSURE_SINGLE_ARG(elapsedPlaybackTime, NSNumber);
+    NSLog(@"Now playing \"elapsedPlaybackTime\" = \"%@\".", elapsedPlaybackTime);
+    [[self getDict] setObject:elapsedPlaybackTime forKey:MPNowPlayingInfoPropertyElapsedPlaybackTime];
+    [[MPNowPlayingInfoCenter defaultCenter] setNowPlayingInfo:[self getDict]];
+}
+
+-(void)clearElapsedPlaybackTime:(id)args {
+    NSLog(@"Clearing now playing \"elapsedPlaybackTime\".");
+    [[self getDict] removeObjectForKey:MPNowPlayingInfoPropertyElapsedPlaybackTime];
+    [[MPNowPlayingInfoCenter defaultCenter] setNowPlayingInfo:[self getDict]];
+}
+
+-(void)setPlaybackRate:(id)playbackRate{
+    ENSURE_SINGLE_ARG(playbackRate, NSNumber);
+    NSLog(@"Now playing \"playbackRate\" = \"%@\".", playbackRate);
+    [[self getDict] setObject:playbackRate forKey:MPNowPlayingInfoPropertyPlaybackRate];
+    [[MPNowPlayingInfoCenter defaultCenter] setNowPlayingInfo:[self getDict]];
+}
+
+-(void)clearPlaybackRate:(id)args {
+    NSLog(@"Clearing now playing \"playbackRate\".");
+    [[self getDict] removeObjectForKey:MPNowPlayingInfoPropertyPlaybackRate];
+    [[MPNowPlayingInfoCenter defaultCenter] setNowPlayingInfo:[self getDict]];
+}
+
+-(void)setArtwork:(id)artwork{
+    UIImage *image = [self toImage:artwork];
+    if (image != nil) {
+        NSLog(@"Now playing \"artwork\" image created from \"%@\".", artwork);
+        [[self getDict] setObject:[[[MPMediaItemArtwork alloc] initWithImage:image] autorelease] forKey:MPMediaItemPropertyArtwork];
+        [[MPNowPlayingInfoCenter defaultCenter] setNowPlayingInfo:[self getDict]];
+    } else {
+        NSLog(@"Now playing \"artwork\" image could not be created from \"%@\".", artwork);
     }
-    if (playbackRate != nil) {
-        NSLog(@"Now playing \"playbackRate\" = \"%@\".", playbackRate);
-        [nowPlayingInfo setObject:playbackRate forKey:MPNowPlayingInfoPropertyPlaybackRate];
+}
+
+-(void)clearArtwork:(id)args {
+    NSLog(@"Clearing now playing \"artwork\".");
+    [[self getDict] removeObjectForKey:MPMediaItemPropertyArtwork];
+    [[MPNowPlayingInfoCenter defaultCenter] setNowPlayingInfo:[self getDict]];
+}
+
+-(void)clear:(id)args {
+    NSLog(@"Clearing all now playing properties.");
+    myDictionary = nil;
+    [[MPNowPlayingInfoCenter defaultCenter] setNowPlayingInfo:nil];
+}
+
+-(UIImage*)toImage:(id)object {
+    if ([object isKindOfClass:[TiBlob class]]) {
+        return [(TiBlob *)object image];
     }
-    [[MPNowPlayingInfoCenter defaultCenter] setNowPlayingInfo:nowPlayingInfo];
+
+    if ([object isKindOfClass:[TiFile class]]) {
+        TiFile *file = (TiFile*)object;
+        UIImage *image = [UIImage imageWithContentsOfFile:[file path]];
+        return image;
+    }
+
+    NSURL * urlAttempt = [TiUtils toURL:object proxy:self];
+    UIImage * image = [[ImageLoader sharedLoader] loadImmediateImage:urlAttempt];
+    if (image == nil) {
+        image = [[ImageLoader sharedLoader] loadRemote:urlAttempt];
+    }
+    return image;
 }
 
 @end

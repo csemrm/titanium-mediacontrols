@@ -2,6 +2,4 @@
 
 @interface DeCodewaveTiMediacontrolsModule : TiModule
 
--(void)clearNowPlaying:(id)args;
-
 @end

@@ -1,7 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BookmarkManager">
+    <bookmark url="file://$USER_HOME$/Library/Application Support/Titanium/mobilesdk/osx/3.1.3.MYTUNESRSS/iphone/include/ASI/ASIHTTPRequest.h" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" readonly="true" id="b17391e8-4693-49d2-8148-be9610f52025" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CHANGELOG.txt" afterPath="$PROJECT_DIR$/CHANGELOG.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Classes/DeCodewaveTiMediacontrolsModule.h" afterPath="$PROJECT_DIR$/Classes/DeCodewaveTiMediacontrolsModule.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Classes/DeCodewaveTiMediacontrolsModule.m" afterPath="$PROJECT_DIR$/Classes/DeCodewaveTiMediacontrolsModule.m" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Classes/DeCodewaveTiMediacontrolsNowPlayingInfoProxy.h" afterPath="$PROJECT_DIR$/Classes/DeCodewaveTiMediacontrolsNowPlayingInfoProxy.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Classes/DeCodewaveTiMediacontrolsNowPlayingInfoProxy.m" afterPath="$PROJECT_DIR$/Classes/DeCodewaveTiMediacontrolsNowPlayingInfoProxy.m" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/manifest" afterPath="$PROJECT_DIR$/manifest" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MediaControls.xcodeproj/project.pbxproj" afterPath="$PROJECT_DIR$/MediaControls.xcodeproj/project.pbxproj" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="MediaControls.iws" />
@@ -15,7 +25,7 @@
     <file path="$PROJECT_DIR$/../MyTunesRSS/build/iphone/module.xcconfig" changelist="b17391e8-4693-49d2-8148-be9610f52025" time="1364466061751" ignored="false" />
     <file path="$PROJECT_DIR$/../MyTunesRSS/build/iphone/MyTunesRSS_Prefix.pch" changelist="b17391e8-4693-49d2-8148-be9610f52025" time="1364466061751" ignored="false" />
     <file path="$PROJECT_DIR$/../MyTunesRSS/build/iphone/project.xcconfig" changelist="b17391e8-4693-49d2-8148-be9610f52025" time="1364466061751" ignored="false" />
-    <file path="$PROJECT_DIR$/../MyTunesRSS/build/iphone/Classes/TiBindingRunLoop.h" changelist="b17391e8-4693-49d2-8148-be9610f52025" time="1364466061751" ignored="false" />
+    <file path="$PROJECT_DIR$/../MyTunesRSS/build/iphone/Classes/TiBindingRunLoop.h" changelist="b17391e8-4693-49d2-8148-be9610f52025" time="1381178074786" ignored="false" />
     <file path="$PROJECT_DIR$/../MyTunesRSS/build/iphone/Classes/TiBindingRunLoop.m" changelist="b17391e8-4693-49d2-8148-be9610f52025" time="1364466061751" ignored="false" />
     <file path="$PROJECT_DIR$/../MyTunesRSS/build/iphone/Classes/TiBindingEvent.h" changelist="b17391e8-4693-49d2-8148-be9610f52025" time="1364466061751" ignored="false" />
     <file path="$PROJECT_DIR$/../MyTunesRSS/build/iphone/Classes/TiBindingEvent.m" changelist="b17391e8-4693-49d2-8148-be9610f52025" time="1364466061751" ignored="false" />
@@ -31,8 +41,8 @@
     <file path="$PROJECT_DIR$/../MyTunesRSS/build/iphone/Classes/TiBindingTiValue.m" changelist="b17391e8-4693-49d2-8148-be9610f52025" time="1364466061751" ignored="false" />
     <file path="$PROJECT_DIR$/../MyTunesRSS/build/iphone/Classes/TiMediaVideoPlayer.h" changelist="b17391e8-4693-49d2-8148-be9610f52025" time="1364466061751" ignored="false" />
     <file path="$PROJECT_DIR$/../MyTunesRSS/build/iphone/Classes/TiMediaVideoPlayer.m" changelist="b17391e8-4693-49d2-8148-be9610f52025" time="1364466061751" ignored="false" />
-    <file path="$PROJECT_DIR$/../MyTunesRSS/build/iphone/Classes/defines.h" changelist="b17391e8-4693-49d2-8148-be9610f52025" time="1364466300261" ignored="false" />
-    <file path="$PROJECT_DIR$/../MyTunesRSS/build/iphone/Classes/TiDebugger.h" changelist="b17391e8-4693-49d2-8148-be9610f52025" time="1364466061751" ignored="false" />
+    <file path="$PROJECT_DIR$/../MyTunesRSS/build/iphone/Classes/defines.h" changelist="b17391e8-4693-49d2-8148-be9610f52025" time="1381177490838" ignored="false" />
+    <file path="$PROJECT_DIR$/../MyTunesRSS/build/iphone/Classes/TiDebugger.h" changelist="b17391e8-4693-49d2-8148-be9610f52025" time="1381178074786" ignored="false" />
     <file path="$PROJECT_DIR$/../MyTunesRSS/build/iphone/Classes/AsyncSocket.h" changelist="b17391e8-4693-49d2-8148-be9610f52025" time="1364466061751" ignored="false" />
     <file path="$PROJECT_DIR$/../MyTunesRSS/build/iphone/Classes/AsyncSocket.m" changelist="b17391e8-4693-49d2-8148-be9610f52025" time="1364466061751" ignored="false" />
     <file path="$PROJECT_DIR$/../MyTunesRSS/build/iphone/Classes/AsyncUdpSocket.h" changelist="b17391e8-4693-49d2-8148-be9610f52025" time="1364466061751" ignored="false" />
@@ -136,22 +146,22 @@
     <file path="$PROJECT_DIR$/../MyTunesRSS/build/iphone/Classes/PlausibleDatabase/PLSqliteResultSet.m" changelist="b17391e8-4693-49d2-8148-be9610f52025" time="1364466061752" ignored="false" />
     <file path="$PROJECT_DIR$/../MyTunesRSS/build/iphone/Classes/SBJSON.h" changelist="b17391e8-4693-49d2-8148-be9610f52025" time="1364466061752" ignored="false" />
     <file path="$PROJECT_DIR$/../MyTunesRSS/build/iphone/Classes/SBJSON.m" changelist="b17391e8-4693-49d2-8148-be9610f52025" time="1364466061752" ignored="false" />
-    <file path="$PROJECT_DIR$/../MyTunesRSS/build/iphone/Classes/KrollBridge.h" changelist="b17391e8-4693-49d2-8148-be9610f52025" time="1364466061752" ignored="false" />
+    <file path="$PROJECT_DIR$/../MyTunesRSS/build/iphone/Classes/KrollBridge.h" changelist="b17391e8-4693-49d2-8148-be9610f52025" time="1381178074786" ignored="false" />
     <file path="$PROJECT_DIR$/../MyTunesRSS/build/iphone/Classes/KrollBridge.m" changelist="b17391e8-4693-49d2-8148-be9610f52025" time="1364466061752" ignored="false" />
-    <file path="$PROJECT_DIR$/../MyTunesRSS/build/iphone/Classes/KrollCallback.h" changelist="b17391e8-4693-49d2-8148-be9610f52025" time="1364466061752" ignored="false" />
+    <file path="$PROJECT_DIR$/../MyTunesRSS/build/iphone/Classes/KrollCallback.h" changelist="b17391e8-4693-49d2-8148-be9610f52025" time="1381178074786" ignored="false" />
     <file path="$PROJECT_DIR$/../MyTunesRSS/build/iphone/Classes/KrollCallback.m" changelist="b17391e8-4693-49d2-8148-be9610f52025" time="1364466061752" ignored="false" />
-    <file path="$PROJECT_DIR$/../MyTunesRSS/build/iphone/Classes/KrollContext.h" changelist="b17391e8-4693-49d2-8148-be9610f52025" time="1364466061752" ignored="false" />
-    <file path="$PROJECT_DIR$/../MyTunesRSS/build/iphone/Classes/KrollContext.m" changelist="b17391e8-4693-49d2-8148-be9610f52025" time="1364466061752" ignored="false" />
+    <file path="$PROJECT_DIR$/../MyTunesRSS/build/iphone/Classes/KrollContext.h" changelist="b17391e8-4693-49d2-8148-be9610f52025" time="1381178074786" ignored="false" />
+    <file path="$PROJECT_DIR$/../MyTunesRSS/build/iphone/Classes/KrollContext.m" changelist="b17391e8-4693-49d2-8148-be9610f52025" time="1381178074786" ignored="false" />
     <file path="$PROJECT_DIR$/../MyTunesRSS/build/iphone/Classes/KrollMethod.h" changelist="b17391e8-4693-49d2-8148-be9610f52025" time="1364466061752" ignored="false" />
     <file path="$PROJECT_DIR$/../MyTunesRSS/build/iphone/Classes/KrollMethod.m" changelist="b17391e8-4693-49d2-8148-be9610f52025" time="1364466061752" ignored="false" />
     <file path="$PROJECT_DIR$/../MyTunesRSS/build/iphone/Classes/KrollMethodDelegate.h" changelist="b17391e8-4693-49d2-8148-be9610f52025" time="1364466061752" ignored="false" />
     <file path="$PROJECT_DIR$/../MyTunesRSS/build/iphone/Classes/KrollMethodDelegate.m" changelist="b17391e8-4693-49d2-8148-be9610f52025" time="1364466061752" ignored="false" />
-    <file path="$PROJECT_DIR$/../MyTunesRSS/build/iphone/Classes/KrollObject.h" changelist="b17391e8-4693-49d2-8148-be9610f52025" time="1364466061752" ignored="false" />
+    <file path="$PROJECT_DIR$/../MyTunesRSS/build/iphone/Classes/KrollObject.h" changelist="b17391e8-4693-49d2-8148-be9610f52025" time="1381178074786" ignored="false" />
     <file path="$PROJECT_DIR$/../MyTunesRSS/build/iphone/Classes/KrollObject.m" changelist="b17391e8-4693-49d2-8148-be9610f52025" time="1364466061752" ignored="false" />
     <file path="$PROJECT_DIR$/../MyTunesRSS/build/iphone/Classes/KrollPropertyDelegate.h" changelist="b17391e8-4693-49d2-8148-be9610f52025" time="1364466061752" ignored="false" />
     <file path="$PROJECT_DIR$/../MyTunesRSS/build/iphone/Classes/KrollPropertyDelegate.m" changelist="b17391e8-4693-49d2-8148-be9610f52025" time="1364466061752" ignored="false" />
     <file path="$PROJECT_DIR$/../MyTunesRSS/build/iphone/Classes/KrollTimer.h" changelist="b17391e8-4693-49d2-8148-be9610f52025" time="1364466061752" ignored="false" />
-    <file path="$PROJECT_DIR$/../MyTunesRSS/build/iphone/Classes/KrollTimer.m" changelist="b17391e8-4693-49d2-8148-be9610f52025" time="1364466061752" ignored="false" />
+    <file path="$PROJECT_DIR$/../MyTunesRSS/build/iphone/Classes/KrollTimer.m" changelist="b17391e8-4693-49d2-8148-be9610f52025" time="1381178074786" ignored="false" />
     <file path="$PROJECT_DIR$/../MyTunesRSS/build/iphone/headers/TiCore/Ti.h" changelist="b17391e8-4693-49d2-8148-be9610f52025" time="1364466061752" ignored="false" />
     <file path="$PROJECT_DIR$/../MyTunesRSS/build/iphone/headers/TiCore/TiBase.h" changelist="b17391e8-4693-49d2-8148-be9610f52025" time="1364466061752" ignored="false" />
     <file path="$PROJECT_DIR$/../MyTunesRSS/build/iphone/headers/TiCore/TiContextRef.h" changelist="b17391e8-4693-49d2-8148-be9610f52025" time="1364466061752" ignored="false" />
@@ -165,19 +175,19 @@
     <file path="$PROJECT_DIR$/../MyTunesRSS/build/iphone/Classes/YahooModule.m" changelist="b17391e8-4693-49d2-8148-be9610f52025" time="1364466061752" ignored="false" />
     <file path="$PROJECT_DIR$/../MyTunesRSS/build/iphone/Classes/YahooModule.h" changelist="b17391e8-4693-49d2-8148-be9610f52025" time="1364466061752" ignored="false" />
     <file path="$PROJECT_DIR$/../MyTunesRSS/build/iphone/Classes/XHRBridge.m" changelist="b17391e8-4693-49d2-8148-be9610f52025" time="1364466061752" ignored="false" />
-    <file path="$PROJECT_DIR$/../MyTunesRSS/build/iphone/Classes/XHRBridge.h" changelist="b17391e8-4693-49d2-8148-be9610f52025" time="1364466061752" ignored="false" />
+    <file path="$PROJECT_DIR$/../MyTunesRSS/build/iphone/Classes/XHRBridge.h" changelist="b17391e8-4693-49d2-8148-be9610f52025" time="1381178074786" ignored="false" />
     <file path="$PROJECT_DIR$/../MyTunesRSS/build/iphone/Classes/WebFont.m" changelist="b17391e8-4693-49d2-8148-be9610f52025" time="1364466061752" ignored="false" />
-    <file path="$PROJECT_DIR$/../MyTunesRSS/build/iphone/Classes/WebFont.h" changelist="b17391e8-4693-49d2-8148-be9610f52025" time="1364466061752" ignored="false" />
+    <file path="$PROJECT_DIR$/../MyTunesRSS/build/iphone/Classes/WebFont.h" changelist="b17391e8-4693-49d2-8148-be9610f52025" time="1381178074786" ignored="false" />
     <file path="$PROJECT_DIR$/../MyTunesRSS/build/iphone/Classes/Webcolor.h" changelist="b17391e8-4693-49d2-8148-be9610f52025" time="1364466061752" ignored="false" />
     <file path="$PROJECT_DIR$/../MyTunesRSS/build/iphone/Classes/UIModule.m" changelist="b17391e8-4693-49d2-8148-be9610f52025" time="1364466061752" ignored="false" />
     <file path="$PROJECT_DIR$/../MyTunesRSS/build/iphone/Classes/UIModule.h" changelist="b17391e8-4693-49d2-8148-be9610f52025" time="1364466061752" ignored="false" />
     <file path="$PROJECT_DIR$/../MyTunesRSS/build/iphone/Classes/TiWindowProxy.m" changelist="b17391e8-4693-49d2-8148-be9610f52025" time="1364466061752" ignored="false" />
     <file path="$PROJECT_DIR$/../MyTunesRSS/build/iphone/Classes/TiWindowProxy.h" changelist="b17391e8-4693-49d2-8148-be9610f52025" time="1364466061752" ignored="false" />
     <file path="$PROJECT_DIR$/../MyTunesRSS/build/iphone/Classes/TiViewProxy.m" changelist="b17391e8-4693-49d2-8148-be9610f52025" time="1364466061752" ignored="false" />
-    <file path="$PROJECT_DIR$/../MyTunesRSS/build/iphone/Classes/TiViewProxy.h" changelist="b17391e8-4693-49d2-8148-be9610f52025" time="1364466061752" ignored="false" />
+    <file path="$PROJECT_DIR$/../MyTunesRSS/build/iphone/Classes/TiViewProxy.h" changelist="b17391e8-4693-49d2-8148-be9610f52025" time="1381178074786" ignored="false" />
     <file path="$PROJECT_DIR$/../MyTunesRSS/build/iphone/Classes/TiViewController.m" changelist="b17391e8-4693-49d2-8148-be9610f52025" time="1364466061752" ignored="false" />
     <file path="$PROJECT_DIR$/../MyTunesRSS/build/iphone/Classes/TiViewController.h" changelist="b17391e8-4693-49d2-8148-be9610f52025" time="1364466061752" ignored="false" />
-    <file path="$PROJECT_DIR$/../MyTunesRSS/build/iphone/Classes/TiUtils.h" changelist="b17391e8-4693-49d2-8148-be9610f52025" time="1364466061752" ignored="false" />
+    <file path="$PROJECT_DIR$/../MyTunesRSS/build/iphone/Classes/TiUtils.h" changelist="b17391e8-4693-49d2-8148-be9610f52025" time="1381178074786" ignored="false" />
     <file path="$PROJECT_DIR$/../MyTunesRSS/build/iphone/Classes/TiUIWindowProxy.m" changelist="b17391e8-4693-49d2-8148-be9610f52025" time="1364466061752" ignored="false" />
     <file path="$PROJECT_DIR$/../MyTunesRSS/build/iphone/Classes/TiUIWindowProxy.h" changelist="b17391e8-4693-49d2-8148-be9610f52025" time="1364466061752" ignored="false" />
     <file path="$PROJECT_DIR$/../MyTunesRSS/build/iphone/Classes/TiUIWindow.m" changelist="b17391e8-4693-49d2-8148-be9610f52025" time="1364466061752" ignored="false" />
@@ -187,7 +197,7 @@
     <file path="$PROJECT_DIR$/../MyTunesRSS/build/iphone/Classes/TiUIViewProxy.m" changelist="b17391e8-4693-49d2-8148-be9610f52025" time="1364466061752" ignored="false" />
     <file path="$PROJECT_DIR$/../MyTunesRSS/build/iphone/Classes/TiUIViewProxy.h" changelist="b17391e8-4693-49d2-8148-be9610f52025" time="1364466061752" ignored="false" />
     <file path="$PROJECT_DIR$/../MyTunesRSS/build/iphone/Classes/TiUIView.m" changelist="b17391e8-4693-49d2-8148-be9610f52025" time="1364466061752" ignored="false" />
-    <file path="$PROJECT_DIR$/../MyTunesRSS/build/iphone/Classes/TiUIView.h" changelist="b17391e8-4693-49d2-8148-be9610f52025" time="1364466061752" ignored="false" />
+    <file path="$PROJECT_DIR$/../MyTunesRSS/build/iphone/Classes/TiUIView.h" changelist="b17391e8-4693-49d2-8148-be9610f52025" time="1381178074786" ignored="false" />
     <file path="$PROJECT_DIR$/../MyTunesRSS/build/iphone/Classes/TiUITextFieldProxy.m" changelist="b17391e8-4693-49d2-8148-be9610f52025" time="1364466061752" ignored="false" />
     <file path="$PROJECT_DIR$/../MyTunesRSS/build/iphone/Classes/TiUITextFieldProxy.h" changelist="b17391e8-4693-49d2-8148-be9610f52025" time="1364466061752" ignored="false" />
     <file path="$PROJECT_DIR$/../MyTunesRSS/build/iphone/Classes/TiUITextField.m" changelist="b17391e8-4693-49d2-8148-be9610f52025" time="1364466061752" ignored="false" />
@@ -276,16 +286,16 @@
     <file path="$PROJECT_DIR$/../MyTunesRSS/build/iphone/Classes/TiUIActivityIndicator.h" changelist="b17391e8-4693-49d2-8148-be9610f52025" time="1364466061752" ignored="false" />
     <file path="$PROJECT_DIR$/../MyTunesRSS/build/iphone/Classes/TiTab.h" changelist="b17391e8-4693-49d2-8148-be9610f52025" time="1364466061752" ignored="false" />
     <file path="$PROJECT_DIR$/../MyTunesRSS/build/iphone/Classes/TiRect.m" changelist="b17391e8-4693-49d2-8148-be9610f52025" time="1364466061752" ignored="false" />
-    <file path="$PROJECT_DIR$/../MyTunesRSS/build/iphone/Classes/TiRect.h" changelist="b17391e8-4693-49d2-8148-be9610f52025" time="1364466061752" ignored="false" />
-    <file path="$PROJECT_DIR$/../MyTunesRSS/build/iphone/Classes/TiProxy.h" changelist="b17391e8-4693-49d2-8148-be9610f52025" time="1364466061752" ignored="false" />
+    <file path="$PROJECT_DIR$/../MyTunesRSS/build/iphone/Classes/TiRect.h" changelist="b17391e8-4693-49d2-8148-be9610f52025" time="1381178074786" ignored="false" />
+    <file path="$PROJECT_DIR$/../MyTunesRSS/build/iphone/Classes/TiProxy.h" changelist="b17391e8-4693-49d2-8148-be9610f52025" time="1381178074786" ignored="false" />
     <file path="$PROJECT_DIR$/../MyTunesRSS/build/iphone/Classes/TiPoint.m" changelist="b17391e8-4693-49d2-8148-be9610f52025" time="1364466061752" ignored="false" />
-    <file path="$PROJECT_DIR$/../MyTunesRSS/build/iphone/Classes/TiPoint.h" changelist="b17391e8-4693-49d2-8148-be9610f52025" time="1364466061752" ignored="false" />
+    <file path="$PROJECT_DIR$/../MyTunesRSS/build/iphone/Classes/TiPoint.h" changelist="b17391e8-4693-49d2-8148-be9610f52025" time="1381178074786" ignored="false" />
     <file path="$PROJECT_DIR$/../MyTunesRSS/build/iphone/Classes/TiNetworkHTTPClientResultProxy.m" changelist="b17391e8-4693-49d2-8148-be9610f52025" time="1364466061752" ignored="false" />
     <file path="$PROJECT_DIR$/../MyTunesRSS/build/iphone/Classes/TiNetworkHTTPClientResultProxy.h" changelist="b17391e8-4693-49d2-8148-be9610f52025" time="1364466061752" ignored="false" />
     <file path="$PROJECT_DIR$/../MyTunesRSS/build/iphone/Classes/TiNetworkHTTPClientProxy.m" changelist="b17391e8-4693-49d2-8148-be9610f52025" time="1364466061752" ignored="false" />
     <file path="$PROJECT_DIR$/../MyTunesRSS/build/iphone/Classes/TiNetworkHTTPClientProxy.h" changelist="b17391e8-4693-49d2-8148-be9610f52025" time="1364466061752" ignored="false" />
     <file path="$PROJECT_DIR$/../MyTunesRSS/build/iphone/Classes/TiModule.m" changelist="b17391e8-4693-49d2-8148-be9610f52025" time="1364466061752" ignored="false" />
-    <file path="$PROJECT_DIR$/../MyTunesRSS/build/iphone/Classes/TiModule.h" changelist="b17391e8-4693-49d2-8148-be9610f52025" time="1364466061752" ignored="false" />
+    <file path="$PROJECT_DIR$/../MyTunesRSS/build/iphone/Classes/TiModule.h" changelist="b17391e8-4693-49d2-8148-be9610f52025" time="1381178074786" ignored="false" />
     <file path="$PROJECT_DIR$/../MyTunesRSS/build/iphone/Classes/TiMediaVideoPlayerProxy.m" changelist="b17391e8-4693-49d2-8148-be9610f52025" time="1364466061752" ignored="false" />
     <file path="$PROJECT_DIR$/../MyTunesRSS/build/iphone/Classes/TiMediaVideoPlayerProxy.h" changelist="b17391e8-4693-49d2-8148-be9610f52025" time="1364466061752" ignored="false" />
     <file path="$PROJECT_DIR$/../MyTunesRSS/build/iphone/Classes/TiMediaSoundProxy.m" changelist="b17391e8-4693-49d2-8148-be9610f52025" time="1364466061752" ignored="false" />
@@ -299,12 +309,12 @@
     <file path="$PROJECT_DIR$/../MyTunesRSS/build/iphone/Classes/TiMapAnnotationProxy.m" changelist="b17391e8-4693-49d2-8148-be9610f52025" time="1364466061752" ignored="false" />
     <file path="$PROJECT_DIR$/../MyTunesRSS/build/iphone/Classes/TiMapAnnotationProxy.h" changelist="b17391e8-4693-49d2-8148-be9610f52025" time="1364466061752" ignored="false" />
     <file path="$PROJECT_DIR$/../MyTunesRSS/build/iphone/Classes/TiHost.m" changelist="b17391e8-4693-49d2-8148-be9610f52025" time="1364466061752" ignored="false" />
-    <file path="$PROJECT_DIR$/../MyTunesRSS/build/iphone/Classes/TiHost.h" changelist="b17391e8-4693-49d2-8148-be9610f52025" time="1364466061752" ignored="false" />
+    <file path="$PROJECT_DIR$/../MyTunesRSS/build/iphone/Classes/TiHost.h" changelist="b17391e8-4693-49d2-8148-be9610f52025" time="1381178074786" ignored="false" />
     <file path="$PROJECT_DIR$/../MyTunesRSS/build/iphone/Classes/TiFilesystemFileProxy.m" changelist="b17391e8-4693-49d2-8148-be9610f52025" time="1364466061752" ignored="false" />
     <file path="$PROJECT_DIR$/../MyTunesRSS/build/iphone/Classes/TiFilesystemFileProxy.h" changelist="b17391e8-4693-49d2-8148-be9610f52025" time="1364466061752" ignored="false" />
-    <file path="$PROJECT_DIR$/../MyTunesRSS/build/iphone/Classes/TiEvaluator.h" changelist="b17391e8-4693-49d2-8148-be9610f52025" time="1364466061752" ignored="false" />
+    <file path="$PROJECT_DIR$/../MyTunesRSS/build/iphone/Classes/TiEvaluator.h" changelist="b17391e8-4693-49d2-8148-be9610f52025" time="1381178074786" ignored="false" />
     <file path="$PROJECT_DIR$/../MyTunesRSS/build/iphone/Classes/TiDimension.m" changelist="b17391e8-4693-49d2-8148-be9610f52025" time="1364466061752" ignored="false" />
-    <file path="$PROJECT_DIR$/../MyTunesRSS/build/iphone/Classes/TiDimension.h" changelist="b17391e8-4693-49d2-8148-be9610f52025" time="1364466061752" ignored="false" />
+    <file path="$PROJECT_DIR$/../MyTunesRSS/build/iphone/Classes/TiDimension.h" changelist="b17391e8-4693-49d2-8148-be9610f52025" time="1381178074786" ignored="false" />
     <file path="$PROJECT_DIR$/../MyTunesRSS/build/iphone/Classes/TiDatabaseResultSetProxy.m" changelist="b17391e8-4693-49d2-8148-be9610f52025" time="1364466061752" ignored="false" />
     <file path="$PROJECT_DIR$/../MyTunesRSS/build/iphone/Classes/TiDatabaseResultSetProxy.h" changelist="b17391e8-4693-49d2-8148-be9610f52025" time="1364466061752" ignored="false" />
     <file path="$PROJECT_DIR$/../MyTunesRSS/build/iphone/Classes/TiDatabaseProxy.m" changelist="b17391e8-4693-49d2-8148-be9610f52025" time="1364466061752" ignored="false" />
@@ -315,17 +325,17 @@
     <file path="$PROJECT_DIR$/../MyTunesRSS/build/iphone/Classes/TiComplexValue.m" changelist="b17391e8-4693-49d2-8148-be9610f52025" time="1364466061752" ignored="false" />
     <file path="$PROJECT_DIR$/../MyTunesRSS/build/iphone/Classes/TiComplexValue.h" changelist="b17391e8-4693-49d2-8148-be9610f52025" time="1364466061752" ignored="false" />
     <file path="$PROJECT_DIR$/../MyTunesRSS/build/iphone/Classes/TiColor.m" changelist="b17391e8-4693-49d2-8148-be9610f52025" time="1364466061752" ignored="false" />
-    <file path="$PROJECT_DIR$/../MyTunesRSS/build/iphone/Classes/TiColor.h" changelist="b17391e8-4693-49d2-8148-be9610f52025" time="1364466061752" ignored="false" />
+    <file path="$PROJECT_DIR$/../MyTunesRSS/build/iphone/Classes/TiColor.h" changelist="b17391e8-4693-49d2-8148-be9610f52025" time="1381178074785" ignored="false" />
     <file path="$PROJECT_DIR$/../MyTunesRSS/build/iphone/Classes/TiButtonUtil.m" changelist="b17391e8-4693-49d2-8148-be9610f52025" time="1364466061752" ignored="false" />
     <file path="$PROJECT_DIR$/../MyTunesRSS/build/iphone/Classes/TiButtonUtil.h" changelist="b17391e8-4693-49d2-8148-be9610f52025" time="1364466061752" ignored="false" />
     <file path="$PROJECT_DIR$/../MyTunesRSS/build/iphone/Classes/TiBlob.m" changelist="b17391e8-4693-49d2-8148-be9610f52025" time="1364466061752" ignored="false" />
-    <file path="$PROJECT_DIR$/../MyTunesRSS/build/iphone/Classes/TiBlob.h" changelist="b17391e8-4693-49d2-8148-be9610f52025" time="1364466061752" ignored="false" />
-    <file path="$PROJECT_DIR$/../MyTunesRSS/build/iphone/Classes/TiBase.m" changelist="b17391e8-4693-49d2-8148-be9610f52025" time="1364466061752" ignored="false" />
-    <file path="$PROJECT_DIR$/../MyTunesRSS/build/iphone/Classes/TiBase.h" changelist="b17391e8-4693-49d2-8148-be9610f52025" time="1364466061752" ignored="false" />
+    <file path="$PROJECT_DIR$/../MyTunesRSS/build/iphone/Classes/TiBlob.h" changelist="b17391e8-4693-49d2-8148-be9610f52025" time="1381178074785" ignored="false" />
+    <file path="$PROJECT_DIR$/../MyTunesRSS/build/iphone/Classes/TiBase.m" changelist="b17391e8-4693-49d2-8148-be9610f52025" time="1381178074786" ignored="false" />
+    <file path="$PROJECT_DIR$/../MyTunesRSS/build/iphone/Classes/TiBase.h" changelist="b17391e8-4693-49d2-8148-be9610f52025" time="1381178074786" ignored="false" />
     <file path="$PROJECT_DIR$/../MyTunesRSS/build/iphone/Classes/TiAppPropertiesProxy.m" changelist="b17391e8-4693-49d2-8148-be9610f52025" time="1364466061752" ignored="false" />
     <file path="$PROJECT_DIR$/../MyTunesRSS/build/iphone/Classes/TiAppPropertiesProxy.h" changelist="b17391e8-4693-49d2-8148-be9610f52025" time="1364466061752" ignored="false" />
     <file path="$PROJECT_DIR$/../MyTunesRSS/build/iphone/Classes/TiAnimation.m" changelist="b17391e8-4693-49d2-8148-be9610f52025" time="1364466061752" ignored="false" />
-    <file path="$PROJECT_DIR$/../MyTunesRSS/build/iphone/Classes/TiAnimation.h" changelist="b17391e8-4693-49d2-8148-be9610f52025" time="1364466061752" ignored="false" />
+    <file path="$PROJECT_DIR$/../MyTunesRSS/build/iphone/Classes/TiAnimation.h" changelist="b17391e8-4693-49d2-8148-be9610f52025" time="1381178074786" ignored="false" />
     <file path="$PROJECT_DIR$/../MyTunesRSS/build/iphone/Classes/TiAction.m" changelist="b17391e8-4693-49d2-8148-be9610f52025" time="1364466061752" ignored="false" />
     <file path="$PROJECT_DIR$/../MyTunesRSS/build/iphone/Classes/TiAction.h" changelist="b17391e8-4693-49d2-8148-be9610f52025" time="1364466061752" ignored="false" />
     <file path="$PROJECT_DIR$/../MyTunesRSS/build/iphone/Classes/Ti2DMatrix.m" changelist="b17391e8-4693-49d2-8148-be9610f52025" time="1364466061752" ignored="false" />
@@ -345,7 +355,7 @@
     <file path="$PROJECT_DIR$/../MyTunesRSS/build/iphone/Classes/MapModule.m" changelist="b17391e8-4693-49d2-8148-be9610f52025" time="1364466061752" ignored="false" />
     <file path="$PROJECT_DIR$/../MyTunesRSS/build/iphone/Classes/MapModule.h" changelist="b17391e8-4693-49d2-8148-be9610f52025" time="1364466061752" ignored="false" />
     <file path="$PROJECT_DIR$/../MyTunesRSS/build/iphone/Classes/LayoutConstraint.m" changelist="b17391e8-4693-49d2-8148-be9610f52025" time="1364466061752" ignored="false" />
-    <file path="$PROJECT_DIR$/../MyTunesRSS/build/iphone/Classes/LayoutConstraint.h" changelist="b17391e8-4693-49d2-8148-be9610f52025" time="1364466061752" ignored="false" />
+    <file path="$PROJECT_DIR$/../MyTunesRSS/build/iphone/Classes/LayoutConstraint.h" changelist="b17391e8-4693-49d2-8148-be9610f52025" time="1381178074786" ignored="false" />
     <file path="$PROJECT_DIR$/../MyTunesRSS/build/iphone/Classes/ImageLoader.m" changelist="b17391e8-4693-49d2-8148-be9610f52025" time="1364466061752" ignored="false" />
     <file path="$PROJECT_DIR$/../MyTunesRSS/build/iphone/Classes/GestureModule.m" changelist="b17391e8-4693-49d2-8148-be9610f52025" time="1364466061752" ignored="false" />
     <file path="$PROJECT_DIR$/../MyTunesRSS/build/iphone/Classes/GestureModule.h" changelist="b17391e8-4693-49d2-8148-be9610f52025" time="1364466061752" ignored="false" />
@@ -359,7 +369,7 @@
     <file path="$PROJECT_DIR$/../MyTunesRSS/build/iphone/Classes/TiUITableViewRowProxy.m" changelist="b17391e8-4693-49d2-8148-be9610f52025" time="1364466061752" ignored="false" />
     <file path="$PROJECT_DIR$/../MyTunesRSS/build/iphone/Classes/TiUITableViewRowProxy.h" changelist="b17391e8-4693-49d2-8148-be9610f52025" time="1364466061752" ignored="false" />
     <file path="$PROJECT_DIR$/../MyTunesRSS/build/iphone/Classes/Bridge.m" changelist="b17391e8-4693-49d2-8148-be9610f52025" time="1364466061752" ignored="false" />
-    <file path="$PROJECT_DIR$/../MyTunesRSS/build/iphone/Classes/Bridge.h" changelist="b17391e8-4693-49d2-8148-be9610f52025" time="1364466061752" ignored="false" />
+    <file path="$PROJECT_DIR$/../MyTunesRSS/build/iphone/Classes/Bridge.h" changelist="b17391e8-4693-49d2-8148-be9610f52025" time="1381178074786" ignored="false" />
     <file path="$PROJECT_DIR$/../MyTunesRSS/build/iphone/Classes/AppModule.m" changelist="b17391e8-4693-49d2-8148-be9610f52025" time="1364466061752" ignored="false" />
     <file path="$PROJECT_DIR$/../MyTunesRSS/build/iphone/Classes/AppModule.h" changelist="b17391e8-4693-49d2-8148-be9610f52025" time="1364466061752" ignored="false" />
     <file path="$PROJECT_DIR$/../MyTunesRSS/build/iphone/Classes/APIModule.m" changelist="b17391e8-4693-49d2-8148-be9610f52025" time="1364466061752" ignored="false" />
@@ -417,22 +427,22 @@
     <file path="$PROJECT_DIR$/../MyTunesRSS/build/iphone/Classes/TiMapPinAnnotationView.m" changelist="b17391e8-4693-49d2-8148-be9610f52025" time="1364466061752" ignored="false" />
     <file path="$PROJECT_DIR$/../MyTunesRSS/build/iphone/Classes/TiMapImageAnnotationView.h" changelist="b17391e8-4693-49d2-8148-be9610f52025" time="1364466061752" ignored="false" />
     <file path="$PROJECT_DIR$/../MyTunesRSS/build/iphone/Classes/TiMapImageAnnotationView.m" changelist="b17391e8-4693-49d2-8148-be9610f52025" time="1364466061752" ignored="false" />
-    <file path="$PROJECT_DIR$/../MyTunesRSS/build/iphone/Classes/TiStylesheet.h" changelist="b17391e8-4693-49d2-8148-be9610f52025" time="1364466061752" ignored="false" />
+    <file path="$PROJECT_DIR$/../MyTunesRSS/build/iphone/Classes/TiStylesheet.h" changelist="b17391e8-4693-49d2-8148-be9610f52025" time="1381178074786" ignored="false" />
     <file path="$PROJECT_DIR$/../MyTunesRSS/build/iphone/Classes/TiStylesheet.m" changelist="b17391e8-4693-49d2-8148-be9610f52025" time="1364466061752" ignored="false" />
     <file path="$PROJECT_DIR$/../MyTunesRSS/build/iphone/Classes/TiLocale.h" changelist="b17391e8-4693-49d2-8148-be9610f52025" time="1364466061752" ignored="false" />
     <file path="$PROJECT_DIR$/../MyTunesRSS/build/iphone/Classes/TiLocale.m" changelist="b17391e8-4693-49d2-8148-be9610f52025" time="1364466061752" ignored="false" />
     <file path="$PROJECT_DIR$/../MyTunesRSS/build/iphone/Classes/LocaleModule.m" changelist="b17391e8-4693-49d2-8148-be9610f52025" time="1364466061752" ignored="false" />
     <file path="$PROJECT_DIR$/../MyTunesRSS/build/iphone/Classes/LocaleModule.h" changelist="b17391e8-4693-49d2-8148-be9610f52025" time="1364466061752" ignored="false" />
-    <file path="$PROJECT_DIR$/../MyTunesRSS/build/iphone/Classes/TiFile.h" changelist="b17391e8-4693-49d2-8148-be9610f52025" time="1364466061752" ignored="false" />
+    <file path="$PROJECT_DIR$/../MyTunesRSS/build/iphone/Classes/TiFile.h" changelist="b17391e8-4693-49d2-8148-be9610f52025" time="1381178074786" ignored="false" />
     <file path="$PROJECT_DIR$/../MyTunesRSS/build/iphone/Classes/TiFile.m" changelist="b17391e8-4693-49d2-8148-be9610f52025" time="1364466061752" ignored="false" />
-    <file path="$PROJECT_DIR$/../MyTunesRSS/build/iphone/Classes/ListenerEntry.h" changelist="b17391e8-4693-49d2-8148-be9610f52025" time="1364466061752" ignored="false" />
+    <file path="$PROJECT_DIR$/../MyTunesRSS/build/iphone/Classes/ListenerEntry.h" changelist="b17391e8-4693-49d2-8148-be9610f52025" time="1381178074785" ignored="false" />
     <file path="$PROJECT_DIR$/../MyTunesRSS/build/iphone/Classes/ListenerEntry.m" changelist="b17391e8-4693-49d2-8148-be9610f52025" time="1364466061752" ignored="false" />
     <file path="$PROJECT_DIR$/../MyTunesRSS/build/iphone/Classes/TopTiModule.h" changelist="b17391e8-4693-49d2-8148-be9610f52025" time="1364466061752" ignored="false" />
     <file path="$PROJECT_DIR$/../MyTunesRSS/build/iphone/Classes/TopTiModule.m" changelist="b17391e8-4693-49d2-8148-be9610f52025" time="1364466061752" ignored="false" />
-    <file path="$PROJECT_DIR$/../MyTunesRSS/build/iphone/Classes/TiApp.h" changelist="b17391e8-4693-49d2-8148-be9610f52025" time="1364466061752" ignored="false" />
+    <file path="$PROJECT_DIR$/../MyTunesRSS/build/iphone/Classes/TiApp.h" changelist="b17391e8-4693-49d2-8148-be9610f52025" time="1381178074786" ignored="false" />
     <file path="$PROJECT_DIR$/../MyTunesRSS/build/iphone/Classes/TiApp.m" changelist="b17391e8-4693-49d2-8148-be9610f52025" time="1364466061752" ignored="false" />
     <file path="$PROJECT_DIR$/../MyTunesRSS/build/iphone/Classes/TiErrorController.m" changelist="b17391e8-4693-49d2-8148-be9610f52025" time="1364466061752" ignored="false" />
-    <file path="$PROJECT_DIR$/../MyTunesRSS/build/iphone/Classes/TiRootViewController.h" changelist="b17391e8-4693-49d2-8148-be9610f52025" time="1364466061752" ignored="false" />
+    <file path="$PROJECT_DIR$/../MyTunesRSS/build/iphone/Classes/TiRootViewController.h" changelist="b17391e8-4693-49d2-8148-be9610f52025" time="1381178074786" ignored="false" />
     <file path="$PROJECT_DIR$/../MyTunesRSS/build/iphone/Classes/TiRootViewController.m" changelist="b17391e8-4693-49d2-8148-be9610f52025" time="1364466061752" ignored="false" />
     <file path="$PROJECT_DIR$/../MyTunesRSS/build/iphone/Classes/TiErrorController.h" changelist="b17391e8-4693-49d2-8148-be9610f52025" time="1364466061752" ignored="false" />
     <file path="$PROJECT_DIR$/../MyTunesRSS/build/iphone/Classes/TiUIiPadSplitWindowProxy.h" changelist="b17391e8-4693-49d2-8148-be9610f52025" time="1364466061752" ignored="false" />
@@ -509,15 +519,15 @@
     <file path="$PROJECT_DIR$/../MyTunesRSS/build/iphone/Classes/MGSplitView/MGSplitViewController.m" changelist="b17391e8-4693-49d2-8148-be9610f52025" time="1364466061752" ignored="false" />
     <file path="$PROJECT_DIR$/../MyTunesRSS/build/iphone/Classes/TiLayoutQueue.h" changelist="b17391e8-4693-49d2-8148-be9610f52025" time="1364466061752" ignored="false" />
     <file path="$PROJECT_DIR$/../MyTunesRSS/build/iphone/Classes/TiLayoutQueue.m" changelist="b17391e8-4693-49d2-8148-be9610f52025" time="1364466061752" ignored="false" />
-    <file path="$PROJECT_DIR$/../MyTunesRSS/build/iphone/Classes/TiThreading.h" changelist="b17391e8-4693-49d2-8148-be9610f52025" time="1364466061752" ignored="false" />
+    <file path="$PROJECT_DIR$/../MyTunesRSS/build/iphone/Classes/TiThreading.h" changelist="b17391e8-4693-49d2-8148-be9610f52025" time="1381178074786" ignored="false" />
     <file path="$PROJECT_DIR$/../MyTunesRSS/build/iphone/Classes/TiThreading.m" changelist="b17391e8-4693-49d2-8148-be9610f52025" time="1364466061752" ignored="false" />
-    <file path="$PROJECT_DIR$/../MyTunesRSS/build/iphone/Classes/TiPublicAPI.h" changelist="b17391e8-4693-49d2-8148-be9610f52025" time="1364466061752" ignored="false" />
+    <file path="$PROJECT_DIR$/../MyTunesRSS/build/iphone/Classes/TiPublicAPI.h" changelist="b17391e8-4693-49d2-8148-be9610f52025" time="1381178074786" ignored="false" />
     <file path="$PROJECT_DIR$/../MyTunesRSS/build/iphone/Classes/TiPublicAPI.m" changelist="b17391e8-4693-49d2-8148-be9610f52025" time="1364466061752" ignored="false" />
     <file path="$PROJECT_DIR$/../MyTunesRSS/build/iphone/Classes/TiUITextWidgetProxy.h" changelist="b17391e8-4693-49d2-8148-be9610f52025" time="1364466061752" ignored="false" />
     <file path="$PROJECT_DIR$/../MyTunesRSS/build/iphone/Classes/TiUITextWidgetProxy.m" changelist="b17391e8-4693-49d2-8148-be9610f52025" time="1364466061752" ignored="false" />
     <file path="$PROJECT_DIR$/../MyTunesRSS/build/iphone/Classes/TiUITextWidget.h" changelist="b17391e8-4693-49d2-8148-be9610f52025" time="1364466061752" ignored="false" />
     <file path="$PROJECT_DIR$/../MyTunesRSS/build/iphone/Classes/TiUITextWidget.m" changelist="b17391e8-4693-49d2-8148-be9610f52025" time="1364466061752" ignored="false" />
-    <file path="$PROJECT_DIR$/../MyTunesRSS/build/iphone/Classes/TiGradient.h" changelist="b17391e8-4693-49d2-8148-be9610f52025" time="1364466061752" ignored="false" />
+    <file path="$PROJECT_DIR$/../MyTunesRSS/build/iphone/Classes/TiGradient.h" changelist="b17391e8-4693-49d2-8148-be9610f52025" time="1381178074786" ignored="false" />
     <file path="$PROJECT_DIR$/../MyTunesRSS/build/iphone/Classes/TiGradient.m" changelist="b17391e8-4693-49d2-8148-be9610f52025" time="1364466061752" ignored="false" />
     <file path="$PROJECT_DIR$/../MyTunesRSS/build/iphone/Classes/TiUIScrollViewProxy.h" changelist="b17391e8-4693-49d2-8148-be9610f52025" time="1364466061752" ignored="false" />
     <file path="$PROJECT_DIR$/../MyTunesRSS/build/iphone/Classes/TiUIScrollViewProxy.m" changelist="b17391e8-4693-49d2-8148-be9610f52025" time="1364466061752" ignored="false" />
@@ -581,7 +591,7 @@
     <file path="$PROJECT_DIR$/../MyTunesRSS/build/iphone/Classes/FBConnect/FBLoginDialog.m" changelist="b17391e8-4693-49d2-8148-be9610f52025" time="1364466061752" ignored="false" />
     <file path="$PROJECT_DIR$/../MyTunesRSS/build/iphone/Classes/FBConnect/FBRequest.h" changelist="b17391e8-4693-49d2-8148-be9610f52025" time="1364466061752" ignored="false" />
     <file path="$PROJECT_DIR$/../MyTunesRSS/build/iphone/Classes/FBConnect/FBRequest.m" changelist="b17391e8-4693-49d2-8148-be9610f52025" time="1364466061752" ignored="false" />
-    <file path="$PROJECT_DIR$/../MyTunesRSS/build/iphone/Classes/TiBuffer.h" changelist="b17391e8-4693-49d2-8148-be9610f52025" time="1364466061752" ignored="false" />
+    <file path="$PROJECT_DIR$/../MyTunesRSS/build/iphone/Classes/TiBuffer.h" changelist="b17391e8-4693-49d2-8148-be9610f52025" time="1381178074786" ignored="false" />
     <file path="$PROJECT_DIR$/../MyTunesRSS/build/iphone/Classes/TiBuffer.m" changelist="b17391e8-4693-49d2-8148-be9610f52025" time="1364466061752" ignored="false" />
     <file path="$PROJECT_DIR$/../MyTunesRSS/build/iphone/Classes/StreamModule.h" changelist="b17391e8-4693-49d2-8148-be9610f52025" time="1364466061752" ignored="false" />
     <file path="$PROJECT_DIR$/../MyTunesRSS/build/iphone/Classes/StreamModule.m" changelist="b17391e8-4693-49d2-8148-be9610f52025" time="1364466061752" ignored="false" />
@@ -601,7 +611,6 @@
     <file path="$PROJECT_DIR$/../MyTunesRSS/build/iphone/Classes/ASI/ASIDownloadCache.h" changelist="b17391e8-4693-49d2-8148-be9610f52025" time="1364466061753" ignored="false" />
     <file path="$PROJECT_DIR$/../MyTunesRSS/build/iphone/Classes/ASI/ASIDownloadCache.m" changelist="b17391e8-4693-49d2-8148-be9610f52025" time="1364466061753" ignored="false" />
     <file path="$PROJECT_DIR$/../MyTunesRSS/build/iphone/Classes/ASI/ASICacheDelegate.h" changelist="b17391e8-4693-49d2-8148-be9610f52025" time="1364466061753" ignored="false" />
-    <file path="$PROJECT_DIR$/../MyTunesRSS/build/iphone/main.m" changelist="b17391e8-4693-49d2-8148-be9610f52025" time="1364466061751" ignored="false" />
     <file path="/a.dummy" changelist="b17391e8-4693-49d2-8148-be9610f52025" time="1364463067136" ignored="false" />
     <file path="/Dummy.txt" changelist="b17391e8-4693-49d2-8148-be9610f52025" time="1381080093280" ignored="false" />
     <file path="$PROJECT_DIR$/build/MediaControls.build/Release-iphoneos/MediaControls.build/MediaControls.dep" changelist="b17391e8-4693-49d2-8148-be9610f52025" time="1364468037578" ignored="false" />
@@ -616,17 +625,20 @@
     <file path="$PROJECT_DIR$/build/MediaControls.build/Release-iphonesimulator/MediaControls.build/build-state.dat" changelist="b17391e8-4693-49d2-8148-be9610f52025" time="1364468037578" ignored="false" />
     <file path="$PROJECT_DIR$/build/MediaControls.build/Release-iphonesimulator/MediaControls.build/Objects-normal/i386/DeCodewaveTiMediacontrolsModuleAssets.d" changelist="b17391e8-4693-49d2-8148-be9610f52025" time="1364468037578" ignored="false" />
     <file path="$PROJECT_DIR$/build/MediaControls.build/Release-iphonesimulator/MediaControls.build/Objects-normal/i386/DeCodewaveTiMediacontrols.LinkFileList" changelist="b17391e8-4693-49d2-8148-be9610f52025" time="1364468037578" ignored="false" />
-    <file path="/manifest" changelist="b17391e8-4693-49d2-8148-be9610f52025" time="1381058596211" ignored="false" />
+    <file path="/manifest" changelist="b17391e8-4693-49d2-8148-be9610f52025" time="1381181298533" ignored="false" />
     <file path="/index.md" changelist="b17391e8-4693-49d2-8148-be9610f52025" time="1366747262911" ignored="false" />
     <file path="/DeCodewaveTiMediacontrolsNowPlayingInfo.h" changelist="b17391e8-4693-49d2-8148-be9610f52025" time="1381052046197" ignored="false" />
     <file path="/DeCodewaveTiMediacontrolsViewProxy.m" changelist="b17391e8-4693-49d2-8148-be9610f52025" time="1381051265108" ignored="false" />
     <file path="/DeCodewaveTiMediacontrolsNowPlayingInfo.m" changelist="b17391e8-4693-49d2-8148-be9610f52025" time="1381064158846" ignored="false" />
-    <file path="/DeCodewaveTiMediacontrolsNowPlayingInfoProxy.m" changelist="b17391e8-4693-49d2-8148-be9610f52025" time="1381077011173" ignored="false" />
+    <file path="/DeCodewaveTiMediacontrolsNowPlayingInfoProxy.m" changelist="b17391e8-4693-49d2-8148-be9610f52025" time="1381182214334" ignored="false" />
     <file path="/app.js" changelist="b17391e8-4693-49d2-8148-be9610f52025" time="1381079446139" ignored="false" />
     <file path="/index.html" changelist="b17391e8-4693-49d2-8148-be9610f52025" time="1381079973053" ignored="false" />
-    <file path="/DeCodewaveTiMediacontrolsNowPlayingInfoProxy.h" changelist="b17391e8-4693-49d2-8148-be9610f52025" time="1381071738115" ignored="false" />
-    <file path="/fragment.m" changelist="b17391e8-4693-49d2-8148-be9610f52025" time="1381076255085" ignored="false" />
-    <file path="/CHANGELOG.txt" changelist="b17391e8-4693-49d2-8148-be9610f52025" time="1381080080353" ignored="false" />
+    <file path="/DeCodewaveTiMediacontrolsNowPlayingInfoProxy.h" changelist="b17391e8-4693-49d2-8148-be9610f52025" time="1381179954283" ignored="false" />
+    <file path="/fragment.m" changelist="b17391e8-4693-49d2-8148-be9610f52025" time="1381177976596" ignored="false" />
+    <file path="/CHANGELOG.txt" changelist="b17391e8-4693-49d2-8148-be9610f52025" time="1381181323750" ignored="false" />
+    <file path="/ImageLoader.h" changelist="b17391e8-4693-49d2-8148-be9610f52025" time="1381089389638" ignored="false" />
+    <file path="$PROJECT_DIR$/../MyTunesRSS/build/iphone/Classes/TiControllerProtocols.h" changelist="b17391e8-4693-49d2-8148-be9610f52025" time="1381178074786" ignored="false" />
+    <file path="$PROJECT_DIR$/../MyTunesRSS/build/iphone/Classes/TiViewTemplate.h" changelist="b17391e8-4693-49d2-8148-be9610f52025" time="1381178074786" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -649,7 +661,73 @@
     <favorites_list name="MediaControls" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file leaf-file-name="DeCodewaveTiMediacontrolsModule.m" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Classes/DeCodewaveTiMediacontrolsModule.m">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="71" column="0" selection-start="1789" selection-end="1789" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DeCodewaveTiMediacontrolsModule.h" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Classes/DeCodewaveTiMediacontrolsModule.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="4" column="0" selection-start="77" selection-end="77" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CHANGELOG.txt" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CHANGELOG.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="2" column="0" selection-start="124" selection-end="124" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="manifest" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/manifest">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="6" column="380" selection-start="515" selection-end="515" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DeCodewaveTiMediacontrolsNowPlayingInfoProxy.h" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Classes/DeCodewaveTiMediacontrolsNowPlayingInfoProxy.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="62" column="0" selection-start="1176" selection-end="1176" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TiBase.h" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/Library/Application Support/Titanium/mobilesdk/osx/3.1.3.MYTUNESRSS/iphone/include/TiBase.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="262" column="8" selection-start="7270" selection-end="7270" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DeCodewaveTiMediacontrolsNowPlayingInfoProxy.m" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Classes/DeCodewaveTiMediacontrolsNowPlayingInfoProxy.m">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="191" column="82" selection-start="7989" selection-end="7989" vertical-scroll-proportion="0.4675926">
+              <folding>
+                <element signature="e#0#46#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FindManager">
     <FindUsagesManager>
@@ -659,22 +737,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/DeCodewaveTiMediacontrolsViewProxy.m" />
-        <option value="$PROJECT_DIR$/DeCodewaveTiMediacontrolsView.m" />
         <option value="$PROJECT_DIR$/Classes/DeCodewaveTiMediacontrolsView.m" />
         <option value="$PROJECT_DIR$/LICENSE" />
         <option value="$PROJECT_DIR$/documentation/index.md" />
         <option value="$PROJECT_DIR$/Classes/DeCodewaveTiMediacontrolsViewProxy.m" />
         <option value="$PROJECT_DIR$/Classes/DeCodewaveTiMediacontrolsNowPlayingInfo.h" />
         <option value="$PROJECT_DIR$/Classes/DeCodewaveTiMediacontrolsNowPlayingInfo.m" />
-        <option value="$PROJECT_DIR$/manifest" />
-        <option value="$PROJECT_DIR$/Classes/DeCodewaveTiMediacontrolsNowPlayingInfoProxy.h" />
-        <option value="$PROJECT_DIR$/Classes/DeCodewaveTiMediacontrolsModule.m" />
-        <option value="$PROJECT_DIR$/Classes/DeCodewaveTiMediacontrolsModule.h" />
-        <option value="$PROJECT_DIR$/Classes/DeCodewaveTiMediacontrolsNowPlayingInfoProxy.m" />
         <option value="$PROJECT_DIR$/documentation/app.js" />
         <option value="$PROJECT_DIR$/documentation/index.html" />
+        <option value="$USER_HOME$/Library/Application Support/Titanium/mobilesdk/osx/3.1.3.MYTUNESRSS/iphone/include/ImageLoader.h" />
+        <option value="$PROJECT_DIR$/../MyTunesRSS/build/iphone/main.m" />
+        <option value="$PROJECT_DIR$/Classes/DeCodewaveTiMediacontrolsNowPlayingInfoProxy.h" />
+        <option value="$PROJECT_DIR$/manifest" />
         <option value="$PROJECT_DIR$/CHANGELOG.txt" />
+        <option value="$PROJECT_DIR$/Classes/DeCodewaveTiMediacontrolsModule.h" />
+        <option value="$PROJECT_DIR$/Classes/DeCodewaveTiMediacontrolsModule.m" />
+        <option value="$PROJECT_DIR$/Classes/DeCodewaveTiMediacontrolsNowPlayingInfoProxy.m" />
       </list>
     </option>
   </component>
@@ -710,6 +788,54 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="DirectoryView.Xcode">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MediaControls" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeDirectoryView$1$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MediaControls" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeDirectoryView$1$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MediaControls" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MediaControls" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeDirectoryView$1$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MediaControls" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="documentation" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MediaControls" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeDirectoryView$1$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MediaControls" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Classes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -770,60 +896,130 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="DirectoryView.Xcode">
-        <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MediaControls" />
-              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeDirectoryView$1$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MediaControls" />
-              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeDirectoryView$1$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MediaControls" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MediaControls" />
-              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeDirectoryView$1$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MediaControls" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="documentation" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MediaControls" />
-              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeDirectoryView$1$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MediaControls" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Classes" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="options.splitter.main.proportions" value="0.3" />
     <property name="recentsLimit" value="5" />
+    <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
     <property name="FullScreen" value="false" />
     <property name="OBJC.PRESERVED_TARGET_SELECTION" value="MediaControls" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
+  </component>
+  <component name="RestoreUpdateTree">
+    <UpdateInfo date="Moments ago" ActionInfo="_Update">
+      <UpdatedFiles>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Updated from server" />
+          <option name="myStatusName" value="Changed on server" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="CHANGED_ON_SERVER" />
+          <FILE-GROUP>
+            <option name="myUpdateName" value="Updated" />
+            <option name="myStatusName" value="Changed" />
+            <option name="mySupportsDeletion" value="false" />
+            <option name="myCanBeAbsent" value="false" />
+            <option name="myId" value="UPDATED" />
+            <PATH vcs="svn" revision="8321">$PROJECT_DIR$/Classes/DeCodewaveTiMediacontrolsNowPlayingInfoProxy.h</PATH>
+            <PATH vcs="svn" revision="8321">$PROJECT_DIR$/CHANGELOG.txt</PATH>
+          </FILE-GROUP>
+          <FILE-GROUP>
+            <option name="myUpdateName" value="Created" />
+            <option name="myStatusName" value="Created" />
+            <option name="mySupportsDeletion" value="false" />
+            <option name="myCanBeAbsent" value="false" />
+            <option name="myId" value="CREATED" />
+          </FILE-GROUP>
+          <FILE-GROUP>
+            <option name="myUpdateName" value="Deleted" />
+            <option name="myStatusName" value="Deleted" />
+            <option name="mySupportsDeletion" value="false" />
+            <option name="myCanBeAbsent" value="true" />
+            <option name="myId" value="REMOVED_FROM_REPOSITORY" />
+          </FILE-GROUP>
+          <FILE-GROUP>
+            <option name="myUpdateName" value="Restored" />
+            <option name="myStatusName" value="Will be restored" />
+            <option name="mySupportsDeletion" value="false" />
+            <option name="myCanBeAbsent" value="false" />
+            <option name="myId" value="RESTORED" />
+          </FILE-GROUP>
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Modified" />
+          <option name="myStatusName" value="Modified" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="MODIFIED" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Skipped" />
+          <option name="myStatusName" value="Skipped" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="SKIPPED" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Merged with conflicts" />
+          <option name="myStatusName" value="Will be merged with conflicts" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="MERGED_WITH_CONFLICTS" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Merged with tree conflicts" />
+          <option name="myStatusName" value="Merged with tree conflicts" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="MERGED_WITH_TREE_CONFLICT" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Merged with property conflicts" />
+          <option name="myStatusName" value="Will be merged with property conflicts" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="MERGED_WITH_PROPERTY_CONFLICT" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Merged" />
+          <option name="myStatusName" value="Will be merged" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="MERGED" />
+          <PATH vcs="svn" revision="8321">$PROJECT_DIR$/Classes/DeCodewaveTiMediacontrolsNowPlayingInfoProxy.m</PATH>
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Not in repository" />
+          <option name="myStatusName" value="Not in repository" />
+          <option name="mySupportsDeletion" value="true" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="UNKNOWN" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Locally added" />
+          <option name="myStatusName" value="Locally added" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="LOCALLY_ADDED" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Locally removed" />
+          <option name="myStatusName" value="Locally removed" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="LOCALLY_REMOVED" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Switched" />
+          <option name="myStatusName" value="Switched" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="SWITCHED" />
+        </FILE-GROUP>
+      </UpdatedFiles>
+    </UpdateInfo>
   </component>
   <component name="RunManager" selected="Application.MediaControls">
     <configuration default="false" name="MediaControls" type="AppleRunConfiguration" factoryName="Application" temporary="true" SCHEME_NAME="MediaControls" PROJECT_NAME="MediaControls" TARGET_NAME="MediaControls" CONFIG_NAME="Debug" WORKING_DIR="" PASS_PARENT_ENVS="FALSE" MAKE_ACTIVE="TRUE" WAIT_FOR="FALSE">
@@ -917,22 +1113,22 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="70" y="22" width="2490" height="1418" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32874617" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24969599" sideWeight="0.6003017" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24929063" sideWeight="0.6003017" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39969835" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24929063" sideWeight="0.6004532" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39954683" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32930514" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32874617" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -1000,105 +1196,124 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="4" />
+      <breakpoints>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/../Test/build/iphone/Classes/ImageLoader.m</url>
+          <line>554</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="12" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSValue.h">
+    <entry file="file://$PROJECT_DIR$/documentation/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="35" column="0" selection-start="809" selection-end="809" vertical-scroll-proportion="0.0" />
+        <state line="42" column="23" selection-start="1928" selection-end="1928" vertical-scroll-proportion="0.4861111" />
       </provider>
     </entry>
-    <entry file="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSString.h">
+    <entry file="file://$PROJECT_DIR$/documentation/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="75" column="0" selection-start="4053" selection-end="4131" vertical-scroll-proportion="0.35642022">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/MediaPlayer.framework/Headers/MPMediaItem.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="86" column="26" selection-start="5497" selection-end="5497" vertical-scroll-proportion="0.60708785">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/include/objc/objc.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="45" column="22" selection-start="1488" selection-end="1488" vertical-scroll-proportion="0.33333334" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../MyTunesRSS/build/iphone/Classes/TiProxy.m">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1071" column="0" selection-start="29386" selection-end="29386" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../MyTunesRSS/build/iphone/Classes/TiUtils.m">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="618" column="55" selection-start="15931" selection-end="15931" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../MyTunesRSS/build/iphone/Classes/ImageLoader.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="34" selection-start="557" selection-end="557" vertical-scroll-proportion="0.0" />
+        <state line="69" column="0" selection-start="2614" selection-end="2614" vertical-scroll-proportion="0.6242138" />
       </provider>
     </entry>
     <entry file="file://$USER_HOME$/Library/Application Support/Titanium/mobilesdk/osx/3.1.3.MYTUNESRSS/iphone/include/TiUtils.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="195" column="12" selection-start="5486" selection-end="5486" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Library/Application Support/Titanium/mobilesdk/osx/3.1.3.MYTUNESRSS/iphone/include/TiUIImageViewProxy.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Classes/DeCodewaveTiMediacontrolsModule.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="32" selection-start="109" selection-end="109" vertical-scroll-proportion="0.0">
+        <state line="165" column="11" selection-start="4399" selection-end="4399" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Classes/DeCodewaveTiMediacontrolsModule.m">
+    <entry file="file://$PROJECT_DIR$/../Test/build/iphone/Classes/TiApp.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="71" column="31" selection-start="1789" selection-end="1820" vertical-scroll-proportion="0.0">
+        <state line="137" column="7" selection-start="3327" selection-end="3327" vertical-scroll-proportion="0.33333334">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Library/Application Support/Titanium/mobilesdk/osx/3.1.3.MYTUNESRSS/iphone/include/ASI/ASIHTTPRequest.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="507" column="26" selection-start="23578" selection-end="23583" vertical-scroll-proportion="10.349794">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Library/Application Support/Titanium/mobilesdk/osx/3.1.3.MYTUNESRSS/iphone/include/ImageLoader.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="21" selection-start="317" selection-end="317" vertical-scroll-proportion="0.15625">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/MediaPlayer.framework/Headers/MPNowPlayingInfoCenter.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="59" column="26" selection-start="2411" selection-end="2411" vertical-scroll-proportion="0.63372093">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Test/build/iphone/Classes/ImageLoader.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="561" column="32" selection-start="15000" selection-end="15000" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../MyTunesRSS/build/iphone/main.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="35" column="0" selection-start="1470" selection-end="1470" vertical-scroll-proportion="0.4050926">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Classes/DeCodewaveTiMediacontrolsNowPlayingInfoProxy.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="0" selection-start="125" selection-end="125" vertical-scroll-proportion="0.0">
+        <state line="62" column="0" selection-start="1176" selection-end="1176" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Classes/DeCodewaveTiMediacontrolsNowPlayingInfoProxy.m">
+    <entry file="file://$PROJECT_DIR$/manifest">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="0" selection-start="160" selection-end="160" vertical-scroll-proportion="0.046296295">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/documentation/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="42" column="23" selection-start="1928" selection-end="1928" vertical-scroll-proportion="0.4861111">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/documentation/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="69" column="0" selection-start="2614" selection-end="2614" vertical-scroll-proportion="0.6242138">
+        <state line="6" column="380" selection-start="515" selection-end="515" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/CHANGELOG.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="81" selection-start="183" selection-end="183" vertical-scroll-proportion="0.011574074">
+        <state line="2" column="0" selection-start="124" selection-end="124" vertical-scroll-proportion="0.0">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Classes/DeCodewaveTiMediacontrolsModule.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="0" selection-start="77" selection-end="77" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Classes/DeCodewaveTiMediacontrolsModule.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="71" column="0" selection-start="1789" selection-end="1789" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Library/Application Support/Titanium/mobilesdk/osx/3.1.3.MYTUNESRSS/iphone/include/TiBase.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="262" column="8" selection-start="7270" selection-end="7270" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Classes/DeCodewaveTiMediacontrolsNowPlayingInfoProxy.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="191" column="82" selection-start="7989" selection-end="7989" vertical-scroll-proportion="0.4675926">
+          <folding>
+            <element signature="e#0#46#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

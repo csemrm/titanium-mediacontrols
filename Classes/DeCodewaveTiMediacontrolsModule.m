@@ -69,9 +69,4 @@
 
 #pragma mark Public API
 
--(void)clearNowPlaying:(id)args {
-    NSLog(@"Clearing \"now playing\" information.")
-    [[MPNowPlayingInfoCenter defaultCenter] setNowPlayingInfo:nil];
-}
-
 @end
