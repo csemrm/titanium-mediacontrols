@@ -118,18 +118,16 @@
 
 -(void)setElapsedPlaybackTime:(id)elapsedPlaybackTime {
     NSLog(@"Now playing \"elapsedPlaybackTime\" = \"%@\".", elapsedPlaybackTime);
-    NSMutableDictionary *dictClone = [_dict mutableCopy];
-    [dictClone setObject:[TiUtils numberFromObject:elapsedPlaybackTime] forKey:MPNowPlayingInfoPropertyElapsedPlaybackTime];
+    [self replaceValue:elapsedPlaybackTime forKey:@"elapsedPlaybackTime" notification:NO];
+    [_dict setObject:[TiUtils numberFromObject:elapsedPlaybackTime] forKey:MPNowPlayingInfoPropertyElapsedPlaybackTime];
     [[MPNowPlayingInfoCenter defaultCenter] setNowPlayingInfo:_dict];
-    [dictClone release];
 }
 
 -(void)setPlaybackRate:(id)playbackRate {
     NSLog(@"Now playing \"playbackRate\" = \"%@\".", playbackRate);
-    NSMutableDictionary *dictClone = [_dict mutableCopy];
-    [dictClone setObject:[TiUtils numberFromObject:playbackRate] forKey:MPNowPlayingInfoPropertyPlaybackRate];
+    [self replaceValue:playbackRate forKey:@"playbackRate" notification:NO];
+    [_dict setObject:[TiUtils numberFromObject:playbackRate] forKey:MPNowPlayingInfoPropertyPlaybackRate];
     [[MPNowPlayingInfoCenter defaultCenter] setNowPlayingInfo:_dict];
-    [dictClone release];
 }
 
 -(void)setArtwork:(id)artwork {
