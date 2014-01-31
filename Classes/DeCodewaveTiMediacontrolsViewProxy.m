@@ -2,4 +2,8 @@
 
 @implementation DeCodewaveTiMediacontrolsViewProxy
 
+-(void)becomeFirstResponder:(id)ignore {
+    [[self view] becomeFirstResponder];
+}
+
 @end
