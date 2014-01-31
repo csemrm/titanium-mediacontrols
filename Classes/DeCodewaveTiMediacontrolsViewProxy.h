@@ -2,4 +2,6 @@
 
 @interface DeCodewaveTiMediacontrolsViewProxy : TiViewProxy
 
+-(void)becomeFirstResponder:(id)ignore;
+
 @end

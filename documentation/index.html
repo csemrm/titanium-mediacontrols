@@ -43,6 +43,19 @@ The view supports the following events:
 </ul>
 </p>
 
+<p>In certain situations the media control view can still lose the first responder role. For example
+if you have a window with a media control view and open another window with its own media control view,
+the new window's media control view will become the first responder. Now when you close the seconds
+window the media control view in the first window won't become the first responder again automatically.
+For such cases the MediaControlView has a method becomeFirstResponder which makes it the first responder
+again. Here is a small sample which calls the method. Please note that this is just a sample. You need not
+call the becomeFirstResponder right after creating the view since the createView method automatically makes
+the new view the first responder.</p>
+
+<pre>var MediaControls = require("de.codewave.ti.mediacontrols");
+var view = MediaControls.createView({left:0,top:0,right:0,bottom:0});
+view.becomeFirstResponder();</pre>
+
 <h3>MediaControls.createNowPlayingInfo()</h3>
 
 <p>
