@@ -1,3 +1,5 @@
+Version 4.1		Added some logging and passing unhandled events to the super class for further handling.
+
 Version 4.0		Added support for "elapsedPlaybackTime" and "playbackRate" properties. Refactoring of the
                 API.
 

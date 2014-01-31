@@ -48,6 +48,7 @@
     [[UIApplication sharedApplication] endReceivingRemoteControlEvents];
 	// you *must* call the superclass
 	[super shutdown:sender];
+    NSLog(@"[INFO] %@ shutting down",self);
 }
 
 #pragma mark Cleanup 

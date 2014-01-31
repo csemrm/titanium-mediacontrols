@@ -17,6 +17,11 @@ Titanium.Media.audioSessionMode = Titanium.Media.AUDIO_SESSION_MODE_PLAYBACK;
 // Window
 var win = Titanium.UI.createWindow({backgroundColor:"#CCCCCC"});
 
+// Codewave Media Controls and dummy view
+var mediaControls = require("de.codewave.ti.mediacontrols");
+var mediaControlsView = mediaControls.createView({left:0,top:0,right:0,bottom:0});
+win.add(mediaControlsView);
+
 // Label for audio player state
 var label = Titanium.UI.createLabel({text:"state:",top:100,left:20});
 
@@ -26,9 +31,6 @@ audioPlayer.addEventListener("change", function(e) {
 	label.setText("state: " + e.state);
 });
 
-// Codewave Media Controls and dummy view
-var mediaControls = require("de.codewave.ti.mediacontrols");
-var mediaControlsView = mediaControls.createView({left:0,top:0,width:0,height:0});
 // Codewave Now Playing Info Proxy
 var nowPlayingInfo = mediaControls.createNowPlayingInfo();
 
@@ -66,9 +68,8 @@ mediaControlsView.addEventListener("remoteControlNextTrack", function() {
 	Titanium.API.info("Remote control 'next track'.");
 }); 
 
-// Adding views to window
-win.add(mediaControlsView);
-win.add(label);
+// Adding views to the media controls view
+mediaControlsView.add(label);
 
 // Opening window
 win.open();
