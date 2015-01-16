@@ -15,4 +15,4 @@ name: MediaControls
 moduleid: de.codewave.ti.mediacontrols
 guid: 3b8e89ec-0e5b-406d-8ca0-aa4f620ba880
 platform: iphone
-minsdk: 3.5.0.MYTUNESRSS
+minsdk: 3.0.0.GA
