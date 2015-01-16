@@ -1,0 +1,18 @@
+#
+# this is your module manifest and used by Titanium
+# during compilation, packaging, distribution, etc.
+#
+version: 4.2
+apiversion: 2
+architectures: armv7 arm64 i386 x86_64
+description: Simple module for creating an invisible view which receives remote control events. This is useful for background audio playback. Please note that this module does not enable your application to play audio in the background. It just enables your application to receive the remote control events. Also allows you to set the "now playing" information on the lock screen.
+author: Michael Descher
+license: Specify your license
+copyright: Copyright (c) 2015 by Codewave Software
+
+# these should not be edited
+name: MediaControls
+moduleid: de.codewave.ti.mediacontrols
+guid: 3b8e89ec-0e5b-406d-8ca0-aa4f620ba880
+platform: iphone
+minsdk: 3.5.0.MYTUNESRSS

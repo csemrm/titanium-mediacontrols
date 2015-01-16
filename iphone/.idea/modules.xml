@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/MediaControls.iml" filepath="$PROJECT_DIR$/.idea/MediaControls.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/iphone.iml" filepath="$PROJECT_DIR$/.idea/iphone.iml" />
     </modules>
   </component>
 </project>

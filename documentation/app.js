@@ -42,7 +42,7 @@ mediaControlsView.addEventListener("remoteControlPlay", function() {
     nowPlayingInfo.setAlbumTitle("Test Album");
     nowPlayingInfo.setArtist("Test Artist");
     nowPlayingInfo.setAlbumArtist("Test Album Artist");
-    nowPlayingInfo.setArtwork("http://www.codewave.de/images/mytunesrss_3d.png")
+    nowPlayingInfo.setArtwork("http://www.codewave.de/images/mytunesrss_3d.png");
 });
 mediaControlsView.addEventListener("remoteControlPause", function() {
 	Titanium.API.info("Remote control 'pause'.");
