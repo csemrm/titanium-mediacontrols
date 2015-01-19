@@ -261,6 +261,7 @@
 				OTHER_CFLAGS = (
 					"-DDEBUG",
 					"-DTI_POST_1_2",
+                                        "-stdlib=libc++",
 				);
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = DeCodewaveTiMediacontrols;
@@ -296,7 +297,10 @@
 				INSTALL_PATH = /usr/local/lib;
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				LIBRARY_SEARCH_PATHS = "";
-				OTHER_CFLAGS = "-DTI_POST_1_2";
+				OTHER_CFLAGS = (
+                                        "-DTI_POST_1_2",
+                                        "-stdlib=libc++",
+                                );
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = DeCodewaveTiMediacontrols;
 				RUN_CLANG_STATIC_ANALYZER = NO;
@@ -333,6 +337,7 @@
 				OTHER_CFLAGS = (
 					"-DDEBUG",
 					"-DTI_POST_1_2",
+                                        "-stdlib=libc++",
 				);
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = DeCodewaveTiMediacontrols;
@@ -368,7 +373,10 @@
 				GCC_WARN_UNUSED_VARIABLE = NO;
 				INSTALL_PATH = /usr/local/lib;
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
-				OTHER_CFLAGS = "-DTI_POST_1_2";
+				OTHER_CFLAGS = (
+                                        "-DTI_POST_1_2",
+                                        "-stdlib=libc++",
+                                );
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = DeCodewaveTiMediacontrols;
 				RUN_CLANG_STATIC_ANALYZER = NO;
