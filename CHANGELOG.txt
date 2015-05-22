@@ -1,4 +1,4 @@
-Version 4.2             Recompiled with 64-bit support.
+Version 4.2     Recompiled with 64-bit support.
 
 Version 4.1		Added some logging and passing unhandled events to the super class for further handling.
 
