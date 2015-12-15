@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "24416B8111C4CA220047AFDD"
-               BuildableName = "Build &amp; test"
+               BuildableName = "Build &amp; Test"
                BlueprintName = "Build &amp; Test"
                ReferencedContainer = "container:MediaControls.xcodeproj">
             </BuildableReference>
