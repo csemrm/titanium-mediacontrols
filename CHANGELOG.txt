@@ -1,3 +1,5 @@
+Version 4.3     Fixed memory leak (image memory was not released correctly).
+
 Version 4.2     Recompiled with 64-bit support.
 
 Version 4.1		Added some logging and passing unhandled events to the super class for further handling.
@@ -11,4 +13,3 @@ Version 3.0		API for setting the "now playing" information has been refactored. 
 Version 2.0		API for setting/clearing the "now playing" information.
 
 Version 1.0		Initial Version.
-

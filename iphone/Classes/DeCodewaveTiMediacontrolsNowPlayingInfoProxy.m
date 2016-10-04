@@ -124,14 +124,14 @@
 
 -(void)setArtwork:(id)artwork {
     NSLog(@"Now playing \"artwork\" = \"%@\".", artwork);
+    [self releaseImage];
     if ([artwork isEqual:@""]) {
-        [_dict removeObjectForKey:MPMediaItemPropertyArtwork];
         [[MPNowPlayingInfoCenter defaultCenter] setNowPlayingInfo:_dict];
     } else {
         UIImage *image = [self toImage:artwork];
         if (image != nil) {
             NSLog(@"Now playing \"artwork\" image created from \"%@\".", artwork);
-            _dict[MPMediaItemPropertyArtwork] = [[[MPMediaItemArtwork alloc] initWithImage:image] autorelease];
+            _dict[MPMediaItemPropertyArtwork] = [[MPMediaItemArtwork alloc] initWithImage:image];
             [[MPNowPlayingInfoCenter defaultCenter] setNowPlayingInfo:_dict];
         } else {
             NSLog(@"Trying to load now playing \"artwork\" image from \"%@\" asynchronously.", artwork);
@@ -143,6 +143,16 @@
 
 -(void)clear:(id)ignore {
     [[MPNowPlayingInfoCenter defaultCenter] setNowPlayingInfo:nil];
+    [self releaseImage];
+    [_dict removeAllObjects];
+}
+
+-(void)releaseImage {
+    MPMediaItemArtwork* artwork = _dict[MPMediaItemPropertyArtwork];
+    if (artwork != nil) {
+        [_dict removeObjectForKey:MPMediaItemPropertyArtwork];
+        [artwork release];
+    }
 }
 
 -(void)loadAndSetRemoteImage:(NSURL *)url {
@@ -151,7 +161,7 @@
         UIImage *image = [UIImage imageWithData:[NSData dataWithContentsOfURL:url]];
         if (image != nil) {
             NSLog(@"Now playing \"artwork\" image created from \"%@\".", [url absoluteString]);
-            _dict[MPMediaItemPropertyArtwork] = [[[MPMediaItemArtwork alloc] initWithImage:image] autorelease];
+            _dict[MPMediaItemPropertyArtwork] = [[MPMediaItemArtwork alloc] initWithImage:image];
             [[MPNowPlayingInfoCenter defaultCenter] setNowPlayingInfo:_dict];
         } else {
             NSLog(@"Now playing \"artwork\" image could not be created from \"%@\".", [url absoluteString]);
