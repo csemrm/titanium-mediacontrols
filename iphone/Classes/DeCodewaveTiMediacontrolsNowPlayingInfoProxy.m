@@ -25,7 +25,7 @@
     if ([title isEqual:@""]) {
         [_dict removeObjectForKey:MPMediaItemPropertyTitle];
     } else {
-        [_dict setObject:[TiUtils stringValue:title] forKey:MPMediaItemPropertyTitle];
+        _dict[MPMediaItemPropertyTitle] = [TiUtils stringValue:title];
     }
     [[MPNowPlayingInfoCenter defaultCenter] setNowPlayingInfo:_dict];
 }
@@ -35,7 +35,7 @@
     if ([albumTitle isEqual:@""]) {
         [_dict removeObjectForKey:MPMediaItemPropertyAlbumTitle];
     } else {
-        [_dict setObject:[TiUtils stringValue:albumTitle] forKey:MPMediaItemPropertyAlbumTitle];
+        _dict[MPMediaItemPropertyAlbumTitle] = [TiUtils stringValue:albumTitle];
     }
     [[MPNowPlayingInfoCenter defaultCenter] setNowPlayingInfo:_dict];
 }
@@ -45,7 +45,7 @@
     if ([artist isEqual:@""]) {
         [_dict removeObjectForKey:MPMediaItemPropertyArtist];
     } else {
-        [_dict setObject:[TiUtils stringValue:artist] forKey:MPMediaItemPropertyArtist];
+        _dict[MPMediaItemPropertyArtist] = [TiUtils stringValue:artist];
     }
     [[MPNowPlayingInfoCenter defaultCenter] setNowPlayingInfo:_dict];
 }
@@ -55,7 +55,7 @@
     if ([albumArtist isEqual:@""]) {
         [_dict removeObjectForKey:MPMediaItemPropertyAlbumArtist];
     } else {
-        [_dict setObject:[TiUtils stringValue:albumArtist] forKey:MPMediaItemPropertyAlbumArtist];
+        _dict[MPMediaItemPropertyAlbumArtist] = [TiUtils stringValue:albumArtist];
     }
     [[MPNowPlayingInfoCenter defaultCenter] setNowPlayingInfo:_dict];
 }
@@ -65,7 +65,7 @@
     if ([genre isEqual:@""]) {
         [_dict removeObjectForKey:MPMediaItemPropertyGenre];
     } else {
-        [_dict setObject:[TiUtils stringValue:genre] forKey:MPMediaItemPropertyGenre];
+        _dict[MPMediaItemPropertyGenre] = [TiUtils stringValue:genre];
     }
     [[MPNowPlayingInfoCenter defaultCenter] setNowPlayingInfo:_dict];
 }
@@ -75,50 +75,50 @@
     if ([composer isEqual:@""]) {
         [_dict removeObjectForKey:MPMediaItemPropertyComposer];
     } else {
-        [_dict setObject:[TiUtils stringValue:composer] forKey:MPMediaItemPropertyComposer];
+        _dict[MPMediaItemPropertyComposer] = [TiUtils stringValue:composer];
     }
     [[MPNowPlayingInfoCenter defaultCenter] setNowPlayingInfo:_dict];
 }
 
 -(void)setDiscNumber:(id)discNumber {
     NSLog(@"Now playing \"discNumber\" = \"%@\".", discNumber);
-    [_dict setObject:[TiUtils numberFromObject:discNumber] forKey:MPMediaItemPropertyDiscNumber];
+    _dict[MPMediaItemPropertyDiscNumber] = [TiUtils numberFromObject:discNumber];
     [[MPNowPlayingInfoCenter defaultCenter] setNowPlayingInfo:_dict];
 }
 
 -(void)setDiscCount:(id)discCount {
     NSLog(@"Now playing \"discCount\" = \"%@\".", discCount);
-    [_dict setObject:[TiUtils numberFromObject:discCount] forKey:MPMediaItemPropertyDiscCount];
+    _dict[MPMediaItemPropertyDiscCount] = [TiUtils numberFromObject:discCount];
     [[MPNowPlayingInfoCenter defaultCenter] setNowPlayingInfo:_dict];
 }
 
 -(void)setAlbumTrackNumber:(id)albumTrackNumber {
     NSLog(@"Now playing \"albumTrackNumber\" = \"%@\".", albumTrackNumber);
-    [_dict setObject:[TiUtils numberFromObject:albumTrackNumber] forKey:MPMediaItemPropertyAlbumTrackNumber];
+    _dict[MPMediaItemPropertyAlbumTrackNumber] = [TiUtils numberFromObject:albumTrackNumber];
     [[MPNowPlayingInfoCenter defaultCenter] setNowPlayingInfo:_dict];
 }
 
 -(void)setAlbumTrackCount:(id)albumTrackCount {
     NSLog(@"Now playing \"albumTrackCount\" = \"%@\".", albumTrackCount);
-    [_dict setObject:[TiUtils numberFromObject:albumTrackCount] forKey:MPMediaItemPropertyAlbumTrackCount];
+    _dict[MPMediaItemPropertyAlbumTrackCount] = [TiUtils numberFromObject:albumTrackCount];
     [[MPNowPlayingInfoCenter defaultCenter] setNowPlayingInfo:_dict];
 }
 
 -(void)setPlaybackDuration:(id)playbackDuration {
     NSLog(@"Now playing \"playbackDuration\" = \"%@\".", playbackDuration);
-    [_dict setObject:[TiUtils numberFromObject:playbackDuration] forKey:MPMediaItemPropertyPlaybackDuration];
+    _dict[MPMediaItemPropertyPlaybackDuration] = [TiUtils numberFromObject:playbackDuration];
     [[MPNowPlayingInfoCenter defaultCenter] setNowPlayingInfo:_dict];
 }
 
 -(void)setElapsedPlaybackTime:(id)elapsedPlaybackTime {
     NSLog(@"Now playing \"elapsedPlaybackTime\" = \"%@\".", elapsedPlaybackTime);
-    [_dict setObject:[TiUtils numberFromObject:elapsedPlaybackTime] forKey:MPNowPlayingInfoPropertyElapsedPlaybackTime];
+    _dict[MPNowPlayingInfoPropertyElapsedPlaybackTime] = [TiUtils numberFromObject:elapsedPlaybackTime];
     [[MPNowPlayingInfoCenter defaultCenter] setNowPlayingInfo:_dict];
 }
 
 -(void)setPlaybackRate:(id)playbackRate {
     NSLog(@"Now playing \"playbackRate\" = \"%@\".", playbackRate);
-    [_dict setObject:[TiUtils numberFromObject:playbackRate] forKey:MPNowPlayingInfoPropertyPlaybackRate];
+    _dict[MPNowPlayingInfoPropertyPlaybackRate] = [TiUtils numberFromObject:playbackRate];
     [[MPNowPlayingInfoCenter defaultCenter] setNowPlayingInfo:_dict];
 }
 
@@ -131,7 +131,7 @@
         UIImage *image = [self toImage:artwork];
         if (image != nil) {
             NSLog(@"Now playing \"artwork\" image created from \"%@\".", artwork);
-            [_dict setObject:[[[MPMediaItemArtwork alloc] initWithImage:image] autorelease] forKey:MPMediaItemPropertyArtwork];
+            _dict[MPMediaItemPropertyArtwork] = [[[MPMediaItemArtwork alloc] initWithImage:image] autorelease];
             [[MPNowPlayingInfoCenter defaultCenter] setNowPlayingInfo:_dict];
         } else {
             NSLog(@"Trying to load now playing \"artwork\" image from \"%@\" asynchronously.", artwork);
@@ -151,7 +151,7 @@
         UIImage *image = [UIImage imageWithData:[NSData dataWithContentsOfURL:url]];
         if (image != nil) {
             NSLog(@"Now playing \"artwork\" image created from \"%@\".", [url absoluteString]);
-            [_dict setObject:[[[MPMediaItemArtwork alloc] initWithImage:image] autorelease] forKey:MPMediaItemPropertyArtwork];
+            _dict[MPMediaItemPropertyArtwork] = [[[MPMediaItemArtwork alloc] initWithImage:image] autorelease];
             [[MPNowPlayingInfoCenter defaultCenter] setNowPlayingInfo:_dict];
         } else {
             NSLog(@"Now playing \"artwork\" image could not be created from \"%@\".", [url absoluteString]);
